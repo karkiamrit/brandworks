@@ -62,11 +62,11 @@
 
                 <div class="py-3 flex items-center text-3xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600">avani aligns the best of the best</div>
 
-                <div class="flex  items-center flex-wrap ">
+                <div class="flex  items-center sm:flex-wrap md:flex-nowrap">
                     <div>
                         <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto md:w-3/4 md:border-r md:border-b-0 border-b border-gray-500">
                     </div>
-                    <p class="md:text-3xl text-xl text-center md:text-start  leading-10  md:w-[75%]">
+                    <p class="md:text-xl lg:text-3xl text-xl text-center md:text-start  leading-10  md:w-[75%]">
                         started with a vision to support businesses with brand establishment, quality branding,
                         and creative design services; brandworks, is now a well-established independent firm
                         specializing in events, fabrications, brand actions and purpose-driven engagements.
