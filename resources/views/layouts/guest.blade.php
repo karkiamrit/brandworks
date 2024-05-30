@@ -14,11 +14,15 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bg-gray-200">
+    <body class="bg-gray-200 font-light tracking-widest text-gray-500 ">
         <!-- Navigation Bar -->
             @include('layouts.navigation')
         <!-- Logo and Center Content -->
              {{ $slot  }}
+
+        <!-- Footer  -->
+        @include('layouts.footer')
+
     </body>
 
 </html>
