@@ -63,7 +63,7 @@
         </div>
 
         <div class="pt-12 mt-12 text-center border-t border-gray-700 sm:mt-16 lg:mt-20">
-            <p class="text-sm font-normal text-gray-300">Â© Copyright 2022, All Rights Reserved by ClarityUI</p>
+            <p class="text-sm font-normal text-gray-300">Â© Copyright 2022, All Rights Reserved by Brandworks</p>
         </div>
     </div>
 </footer>
