@@ -1,4 +1,4 @@
-<footer class="py-12 bg-gray-900 sm:pt-16 lg:pt-20">
+<footer class="py-12 bg-gray-900 sm:pt-16 lg:pt-20 z-50">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col items-center space-y-10 lg:justify-between lg:space-y-0 lg:flex-row">
             <div class="shrink-0">

@@ -1,4 +1,4 @@
-<nav class="flex items-center space-x-10  p-6 bg-white shadow sticky top-0">
+<nav class="flex items-center space-x-10  p-6 bg-white shadow sticky top-0 z-50">
     <div>
         <a class="text-2xl font-bold" href={{route('home')}}>
             <x-application-logo class="block h-9 w-auto fill-current text-gray-800 " />
