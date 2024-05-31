@@ -9,24 +9,26 @@
 
         <div class="flex flex-col">
             <div class="flex flex-row items-center justify-start">
-                <a class="text-2xl font-bold flex justify-start" href={{ route('home') }}>
-                    <x-application-logo class="block h-9 w-auto fill-current text-gray-600 text-start  mt-2" />
-                </a>
+                <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
+                    <x-application-logo
+                        class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" /> </a>
             </div>
             <div class="title flex items-center justify-center">
-                <h1 class=" text-xl font-light tracking-widest uppercase text-gray-300">Inauguration and Celebrations
+                <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300">Inauguration and Celebrations
                 </h1>
             </div>
         </div>
 
         {{--  image section start from here --}}
-        <div class="image-title-section">
+        <div class="image-title-section flex flex-row gap-20 mt-6">
 
-            <div class="title-text absolute z-10 text-yellow-300/70 mt-2 w-40 text-start justify-start font-extralight  text-lg">
-                Butwal Power Company Inauguration of Nyadi Hydropower Project
+            <div class="title-text text-yellow-500 mt-2 w-72 text-start justify-start font-extralight  text-3xl">
+                Butwal Power Company <div class="mt-3">
+                    Inauguration of Nyadi Hydropower Project
+                </div>
             </div>
 
-            <div class="image-section">
+            {{-- <div class="image-section">
                 <section>
                     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
                   
@@ -93,7 +95,28 @@
                       </ul>
                     </div>
                   </section>
+            </div> --}}
+
+
+            <div class="image-section grid grid-cols-2 gap-2 text-center items-start">
+                <div class="flex flex-row justify-center items-center">
+                    <img src="eventAsset/wall.png" alt=""
+                        class="h-[16rem]relative  w-[28rem] object-cover shadow-lg">
+                </div>
+                <div class="flex flex-row justify-center items-center">
+                    <img src="eventAsset/wall.png" alt=""
+                        class="h-[18rem] relative left-4 w-[28rem] object-cover shadow-lg">
+                </div>
+                <div class="flex flex-row justify-center items-center">
+                    <img src="eventAsset/wall.png" alt=""
+                        class="h-[16rem] relative right-14 bottom-6 w-[28rem] object-cover shadow-lg">
+                </div>
+                <div class="flex flex-row justify-center items-center">
+                    <img src="eventAsset/wall.png" alt=""
+                        class="h-[16rem] relative right-6 top-4 w-[28rem] object-cover shadow-lg">
+                </div>
             </div>
+
+
         </div>
-    </div>
 </x-guest-layout>
