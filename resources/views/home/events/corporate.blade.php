@@ -91,3 +91,33 @@
     </section>
 </div>
 </div>
+
+{{-- Page 20 --}}
+<div class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+    <section class="bg-black flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[35.5px] box-border relative gap-[42.1px] max-w-full text-left text-[20.1px] text-silver font-inter mqp700:gap-[21px]">
+        <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[22px] pl-[19px] box-border max-w-full text-[18px] text-gold">
+            <div class="flex-1 flex flex-col items-end justify-start gap-[8.4px] max-w-full">
+                <div class="self-stretch flex flex-row items-end justify-start gap-[7.1px] max-w-full mp900:flex-wrap">
+                    <div class="flex-1  flex flex-col items-start justify-end pt-0 px-0 pb-[8.4px] box-border w-1/2">
+                        <div class="self-stretch flex flex-col items-start justify-start gap-[33.1px] max-w-full mp450:gap-[17px]">
+                            <div class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-0.5 box-border max-w-full">
+                                <div class="flex-1 flex flex-row items-start justify-start gap-[6.9px] max-w-full mq450:flex-wrap">
+                                    <div class="flex-1 flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border min-w-1/6">
+                                        <img class="self-stretch h-72 relative max-w-full overflow-hidden w-3/4 shrink-0 object-cover z-[1]" loading="lazy" alt="" src="eventAsset/image91.jpeg">
+                                    </div>
+                                    <img class="h-36 flex-1 relative max-w-full overflow-hidden object-cover min-w-[140px] min-h-[144px] z-[1]" loading="lazy" alt="" src="eventAsset/image94.jpeg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="w-[417.8px] relative max-h-full object-cover max-w-full z-[1] mp900:flex-1" loading="lazy" alt="" src="eventAsset/image89.jpeg">
+                </div>
+                <div class="self-stretch flex flex-row items-end justify-start gap-[55px] max-w-full mp450:gap-[27px] mp900:flex-wrap">
+                    <img class="self-stretch w-[216px] relative max-h-full object-cover min-h-[144px] z-[1]" loading="lazy" alt="" src="eventAsset/image90.jpeg">
+                    <img class="self-stretch w-[322.9px] relative max-h-full object-cover min-h-[144px] max-w-full z-[1]" loading="lazy" alt="" src="eventAsset/image92.jpeg">
+                    <img class="self-stretch w-[213.7px] relative max-h-full object-cover min-h-[144px] z-[1]" loading="lazy" alt="" src="eventAsset/image93.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
