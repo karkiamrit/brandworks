@@ -18,6 +18,69 @@
         </div>
     </div>
 
+    <!--Activation page first section -->
+    <div class="grid grid-rows-2 p-10">
+        <div class="grid grid-cols-3">
+            <img src="eventAsset/image180.jpeg" alt=""
+                class="h-[16rem]relative  w-[26rem] object-cover shadow-lg">
+            <div class="border-gray-500 text-white border-2 md:h-36 flex items-center mx-12">
+                <div class="flex-col md:pr-2 ml-auto">
+                    <p class="flex justify-end">Tata Motors</p>
+                    <p class="flex justify-end">Nexon EV Range Test Challenge</p>
+                    <p class="flex justify-end gap-2"><span>1<sup class="pt-3">st</sup><span> of kind in Nepal</p>
+                </div>
+            </div>
+            <img src="eventAsset/image179.jpeg" alt=""
+                class="h-[17rem]relative  w-[34rem] object-cover shadow-lg">
+        </div>
+        <div class="flex flex-row gap-2">
+            <img src="eventAsset/image181.jpeg" alt=""
+                class="h-[8rem]relative md:w-[37%] object-cover shadow-lg">
+            <img src="eventAsset/image182.jpeg" alt=""
+                class="h-[8rem]relative  md:w-[25%] object-cover shadow-lg">
+            <img src="eventAsset/image178.jpeg" alt=""
+                class="h-[8rem]relative  md:w-[37%] object-cover shadow-lg">
+        </div>
+    </div>
+
+     <!--Activation page second section -->
+     <div class="grid grid-cols-3 p-10">
+        <div class="flex flex-col gap-10">
+            <img src="eventAsset/image184.jpeg" alt=""
+                class="h-[10rem]relative  w-[28rem] object-cover shadow-lg">
+            <img src="eventAsset/image185.jpeg" alt=""
+                class="h-[16rem]relative  w-[28rem] object-cover shadow-lg ">
+        </div>
+        <div class="flex flex-col">
+            <div class="border-gray-500 text-white border-2 md:-ml-5 md:mr-20 md:h-24 flex items-center">
+                <div class="flex-col pl-2">
+                    <p>TataH5</p>
+                    <p>Activation</p>
+                </div>
+            </div>
+
+            <div class="border-gray-500 mt-64 text-white border-2  md:ml-20 md:h-24 flex items-center">
+                <div class="flex-col ml-auto md:pr-2">
+                    <p class="flex justify-end">Honda Grazia</p>
+                    <p>SuperMarket Activation</p>
+                </div>
+            </div>
+
+            <div class="border-gray-500 text-white border-2 md:-ml-5 md:mr-20 md:h-24 flex items-center md:mt-[95px]">
+                <div class="flex-col pl-2 ">
+                    <p>Tata Motors Commercial Vehicle</p>
+                    <p>Exchange Group</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4">
+            <img src="eventAsset/image195.jpeg" alt=""
+                class="h-[16rem]relative  w-[28rem] object-cover shadow-lg">
+
+        </div>
+
+    </div>
+
     <!--Activation page second lage section -->
     <div class="grid grid-cols-3 p-10">
         <div class="flex flex-col gap-10">
@@ -82,27 +145,4 @@
         </div>
     </div>
 
-    <!--Activation page first section -->
-    <div class="grid grid-rows-2 p-10">
-        <div class="grid grid-cols-3">
-            <img src="eventAsset/image180.jpeg" alt=""
-                class="h-[16rem]relative  w-[26rem] object-cover shadow-lg">
-            <div class="border-gray-500 text-white border-2 md:h-36 flex items-center mx-12">
-                <div class="flex-col md:pr-2 ml-auto">
-                    <p class="flex justify-end">Tata Motors</p>
-                    <p class="flex justify-end">Nexon EV Range Test Challenge</p>
-                    <p class="flex justify-end gap-2"><span>1<sup class="pt-3">st</sup><span> of kind in Nepal</p>
-                </div>
-            </div>
-            <img src="eventAsset/image179.jpeg" alt=""
-                class="h-[17rem]relative  w-[34rem] object-cover shadow-lg">
-        </div>
-        <div class="flex flex-row gap-2">
-            <img src="eventAsset/image181.jpeg" alt=""
-                class="h-[8rem]relative md:w-[33rem] object-cover shadow-lg">
-            <img src="eventAsset/image182.jpeg" alt=""
-                class="h-[8rem]relative  md:w-[22rem] object-cover shadow-lg">
-            <img src="eventAsset/image178.jpeg" alt=""
-                class="h-[8rem]relative  md:w-[32rem] object-cover shadow-lg">
-        </div>
-    </div>
+</div>    
