@@ -22,29 +22,29 @@
     {{--  image section start from here --}}
     <div class="px-10 image-title-section flex flex-row gap-20 mt-6">
 
-        <div class="title-text text-yellow-500 mt-2 w-72 text-start justify-start font-extralight  text-3xl">
+        <div class="title-text text-yellow-500 pl-4 mt-2 w-80 text-start justify-start font-extralight  text-3xl">
             Butwal Power Company <div class="mt-3">
                 Inauguration of Nyadi Hydropower Project
             </div>
         </div>
 
 
-        <div class="image-section grid grid-cols-2 gap-2 text-center items-start">
+        <div class="image-section pl-16 grid grid-cols-2 gap-2 text-center items-start">
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/wall.png" alt=""
-                    class="h-[16rem]relative  w-[28rem] object-cover shadow-lg">
+                <img src="eventAsset/image57.jpeg" alt=""
+                    class="h-[14rem]relative  w-[26rem] object-cover shadow-lg">
             </div>
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/wall.png" alt=""
-                    class="h-[18rem] relative left-4 w-[28rem] object-cover shadow-lg">
+                <img src="eventAsset/image58.jpeg" alt=""
+                    class="h-[14rem] relative left-4 w-[26rem] object-cover shadow-lg">
             </div>
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/wall.png" alt=""
-                    class="h-[16rem] relative right-14 bottom-6 w-[28rem] object-cover shadow-lg">
+                <img src="eventAsset/image60.jpeg" alt=""
+                    class="h-[14rem] relative right-14 bottom-6 w-[26rem] object-cover shadow-lg">
             </div>
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/wall.png" alt=""
-                    class="h-[16rem] relative right-6 top-4 w-[28rem] object-cover shadow-lg">
+                <img src="eventAsset/image59.jpeg" alt=""
+                    class="h-[14rem] relative right-6 top-4 w-[26rem] object-cover shadow-lg">
             </div>
         </div>
     </div>
