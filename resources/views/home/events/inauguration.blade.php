@@ -102,6 +102,8 @@
 
         </div>
     </div>
+
+    {{-- Page 17 --}}
     <div class="px-10 image-title-section flex flex-row gap-20 py-32">
 
         <div class="w-full relative h-[540px] overflow-hidden text-left text-[18px] text-gold font-inter">
