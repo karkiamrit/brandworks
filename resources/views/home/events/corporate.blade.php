@@ -13,11 +13,16 @@
                     class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" /> </a>
         </div>
         <div class="title flex items-center justify-center">
-            <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">CORPORATE EVENTS AND CELEBRATIONS
+            <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">CORPORATE EVENTS AND
+                CELEBRATIONS
             </h1>
         </div>
     </div>
     {{-- Page 18 --}}
+
+    <div class="title-text text-yellow-500  relative left-16 mt-20 mb-10 text-start h-full font-extralight  text-3xl">
+        Shivam Kriti Samaroha
+    </div>
     <div
         class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] pb-10 {{ $className ?? '' }}">
         <section
@@ -26,6 +31,7 @@
                 <div
                     class="h-[372.4px] flex-1 flex flex-col items-end justify-start pt-0 px-0 pb-[10px] box-border gap-[13.7px] max-w-full mq675:h-auto mq675:pb-[79px] mq675:box-border">
                     <div class="self-stretch flex flex-row items-start justify-end max-w-full shrink-0">
+
                         <div
                             class="w-[781.3px] flex flex-row items-end justify-center py-0 pr-0 pl-5 box-border gap-[5.3px] shrink-0 max-w-full mq675:flex-wrap md:pr-72">
                             <img class="h-[345.4px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[800px] z-[1] mq450:min-w-full"
@@ -64,10 +70,18 @@
 </div>
 
 {{-- Page 19 --}}
+
 <div
     class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal]  {{ $className ?? '' }}">
+
+
+
     <section
         class="bg-black flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[13.3px] box-border relative gap-[19.5px] max-w-full text-left text-[18px] text-gold font-inter">
+        <div
+            class="title-text text-yellow-500  relative top-20 left-32 mt-20 mb-10 text-start h-full font-extralight  text-3xl">
+            Honda 50 Years Celebration
+        </div>
         <div
             class="bg-black self-stretch flex flex-row items-start justify-end py-0 px-[47px] box-border max-w-full mq900:pl-[23px] mq900:pr-[23px] mq900:box-border">
             <div
