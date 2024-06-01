@@ -79,7 +79,7 @@
     <section
         class="bg-black flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[13.3px] box-border relative gap-[19.5px] max-w-full text-left text-[18px] text-gold font-inter">
         <div
-            class="title-text text-yellow-500  relative top-20 left-32 mt-20 mb-10 text-start h-full font-extralight  text-3xl">
+            class="title-text text-yellow-500  relative top-20 left-16 mt-20 mb-10 text-start h-full font-extralight  text-3xl">
             Honda 50 Years Celebration
         </div>
         <div
