@@ -114,8 +114,6 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] pb-[16.9px] pr-2.5 pl-[26px] box-border relative gap-[47.2px] max-w-full text-left text-[20.1px] text-silver font-inter mq675:gap-[24px]">
             <div class="self-stretch flex flex-row items-start justify-start py-0 pr-px pl-5 box-border max-w-full">
-
-
                 <div
                     class="flex-1 flex flex-col items-end justify-start py-0 pr-px pl-0 box-border gap-[8.8px] max-w-full">
                     <div
@@ -125,8 +123,6 @@
                     </div>
                     <div
                         class="self-stretch flex flex-row items-end justify-start gap-[2.8px] max-w-full mq750:flex-wrap">
-
-
                         <img class="w-[395.4px] relative max-h-full object-cover max-w-full z-[1] mq750:flex-1"
                             loading="lazy" alt="" src="eventAsset/image143.jpeg" />
                         <img class="h-[307px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[328px] z-[1]"
@@ -150,7 +146,7 @@
 
 
     {{-- 35 page start from here --}}
-    <div class="  text-yellow-500  mt-16 relative left-12 h-full font-extralight text-2xl">
+    <div class="  text-yellow-500  mt-16 relative  h-full font-extralight text-2xl">
         SJ MOTO Launch
     </div>
 
@@ -424,16 +420,21 @@
 
 
     {{-- 42 page start from here --}}
-    <div class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
-        <section class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-0.5 box-border relative gap-[42.1px] max-w-full mq480:gap-[21px]">
-          
+    <div
+        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+        <section
+            class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-0.5 box-border relative gap-[42.1px] max-w-full mq480:gap-[21px]">
+
             <div class="self-stretch flex flex-row items-start justify-end py-0 px-[22px] box-border max-w-full">
                 <div class="w-[794.2px] flex flex-row items-end justify-start gap-[15.7px] max-w-full mq731:flex-wrap">
-                    <img class="mb-[-2.0999999999994543px] h-[343.7px] w-72 relative object-cover z-[1] mq731:flex-1" loading="lazy" alt="" src="eventAsset/image171.jpeg" />
+                    <img class="mb-[-2.0999999999994543px] h-[343.7px] w-72 relative object-cover z-[1] mq731:flex-1"
+                        loading="lazy" alt="" src="eventAsset/image171.jpeg" />
                     <div class="flex-1 flex flex-col items-end justify-start gap-[10.3px] min-w-[318px] max-w-full">
-                        <img class="w-[360px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy" alt="" src="eventAsset/image172.jpeg" />
+                        <img class="w-[360px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy"
+                            alt="" src="eventAsset/image172.jpeg" />
                         <div class="self-stretch flex flex-row items-start justify-start max-w-full">
-                            <img class="w-[371.4px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy" alt="" src="eventAsset/image173.jpeg" />
+                            <img class="w-[371.4px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy"
+                                alt="" src="eventAsset/image173.jpeg" />
                         </div>
                     </div>
                 </div>
@@ -442,6 +443,6 @@
     </div>
 
 
-    
+
 
 </div>
