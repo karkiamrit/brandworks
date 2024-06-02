@@ -135,6 +135,25 @@
 
 
 {{-- Page 21 --}}
-
+<div class="w-full overflow-hidden flex flex-row items-center justify-center leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+    <header class="bg-black flex flex-col items-start justify-start pt-[122.8px] px-[45px] pb-[22.9px] box-border relative gap-[107.5px] max-w-full text-left text-lg text-gold font-inter mq450:gap-[54px] mq450:pt-20 mq450:px-[22px] mq450:pb-5 mq450:box-border">
+        <div class="flex flex-col items-start justify-start gap-[26.8px]">
+            <a class="[text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1]">EO Everest Summit</a>
+            <div class="flex flex-row items-start justify-start relative">
+                <div class="absolute !m-[0] top-[-19.4px] left-[0px] whitespace-nowrap z-[1]">EO Nepal's signature event</div>
+                <div class="relative whitespace-nowrap z-[2]">exclusively for EO members</div>
+            </div>
+        </div>
+        <div class="flex flex-row items-center w-full justify-center gap-[51.1px] ml-36 max-w-full mq450:gap-[26px] scale-[1.2]">
+            <img class="h-full w-[25%] relative object-cover min-h-[216px] z-[1]" loading="lazy" alt="" src="eventAsset/image95.png" />
+            <img class="self-stretch w-[25%] relative max-h-full object-contain max-w-full z-[2]" alt="" src="eventAsset/image98.png" />
+            <div class="flex flex-row items-start justify-start relative w-6/12">
+                <img class="h-full w-full absolute !m-[0] top-[-216.2px] left-[-238.7px] object-cover z-[1]" alt="" src="eventAsset/image96.png" />
+                <img class="h-full w-[58%] relative object-cover z-[2]" loading="lazy" alt="" src="eventAsset/image97.png" />
+            </div>
+        </div>
+        {{-- <img class="w-[43.2px] h-[43.2px] absolute !m-[0] top-[3.5px] left-[26.8px] object-cover z-[1]" loading="lazy" alt="" src="eventAsset/image96.png" /> --}}
+    </header>
+</div>
 
 </div>
