@@ -228,7 +228,7 @@
     </section>
 
     <div
-        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }}">
+        class="w-full overflow-hidden flex pr-10 flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] pb-0 pr-[18px] pl-[26px] box-border relative gap-[45.8px] max-w-full mq675:gap-[23px]">
 
@@ -259,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <img class="h-[311.8px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[300px] shrink-0 [debug_commit:bf4bc93] z-[1]"
+                    <img class="h-[311.8px] flex-1 relative  overflow-hidden object-cover shrink-0 [debug_commit:bf4bc93] z-[1]"
                         loading="lazy" alt="" src="eventAsset/image152.jpeg" />
                 </footer>
             </div>
@@ -309,11 +309,10 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[54px] box-border relative gap-[42.1px] max-w-full text-left text-[18px] text-gold font-inter mq675:gap-[21px] mq450:pt-5 mq450:pb-[35px] mq450:box-border">
 
-            <div
-            class="relative  z-[1] px-4 top-24
+            <div class="relative  z-[1] px-4 top-24
             text-yellow-500 font-extralight text-2xl">
-            BYD SEAL <br>
-            LAUNCH IN NEPAL</div>
+                BYD SEAL <br>
+                LAUNCH IN NEPAL</div>
 
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-6 pl-[19px] box-border max-w-full">
@@ -354,8 +353,95 @@
     </div>
 
     {{-- 40 page start from here --}}
+    <div
+        class="w-full overflow-hidden  mt-6 flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+        <section
+            class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[54.6px] box-border relative gap-[45.8px] max-w-full text-left text-[20.1px] text-silver font-inter mq625:gap-[23px] mq450:pt-5 mq450:pb-[35px] mq450:box-border">
+
+            <div
+                class="self-stretch flex flex-row items-start justify-start py-0 pr-6 pl-[19px] box-border max-w-full text-[18px] text-gold">
+                <div class="flex-1 flex flex-row flex-wrap items-start justify-start gap-[17.9px] max-w-full">
+                    <div
+                        class="flex-1 flex flex-col items-end justify-start gap-[39.5px] shrink-0 [debug_commit:bf4bc93] max-w-full mq625:min-w-full mq650:gap-[20px]">
+                        <div class="self-stretch flex flex-row items-start justify-between gap-[20px] mq625:flex-wrap">
+                            <div class="flex flex-col items-start justify-start pt-[26.8px] px-0 pb-0">
+                                <div
+                                    class="relative  z-[1] px-4 top-24
+                                text-yellow-500 font-extralight text-2xl">
+                                    Tata Motors <br>
+                                    Emperor Program</div>
+                            </div>
+                            <img class="h-[176.5px] w-[289.8px] relative object-cover z-[1]" loading="lazy"
+                                alt="" src="eventAsset/image165.jpeg" />
+                        </div>
+                        <div
+                            class="self-stretch flex flex-row items-start justify-start gap-[29.2px] max-w-full mq625:flex-wrap">
+                            <img class="self-stretch w-[285.2px] relative max-h-full object-cover min-h-[144px] z-[1] mq625:flex-1"
+                                loading="lazy" alt="" src="eventAsset/image166.jpeg" />
+                            <img class="self-stretch flex-1 relative overflow-hidden object-cover w-[16px] h-[244px] z-[1]"
+                                loading="lazy" alt="" src="eventAsset/image163.jpeg" />
+                        </div>
+                    </div>
+                    <img class="self-stretch w-[297.2px] relative object-cover h-[460px] shrink-0 [debug_commit:bf4bc93] z-[1]"
+                        loading="lazy" alt="" src="eventAsset/image164.jpeg" />
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    {{-- 41 page start from here --}}
+    <div
+        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+        <section
+            class="flex-1 px-9 flex flex-col items-start justify-start pt-[3.5px] pb-[15.3px] box-border relative gap-[49.9px] max-w-full text-left text-[20.1px] text-silver font-inter mq650:gap-[25px]">
+
+            <div
+                class="relative top-24 z-[1] px-4 
+                                text-yellow-500 font-extralight text-2xl">
+                HONDA CB Hornet Launch</div>
+            <div class="self-stretch flex flex-row items-start justify-end py-0  box-border max-w-full">
+
+
+                <div
+                    class="w-[720.9px] flex flex-row items-end justify-start gap-[43.8px] max-w-full mq725:flex-wrap mq725:gap-[22px]">
+                    <img class="h-[326.3px] flex-1 relative right-60 max-w-full overflow-hidden object-cover min-w-[623px] shrink-0 [debug_commit:bf4bc93] z-[1]"
+                        loading="lazy" alt="" src="eventAsset/image167.jpeg" />
+                    <div
+                        class="h-[450.2px] w-[280px] relative right-60 flex flex-col items-start justify-start gap-[16.4px] min-w-[180px] shrink-0 [debug_commit:bf4bc93] mq725:flex-1">
+                        <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
+                            loading="lazy" alt="" src="eventAsset/image168.jpeg" />
+                        <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
+                            loading="lazy" alt="" src="eventAsset/image169.jpeg" />
+                        <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
+                            loading="lazy" alt="" src="eventAsset/image170.jpeg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
 
+    {{-- 42 page start from here --}}
+    <div class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+        <section class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-0.5 box-border relative gap-[42.1px] max-w-full mq480:gap-[21px]">
+          
+            <div class="self-stretch flex flex-row items-start justify-end py-0 px-[22px] box-border max-w-full">
+                <div class="w-[794.2px] flex flex-row items-end justify-start gap-[15.7px] max-w-full mq731:flex-wrap">
+                    <img class="mb-[-2.0999999999994543px] h-[343.7px] w-72 relative object-cover z-[1] mq731:flex-1" loading="lazy" alt="" src="eventAsset/image171.jpeg" />
+                    <div class="flex-1 flex flex-col items-end justify-start gap-[10.3px] min-w-[318px] max-w-full">
+                        <img class="w-[360px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy" alt="" src="eventAsset/image172.jpeg" />
+                        <div class="self-stretch flex flex-row items-start justify-start max-w-full">
+                            <img class="w-[371.4px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy" alt="" src="eventAsset/image173.jpeg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    
 
 </div>
