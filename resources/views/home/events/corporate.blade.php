@@ -22,7 +22,7 @@
     
     {{-- Page 18 --}}
 
-    <div class="title-text text-yellow-500  relative mt-20 mb-10 text-start h-full font-extralight  text-3xl">
+    <div class="title-text text-yellow-500  relative mt-20 mb-10 ml-10 text-start h-full font-extralight  text-3xl">
         Shivam Kriti Samaroha
     </div>
     <div
@@ -108,6 +108,11 @@
 {{-- Page 20 --}}
 <div class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
     <section class="bg-black flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[35.5px] box-border relative gap-[42.1px] max-w-full text-left text-[20.1px] text-silver font-inter mqp700:gap-[21px]">
+        <div
+            class="title-text text-yellow-500  relative top-44 left-5 text-start h-full font-extralight  text-3xl">
+            BRITISH GURKHA NEPAL OFFICERS & SNCO's </br>
+            MESS WINTER BALL
+        </div>
         <div class="self-stretch flex flex-row items-start justify-start py-0 pr-[22px] pl-[19px] box-border max-w-full text-[18px] text-gold">
             <div class="flex-1 flex flex-col items-end justify-start gap-[8.4px] max-w-full">
                 <div class="self-stretch flex flex-row items-end justify-start gap-[7.1px] max-w-full mp900:flex-wrap">
@@ -140,10 +145,10 @@
 <div class="w-full overflow-hidden flex flex-row items-center justify-center leading-[normal] tracking-[normal] {{ $className ?? '' }}">
     <header class="bg-black flex flex-col items-start justify-start pt-[122.8px] px-[45px] pb-[22.9px] box-border relative gap-[107.5px] max-w-full text-left text-lg text-gold font-inter mq450:gap-[54px] mq450:pt-20 mq450:px-[22px] mq450:pb-5 mq450:box-border">
         <div class="flex flex-col items-start justify-start gap-[26.8px]">
-            <a class="[text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1]">EO Everest Summit</a>
-            <div class="flex flex-row items-start justify-start relative">
-                <div class="absolute !m-[0] top-[-19.4px] left-[0px] whitespace-nowrap z-[1]">EO Nepal's signature event</div>
-                <div class="relative whitespace-nowrap z-[2]">exclusively for EO members</div>
+            <a class="[text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">EO Everest Summit</a>
+            <div class="flex flex-row items-start justify-start relative [text-decoration:none] text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                <div class="absolute !m-[0] top-[-19.4px] left-[0px] whitespace-nowrap z-[1]">EO Nepal's signature event exclusively for </div>
+                <div class="relative whitespace-nowrap z-[2]">EO members</div>
             </div>
         </div>
         <div class="flex flex-row items-center w-full justify-center gap-[51.1px] ml-36 max-w-full mq450:gap-[26px] scale-[1.2]">
