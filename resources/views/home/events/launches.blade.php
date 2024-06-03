@@ -19,117 +19,63 @@
     </div>
 
     {{--  32 page start form here --}}
-    {{-- 
-    <div
-        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }}">
-        <header
-            class="h-[540px] flex-1 flex flex-col items-start justify-start pt-[3.5px] pb-[14.5px] pr-[13px] pl-[26px] box-border relative gap-[76.1px] max-w-full text-left text-lg text-gold font-inter mq480:gap-[38px]">
-            <img class="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full"
-                alt="" src="" />
-            <img class="w-[43.2px] h-[43.2px] relative object-cover z-[1]" loading="lazy" alt=""
-                src="" />
-            <div
-                class="self-stretch flex-1 flex flex-row items-start justify-start py-0 pr-px pl-[19px] box-border max-w-full">
-                <div class="self-stretch flex-1 flex flex-row items-start justify-start gap-[9.1px] max-w-full">
-                    <div
-                        class="w-[387.6px] flex flex-col items-start justify-start gap-[76.4px] max-w-full mq388:gap-[38px]">
-                        <div class="flex flex-col items-start justify-start py-0 pr-5 pl-0 gap-[7.4px]">
-                            <div
-                                class="relative whitespace-nowrap z-[1]             title-text text-yellow-500  text-start h-full font-extralight  text-3xl">
 
-                                Launch of ACE EV
-                            </div>
-                            <div class="flex flex-col items-start justify-start">
-                                <div class="flex flex-row items-start justify-start gap-[3.9px]">
-                                    <div
-                                        class="relative whitespace-nowrap z-[1]             title-text text-yellow-500  text-start h-full font-extralight  text-3xl">
-
-                                        1st Commercial EV from Tata Motors in Nepal </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[3px] box-border max-w-full">
-                            <img class="h-[216.1px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
-                                loading="lazy" alt="" src="eventAsset/image133.jpeg" />
-                        </div>
-                    </div>
-                    <div
-                        class="self-stretch flex-1 flex flex-col items-start justify-start pt-[4.6px] px-0 pb-0 box-border max-w-full">
-                        <div class="self-stretch flex-1 flex flex-col items-start justify-start gap-[6.1px] max-w-full">
-                            <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
-                                loading="lazy" alt="" src="eventAsset/image132.jpeg" />
-                            <div
-                                class="w-[422px] flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full">
-                                <img class="h-[147.4px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
-                                    loading="lazy" alt="" src="eventAsset/image134.jpeg" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div> --}}
-
-    <div
+    {{-- <div
         class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
         <header
             class="h-[540px] flex-1 flex flex-col items-start justify-start pt-[3.5px] pb-[14.5px] pr-[13px] pl-[26px] box-border relative gap-[76.1px] max-w-full text-left text-lg text-gold font-inter mq480:gap-[38px]">
-            <img class="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full"
-                alt="" src="/clip-path-group.svg" />
-            <img class="w-[43.2px] h-[43.2px] relative object-cover z-[1]" loading="lazy" alt=""
-                src="/mask-group@2x.png" />
+
             <div
                 class="self-stretch flex-1 flex flex-row items-start justify-start py-0 pr-px pl-[19px] box-border max-w-full">
-                <div class="self-stretch flex-1 flex flex-row items-start justify-start gap-[9.1px] max-w-full">
-                    <div
-                        class="w-[387.6px] flex flex-col items-start justify-start gap-[76.4px] max-w-full mq388:gap-[38px]">
-                        <div class="flex flex-col items-start justify-start py-0 pr-5 pl-0 gap-[7.4px]">
-                            <div class="relative whitespace-nowrap z-[1]">
-                                Launch of ACE EV
-                            </div>
-                            <div class="flex flex-col items-start justify-start">
-                                <div class="flex flex-row items-start justify-start gap-[3.9px]">
-                                    <a
-                                        class="[text-decoration:none] relative text-[inherit] inline-block min-w-[9px] z-[1]">
-                                        1
-                                    </a>
-                                    <div
-                                        class="flex flex-col items-start justify-start pt-[1.8px] px-0 pb-0 text-[11.8px]">
-                                        <div class="relative inline-block min-w-[11px] z-[1]">
-                                            st
-                                        </div>
-                                    </div>
-                                    <div class="relative whitespace-nowrap z-[1]">
-                                        Commercial EV from Tata
-                                    </div>
-                                </div>
-                                <div class="relative whitespace-nowrap z-[1] mt-[-2.6px]">
-                                    Motors in Nepal
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[3px] box-border max-w-full">
-                            <img class="h-[216.1px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
-                                loading="lazy" alt="" src="eventAsset/image133.jpeg" />
-                        </div>
-                    </div>
-                    <div
-                        class="self-stretch flex-1 flex flex-col items-start justify-start pt-[4.6px] px-0 pb-0 box-border max-w-full">
-                        <div class="self-stretch flex-1 flex flex-col items-start justify-start gap-[6.1px] max-w-full">
-                            <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
-                                loading="lazy" alt="" src="eventAsset/image132.jpeg" />
-                            <div
-                                class="w-[422px] flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full">
-                                <img class="h-[147.4px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
-                                    loading="lazy" alt="" src="eventAsset/image134.jpeg" />
-                            </div>
-                        </div>
+
+                <div <div
+                    class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[3px] box-border max-w-full">
+                    <img class="h-[216.1px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
+                        loading="lazy" alt="" src="eventAsset/image133.jpeg" />
+                </div>
+            </div>
+            <div
+                class="self-stretch flex-1 flex flex-col items-start justify-start pt-[4.6px] px-0 pb-0 box-border max-w-full">
+                <div class="self-stretch flex-1 flex flex-col items-start justify-start gap-[6.1px] max-w-full">
+                    <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
+                        loading="lazy" alt="" src="eventAsset/image132.jpeg" />
+                    <div class="w-[422px] flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full">
+                        <img class="h-[147.4px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
+                            loading="lazy" alt="" src="eventAsset/image134.jpeg" />
                     </div>
                 </div>
             </div>
-        </header>
+    </div>
+    </header>
+</div> --}}
+
+    <div
+        class="w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 overflow-hidden flex flex-col md:flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }} my-4 sm:my-8 md:my-12 lg:my-16 xl:my-20">
+
+        <div class="flex flex-col gap-y-8 sm:gap-y-16 md:gap-y-24 lg:gap-y-32 xl:gap-y-40 items-start">
+            <div
+                class="text relative left-1 sm:left-2 md:left-3 lg:left-4 xl:left-5 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-extralight text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+                Launch of ACE EV <br>
+                1st Commercial EV from Tata Motors in Nepal
+            </div>
+            <div class="img">
+                <img src="eventAsset/image133.jpeg"
+                    class="h-[9rem] sm:h-[12rem] md:h-[15rem] lg:h-[18rem] xl:h-[21rem] w-[15rem] sm:w-[20rem] md:w-[25rem] lg:w-[30rem] xl:w-[35rem] relative left-2 sm:left-4 md:left-6 lg:left-8 xl:left-10"
+                    alt="">
+            </div>
+        </div>
+        <div class="flex flex-col mt-4 sm:mt-8 lg:mt-16 xl:mt-20 md:mt-0">
+            <div class="img">
+                <img src="eventAsset/image132.jpeg"
+                    class="w-[22rem] sm:w-[28rem] md:w-[34rem] lg:w-[40rem] xl:w-[44rem] h-[9rem] sm:h-[12rem] md:h-[15rem] lg:h-[18rem] xl:h-[21rem] relative left-2 sm:left-4 md:left-6 lg:left-8 xl:left-10"
+                    alt="">
+            </div>
+            <div class="img">
+                <img src="eventAsset/image134.jpeg"
+                    class="h-[7rem] sm:h-[10rem] md:h-[12rem] lg:h-[14rem] xl:h-[16rem] w-[13rem] sm:w-[18rem] md:w-[22rem] lg:w-[26rem] xl:w-[30rem] relative top-2 sm:top-3 md:top-4 lg:top-5 xl:top-6 left-10 sm:left-20 md:left-30 lg:left-40 xl:left-50"
+                    alt="">
+            </div>
+        </div>
     </div>
 
 
@@ -148,10 +94,9 @@
                 </div>
 
                 <div class="flex flex-col items-start justify-start">
-
                     <div class="flex flex-row items-end justify-end relative">
-                        <div class="h-[365.6px] w-[863.3px] absolute !m-[0] left-[400.8px] bottom-[-296.8px]">
-                            <img class="absolute bottom-[190px] left-[250.3px] w-[702.9px] h-[200.1px] object-cover z-[1]"
+                        <div class="h-[365.6px] w-[863.3px] absolute !m-[0] left-[300.8px] bottom-[-296.8px]">
+                            <img class="absolute bottom-[190px] left-[300.3px] w-[702.9px] h-[200.1px] object-cover z-[1]"
                                 loading="lazy" alt="" src="eventAsset/image135.jpeg" />
                             <img class="absolute top-[143.9px] left-[-100px] w-[362.4px] h-[217.1px] object-cover z-[2]"
                                 alt="" src="eventAsset/image136.jpeg" />
@@ -161,7 +106,6 @@
                                 loading="lazy" alt="" src="eventAsset/image138.jpeg" />
                         </div>
                     </div>
-
                 </div>
             </div>
 
