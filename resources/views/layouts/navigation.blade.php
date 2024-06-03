@@ -1,4 +1,4 @@
-<nav class="flex items-center lg:space-x-10 py-2  lg:py-5  lg:p-5 bg-white shadow sticky top-0 z-50" x-data="{ open: true }">
+<nav class="flex items-center lg:space-x-10 py-2  lg:py-5  lg:p-5 bg-white shadow sticky top-0 z-50" x-data="{ open: false }">
     <div class="flex  lg:block lg:justify-start justify-between w-full lg:w-fit">
         <a class="text-2xl font-bold" href={{route('home')}}>
             <x-application-logo class="block h-3 md:h-9 w-auto fill-current text-gray-800 " />

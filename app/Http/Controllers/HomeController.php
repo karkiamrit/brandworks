@@ -9,7 +9,34 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home.index');
+        $logos = array(
+            array(
+                'name' => 'avani',
+                'image' => 'home/avani-logo.png'
+            ),
+            array(
+                'name' => 'brandwork',
+                'image' => 'home/logo.png'
+            ),
+            array(
+                'name' => 'limex',
+                'image' => 'home/limez-marketing.png'
+            ),
+            array(
+                'name' => 'Marching Ant',
+                'image' => 'home/marching-ant.png'
+            ),
+            array(
+                'name' => 'Mantra',
+                'image' => 'home/mantra-it.png'
+            ),
+            array(
+                'name' => 'Impact',
+                'image' => 'home/impact.png'
+            ),
+
+        );
+        return view('home.index', compact(['logos']));
     }
 
     public function about()
