@@ -4,7 +4,7 @@
 @endphp
 
 <!-- Logo and Center Content -->
-<div class=" bg-black w-full overflow-hidden">
+<div class=" bg-black w-full overflow-hidden ">
 
     <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
         <div class="flex flex-row items-center justify-start">

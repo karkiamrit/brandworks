@@ -19,7 +19,7 @@
     </div>
 
     {{--  32 page start form here --}}
-
+    {{-- 
     <div
         class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }}">
         <header
@@ -45,6 +45,67 @@
                                         class="relative whitespace-nowrap z-[1]             title-text text-yellow-500  text-start h-full font-extralight  text-3xl">
 
                                         1st Commercial EV from Tata Motors in Nepal </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[3px] box-border max-w-full">
+                            <img class="h-[216.1px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
+                                loading="lazy" alt="" src="eventAsset/image133.jpeg" />
+                        </div>
+                    </div>
+                    <div
+                        class="self-stretch flex-1 flex flex-col items-start justify-start pt-[4.6px] px-0 pb-0 box-border max-w-full">
+                        <div class="self-stretch flex-1 flex flex-col items-start justify-start gap-[6.1px] max-w-full">
+                            <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
+                                loading="lazy" alt="" src="eventAsset/image132.jpeg" />
+                            <div
+                                class="w-[422px] flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full">
+                                <img class="h-[147.4px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
+                                    loading="lazy" alt="" src="eventAsset/image134.jpeg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div> --}}
+
+    <div
+        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
+        <header
+            class="h-[540px] flex-1 flex flex-col items-start justify-start pt-[3.5px] pb-[14.5px] pr-[13px] pl-[26px] box-border relative gap-[76.1px] max-w-full text-left text-lg text-gold font-inter mq480:gap-[38px]">
+            <img class="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full"
+                alt="" src="/clip-path-group.svg" />
+            <img class="w-[43.2px] h-[43.2px] relative object-cover z-[1]" loading="lazy" alt=""
+                src="/mask-group@2x.png" />
+            <div
+                class="self-stretch flex-1 flex flex-row items-start justify-start py-0 pr-px pl-[19px] box-border max-w-full">
+                <div class="self-stretch flex-1 flex flex-row items-start justify-start gap-[9.1px] max-w-full">
+                    <div
+                        class="w-[387.6px] flex flex-col items-start justify-start gap-[76.4px] max-w-full mq388:gap-[38px]">
+                        <div class="flex flex-col items-start justify-start py-0 pr-5 pl-0 gap-[7.4px]">
+                            <div class="relative whitespace-nowrap z-[1]">
+                                Launch of ACE EV
+                            </div>
+                            <div class="flex flex-col items-start justify-start">
+                                <div class="flex flex-row items-start justify-start gap-[3.9px]">
+                                    <a
+                                        class="[text-decoration:none] relative text-[inherit] inline-block min-w-[9px] z-[1]">
+                                        1
+                                    </a>
+                                    <div
+                                        class="flex flex-col items-start justify-start pt-[1.8px] px-0 pb-0 text-[11.8px]">
+                                        <div class="relative inline-block min-w-[11px] z-[1]">
+                                            st
+                                        </div>
+                                    </div>
+                                    <div class="relative whitespace-nowrap z-[1]">
+                                        Commercial EV from Tata
+                                    </div>
+                                </div>
+                                <div class="relative whitespace-nowrap z-[1] mt-[-2.6px]">
+                                    Motors in Nepal
                                 </div>
                             </div>
                         </div>
@@ -146,16 +207,19 @@
 
 
     {{-- 35 page start from here --}}
-    <div class="  text-yellow-500  mt-16 relative  h-full font-extralight text-2xl">
-        SJ MOTO Launch
-    </div>
+
 
     <div
         class="w-full px-4 overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ? $className : '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[0.1px] box-border relative gap-[48px] max-w-full mq675:gap-[24px]">
+            <div class="  text-yellow-500  mt-16 relative  h-full font-extralight text-2xl">
+                SJ MOTO Launch
+            </div>
+
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-[25px] pl-[23px] box-border max-w-full">
+
 
                 <div
                     class="flex-1 flex flex-row items-end justify-start gap-[60.9px] max-w-full mq450:gap-[15px] mq825:flex-wrap mq825:gap-[30px]">
@@ -394,7 +458,7 @@
 
             <div
                 class="relative top-24 z-[1] px-4 
-                                text-yellow-500 font-extralight text-2xl">
+                                text-yellow-500 font-extralight tracking-widest text-2xl gap-5">
                 HONDA CB Hornet Launch</div>
             <div class="self-stretch flex flex-row items-start justify-end py-0  box-border max-w-full">
 
@@ -420,7 +484,7 @@
 
 
     {{-- 42 page start from here --}}
-    <div
+    {{-- <div
         class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-0.5 box-border relative gap-[42.1px] max-w-full mq480:gap-[21px]">
@@ -440,7 +504,8 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div> --}}
+
 
 
 
