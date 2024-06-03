@@ -38,9 +38,9 @@
             <div class="md:flex items-center sm:flex-wrap md:flex-nowrap">
                 <div>
                     <img src="{{ asset('home/logo.png') }}" alt="Logo"
-                         class="mx-auto md:w-3/4 md:border-r md:border-b-0 border-b border-gray-500">
+                         class="mx-auto lg:w-3/4 md:w-5/6  ">
                 </div>
-                <p class="md:text-xl lg:text-3xl text-xl text-center md:text-start  leading-10  md:w-[75%]">
+                <p class="md:text-2xl lg:text-3xl text-xl text-center md:text-start  leading-10  md:w-[75%] md:border-l px-6 md:border-b-0 border-t border-gray-500">
                     started with a vision to support businesses with brand establishment, quality branding,
                     and creative design services; brandworks, is now a well-established independent firm
                     specializing in events, fabrications, brand actions and purpose-driven engagements.
@@ -53,7 +53,7 @@
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full">
                 </div>
                 <div class="lg:col-span-2  lg:w-2/3 mx-auto bg-gradient-to-bl  self-center justify-center ">
-                    <p class="md:text-xl lg:text-3xl text-xl lg:!leading-[3.2rem] text-center lg:text-start">a motley group of strategic creative,
+                    <p class="text-xl lg:text-3xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl">a motley group of strategic creative,
                         design, and marketing professionals who
                         believe in action to change the way
                         businesses communicate to the world.</p>
@@ -62,10 +62,10 @@
 
 
             <div class=" lg:relative space-y-12 md:space-y-0 h-[60%]  ">
-                <div class="bg-gray-300 md:w-2/3 :mx-auto lg:mx-0  lg:w-1/2">
+                <div class="bg-gray-300 md:w-2/3 md:mx-auto lg:mx-0  lg:w-1/2">
                     <img src="{{ asset('eventAsset/image13.png') }}" alt="Logo" class="w-full">
                 </div>
-                <p class="lg:absolute lg:top-[30%] lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-3xl text-xl text-center lg:text-start"> Our  focus  is  on  collaborating  with  visionary  leaders and  organizations  who  share  our  belief  that the  power  of  brand  actions,  design  and  innovation  can  have  a  profound  impact  shaping  brighter  future  for  the  community  they  serve. </p>
+                <p class="lg:absolute lg:top-[30%] lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-3xl text-xl text-center lg:text-start md:text-2xl"> Our  focus  is  on  collaborating  with  visionary  leaders and  organizations  who  share  our  belief  that the  power  of  brand  actions,  design  and  innovation  can  have  a  profound  impact  shaping  brighter  future  for  the  community  they  serve. </p>
             </div>
 
 
