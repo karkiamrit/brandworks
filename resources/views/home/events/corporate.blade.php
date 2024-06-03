@@ -18,6 +18,8 @@
             </h1>
         </div>
     </div>
+
+    
     {{-- Page 18 --}}
 
     <div class="title-text text-yellow-500  relative mt-20 mb-10 text-start h-full font-extralight  text-3xl">

@@ -4,7 +4,7 @@
 @endphp
 
 <!-- Logo and Center Content -->
-<div class=" bg-black w-full">
+<div class=" bg-black w-full overflow-hidden">
 
     <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
         <div class="flex flex-row items-center justify-start">
@@ -21,7 +21,7 @@
 
 
     {{-- Page 21 --}}
-    <div
+    {{-- <div
         class="w-full overflow-hidden flex flex-row items-center justify-center leading-[normal] tracking-[normal] {{ $className ?? '' }}">
         <header
             class="bg-black flex flex-col items-start justify-start pt-[122.8px] px-[45px] pb-[22.9px] box-border relative gap-[107.5px] max-w-full text-left text-lg text-gold font-inter mq450:gap-[54px] mq450:pt-20 mq450:px-[22px] mq450:pb-5 mq450:box-border">
@@ -45,10 +45,10 @@
                     <img class="h-full w-[58%] relative object-cover z-[2]" loading="lazy" alt=""
                         src="eventAsset/image97.png" />
                 </div>
-            </div>
+            </div> --}}
             {{-- <img class="w-[43.2px] h-[43.2px] absolute !m-[0] top-[3.5px] left-[26.8px] object-cover z-[1]" loading="lazy" alt="" src="eventAsset/image96.png" /> --}}
-        </header>
-    </div>
+        {{-- </header>
+    </div> --}}
 
     {{-- Page 22 --}}
 
@@ -378,8 +378,6 @@
             </div>
         </section>
     </div>
-
-
-
-
 </div>
+
+
