@@ -4,7 +4,7 @@
 @endphp
 
 <!-- Logo and Center Content -->
-<div class=" bg-black w-full">
+<div class=" bg-black w-full overflow-hidden">
 
     <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
         <div class="flex flex-row items-center justify-start">
@@ -109,7 +109,7 @@
 <div class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
     <section class="bg-black flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[35.5px] box-border relative gap-[42.1px] max-w-full text-left text-[20.1px] text-silver font-inter mqp700:gap-[21px]">
         <div
-            class="title-text text-yellow-500  relative top-44 left-5 text-start h-full font-extralight  text-3xl">
+            class="title-text text-yellow-500  relative top-44 left-5 text-start h-full font-extralight  text-xl">
             BRITISH GURKHA NEPAL OFFICERS & SNCO's </br>
             MESS WINTER BALL
         </div>

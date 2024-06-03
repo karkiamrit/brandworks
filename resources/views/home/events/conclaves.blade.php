@@ -29,7 +29,8 @@
                 <div class="flex-1 flex flex-col items-start justify-start gap-4 max-w-full">
                     <div
                         class="self-stretch flex flex-row items-start justify-between w-full max-w-full gap-5  lg:flex-wrap">
-                        <div class="flex flex-col items-start justify-start pt-6 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                        <div
+                            class="flex flex-col items-start justify-start pt-6 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                             <span class="text-decoration-none relative text-inherit z-1">
                                 Nagarik Nayak
                             </span>
@@ -43,7 +44,7 @@
                     <div
                         class="w-full lg:w-full flex flex-row items-start justify-start py-0 px-0.5 box-border max-w-full">
                         <div
-                            class="flex-1 overflow-x-auto flex flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-10 max-w-full lg:gap-5">
+                            class="flex-1 overflow-hidden flex flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-10 max-w-full lg:gap-5">
                             <img class="self-stretch w-3/12 relative max-h-full shrink-0 object-cover min-h-[180px] z-1"
                                 loading="lazy" alt="" src="eventAsset/image101.jpeg" />
                             <img class="self-stretch w-[36%] relative max-h-full shrink-0 object-cover min-h-[180px] z-1"
@@ -67,7 +68,8 @@
                 <div class="flex-1 flex flex-col w-full items-start justify-start gap-4 max-w-full">
                     <div
                         class="self-stretch flex flex-row items-center justify-between w-full max-w-full gap-5  lg:flex-wrap">
-                        <div class="flex flex-col items-start justify-start px-0 pb-0  [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                        <div
+                            class="flex flex-col items-start justify-start px-0 pb-0  [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                             <span class="text-decoration-none relative text-inherit z-1 bottom-36">
                                 2<sup>nd</sup> International Conference of Dermatology
                             </span>
@@ -96,7 +98,8 @@
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-20 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-20 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Republic Development Conclave
                 </span>
@@ -139,7 +142,8 @@
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-20 left-16 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-20 left-16 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Midea Coolference 2017
                 </span>
@@ -177,7 +181,8 @@
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     NEEK
                 </span>
@@ -222,7 +227,8 @@
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Thai Airways 50<sup>th</sup> year
                 </span>
@@ -263,12 +269,13 @@
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Butwal Power Company partners with major
                 </span>
                 <span class="text-decoration-none relative text-inherit z-1">
-                    Chinese companies for the development of 
+                    Chinese companies for the development of
                 </span>
                 <span class="text-decoration-none relative text-inherit z-1">
                     Hydropower projects in Nepal
@@ -303,7 +310,8 @@
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Honda Partner's Meet
                 </span>
@@ -338,13 +346,14 @@
     </div>
 
     {{-- Page 30 --}}
-    <div class="flex flex-col items-start justify-start left-12 bottom-52 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+    <div
+        class="flex flex-col items-start justify-start left-12 bottom-52 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
         <span class="text-decoration-none relative text-inherit z-1">
             Nokia Nepal Innovation Day 2022
         </span>
     </div>
     <div class="flex flex-row gap-2 w-full">
-        
+
         <div>
             <img class="w-full lg:w-full relative h-[390px] max-h-full object-contain max-w-full z-1 scale-150 mx-48 right-12"
                 loading="lazy" alt="" src="eventAsset/image125.jpeg" />
@@ -360,7 +369,8 @@
     </div>
 
     {{-- Page 31 --}}
-    <div class="flex flex-row items-center justify-start [text-decoration:none] left-16 relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl mt-16">
+    <div
+        class="flex flex-row items-center justify-start [text-decoration:none] left-16 relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl mt-16">
         <span class="text-decoration-none relative text-inherit z-1">
             Celebrating growth and success of QFX Cinemas
         </span>
@@ -381,7 +391,8 @@
         class="w-full flex flex-row items-start justify-start leading-normal tracking-normal mt-10 {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
-            <div class="flex flex-col items-start justify-start top-28 left-10 gap-2 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+            <div
+                class="flex flex-col items-start justify-start top-28 left-10 gap-2 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Launch of ACE EV
                 </span>
@@ -421,5 +432,3 @@
         </section>
     </div>
 </div>
-
-

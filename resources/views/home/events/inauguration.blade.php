@@ -4,7 +4,7 @@
 @endphp
 
 <!-- Logo and Center Content -->
-<div class=" bg-black w-full">
+<div class=" bg-black w-full overflow-hidden">
 
     <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
         <div class="flex flex-row items-center justify-start">
@@ -20,94 +20,89 @@
     </div>
 
     {{--  image section start from here --}}
-    <div class="px-10 image-title-section flex  flex-row gap-20 mt-6">
+    <div class="px-4 sm:px-10 image-title-section flex flex-col sm:flex-row gap-6 sm:gap-20 mt-6 overflow-hidden">
 
-        <div class="title-text text-yellow-500 pl-4 mt-2 w-80 text-start justify-start font-extralight  text-3xl">
-            Butwal Power Company <div class="mt-3">
+        <div class="title-text text-yellow-500 pl-2 sm:pl-4 mt-2 w-full sm:w-80 text-start justify-start font-extralight text-3xl">
+            Butwal Power Company 
+            <div class="mt-3">
                 Inauguration of Nyadi Hydropower Project
             </div>
         </div>
-
-
-        <div class="image-section pl-16 grid grid-cols-2 gap-2 text-center items-start">
+    
+        <div class="image-section pl-4 sm:pl-16 grid grid-cols-1 sm:grid-cols-2 gap-2 text-center items-start">
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/image57.jpeg" alt=""
-                    class="h-[14rem]relative  w-[26rem] object-cover shadow-lg">
+                <img src="eventAsset/image57.jpeg" alt="" class="h-32 sm:h-[14rem] w-full sm:w-[30rem] object-cover shadow-lg md:pr-8">
             </div>
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/image58.jpeg" alt=""
-                    class="h-[14rem] relative left-4 w-[26rem] object-cover shadow-lg">
+                <img src="eventAsset/image58.jpeg" alt="" class="h-40 sm:h-[20rem] w-full sm:w-[30rem] object-cover shadow-lg">
+            </div>
+            <div class="flex flex-row justify-center items-center md:-my-16">
+                <img src="eventAsset/image60.jpeg" alt="" class="h-36 sm:h-[18rem] w-full sm:w-[30rem] object-contain sm:object-cover shadow-lg md:pr-16 md:-ml-20">
             </div>
             <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/image60.jpeg" alt=""
-                    class="h-[14rem] relative right-14 bottom-6 w-[26rem] object-cover shadow-lg">
-            </div>
-            <div class="flex flex-row justify-center items-center">
-                <img src="eventAsset/image59.jpeg" alt=""
-                    class="h-[14rem] relative right-6 top-4 w-[26rem] object-cover shadow-lg">
+                <img src="eventAsset/image59.jpeg" alt="" class="h-36 sm:h-[18rem] w-full sm:w-[30rem] object-cover shadow-lg md:mr-44">
             </div>
         </div>
     </div>
 
     {{--  2nd section start from here --}}
-    <div class="px-10 image-title-section flex flex-row gap-20 mt-6 py-32">
+    <div class="px-4 md:px-10 image-title-section flex flex-col md:flex-row gap-6 md:gap-20 mt-6 py-8 md:py-32">
 
-        <div class="image-section grid grid-cols-4 grid-rows-3 gap-2 text-center items-start">
-            <div class="col-span-2 row-span-1 items-center">
-                <div class="title-text text-yellow-500 p-10 pl-8 mt-2 text-start justify-start font-extralight  text-3xl">
+        <div class="image-section grid grid-cols-1 md:grid-cols-4 grid-rows-3 gap-2 text-center items-start">
+            <div class="col-span-2 md:col-span-2 row-span-1 items-center">
+                <div class="title-text text-yellow-500 p-4 md:p-10 pl-2 md:pl-8 mt-2 text-start justify-start font-extralight text-lg md:text-3xl">
                     Inauguration of Tata Motors
                     exclusive car showroom with
                     the 2 new product launches
                 </div>
             </div>
-            <div class="col-span-2 row-span-2 items-center object-cover">
-                <img src="eventAsset/ripab.jpeg" alt="" class="   object-cover shadow-lg">
+            <div class="col-span-2 md:col-span-2 row-span-2 items-center object-cover">
+                <img src="eventAsset/ripab.jpeg" alt="" class="object-cover shadow-lg">
             </div>
-            <div class="col-span-1 row-span-2 items-center">
-                <img src="eventAsset/tata.jpeg" alt="" class=" shadow-lg">
+            <div class="col-span-1 md:col-span-1 row-span-2 items-center">
+                <img src="eventAsset/tata.jpeg" alt="" class="shadow-lg">
             </div>
-            <div class="col-span-1 row-span-2 items-center">
-                <img src="eventAsset/car.jpeg" alt="" class="  object-contain shadow-lg">
+            <div class="col-span-1 md:col-span-1 row-span-2 items-center">
+                <img src="eventAsset/car.jpeg" alt="" class="object-contain shadow-lg">
             </div>
-            <div class="col-span-1 row-span-1 items-center">
-                <img src="eventAsset/tv.jpeg" alt="" class="  object-contain shadow-lg">
+            <div class="col-span-1 md:col-span-1 row-span-1 items-center">
+                <img src="eventAsset/tv.jpeg" alt="" class="object-contain shadow-lg">
             </div>
-            <div class="col-span-1 row-span-1 items-center">
-                <img src="eventAsset/tata-logo.jpeg" alt="" class=" shadow-lg">
+            <div class="col-span-1 md:col-span-1 row-span-1 items-center">
+                <img src="eventAsset/tata-logo.jpeg" alt="" class="shadow-lg">
             </div>
         </div>
-
+    
     </div>
 
 
     {{-- 3rd section start from here --}}
 
-    <div class="px-16 image-title-section flex flex-row gap-20">
+    <div class="px-4 sm:px-16 image-title-section flex flex-col sm:flex-row gap-4 sm:gap-20">
 
-        <div class="image-section grid grid-cols-3 grid-rows-2 gap-2 text-center items-start">
+        <div class="image-section grid grid-cols-1 sm:grid-cols-3 grid-rows-2 gap-2 text-center md:items-start items-end -mt-48 md:mt-0">
             <div class="col-span-1 row-span-1 items-center relative lg:top-10">
-                <div class="title-text text-yellow-500 pr-20  text-start h-full font-extralight  text-3xl">
+                <div class="title-text text-yellow-500 pr-4 sm:pr-20 text-start h-full font-extralight text-2xl sm:text-3xl">
                     Inauguration Sarbottam Cement New Clinker Plant
                 </div>
             </div>
-            <div class="col-span-2 row-span-2 items-center h-full">
-                <img src="eventAsset/sarbottam.jpeg" alt="" class="object-contain w-full h-full shadow-lg">
+            <div class="col-span-1 sm:col-span-2 row-span-2 items-center h-full">
+                <img src="eventAsset/sarbottam.jpeg" alt="" class="object-contain w-full h-full shadow-lg md:-my-[58px]">
             </div>
-
-            <div class="col-span-1 row-span-1 items-center  relative lg:bottom-24"
-                style="grid-column-start: 1; grid-row-start: 2;">
+    
+            <div class="col-span-1 row-span-1 items-center relative lg:bottom-24 sm:col-start-1 sm:row-start-2">
                 <img src="eventAsset/show.jpeg" alt="" class="object-contain h-full shadow-lg">
             </div>
-
+    
         </div>
     </div>
 
     {{-- Page 17 --}}
-    <div class=" image-title-section flex flex-row gap-20">
+    <div class="image-title-section flex flex-col sm:flex-row gap-4 sm:gap-20">
 
-        <div class="w-full relative h-[540px] overflow-hidden text-left text-[18px] text-gold font-inter">
+        <div class="w-full relative h-[540px] sm:h-[540px] overflow-hidden text-left text-[18px] text-gold font-inter">
             <div class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]">
-                <div class="title-text text-yellow-500 relative left-16 top-32 text-start h-full font-extralight  text-3xl">
+                <div class="title-text text-yellow-500 relative left-4 sm:left-16 top-16 sm:top-32 text-start h-full font-extralight text-xl sm:text-3xl">
                     Islington College <br> 
                     Graduation Ceremony
                 </div>
