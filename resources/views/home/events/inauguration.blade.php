@@ -59,11 +59,11 @@
             <div class="col-span-2 md:col-span-2 row-span-2 items-center object-cover">
                 <img src="eventAsset/ripab.jpeg" alt="" class="object-cover shadow-lg">
             </div>
-            <div class="col-span-1 md:col-span-1 row-span-2 items-center">
-                <img src="eventAsset/tata.jpeg" alt="" class="shadow-lg">
+            <div class="col-span-1 md:col-span-1 row-span-2 items-center md:h-full md:w-full">
+                <img src="eventAsset/tata.jpeg" alt="" class="shadow-lg md:h-full md:mx-7 md:object-cover ">
             </div>
-            <div class="col-span-1 md:col-span-1 row-span-2 items-center">
-                <img src="eventAsset/car.jpeg" alt="" class="object-contain shadow-lg">
+            <div class="col-span-1 md:col-span-1 row-span-2 items-center md:h-full">
+                <img src="eventAsset/car.jpeg" alt="" class="object-contain shadow-lg md:w-80 md:h-full md:mx-5">
             </div>
             <div class="col-span-1 md:col-span-1 row-span-1 items-center">
                 <img src="eventAsset/tv.jpeg" alt="" class="object-contain shadow-lg">
