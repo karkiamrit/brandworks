@@ -56,7 +56,7 @@
             <div
                 class="text relative left-1 sm:left-2 md:left-3 lg:left-4 xl:left-5 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-extralight text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
                 Launch of ACE EV <br>
-                1st Commercial EV from Tata Motors in Nepal
+                1st Commercial EV from <br> Tata Motors in Nepal
             </div>
             <div class="img">
                 <img src="eventAsset/image133.jpeg"
@@ -81,13 +81,13 @@
 
     {{-- 33 page start from here  --}}
     <div
-        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }}">
+        class="w-full overflow-hidden flex flex-col md:flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className = $className ?? '' }}">
         <section
-            class="h-[540px] flex-1 flex flex-col items-start justify-start pt-[122.8px] px-[45px] pb-[123px] box-border relative max-w-full text-left text-lg text-gold font-inter mq373:pl-5 mq373:pr-5 mq373:box-border">
+            class="h-auto md:h-[540px] flex-1 flex flex-col items-start justify-start pt-8 md:pt-[122.8px] px-4 md:px-[45px] pb-8 md:pb-[123px] box-border relative max-w-full text-left text-lg text-gold font-inter">
 
-            <div class="flex flex-col items-start justify-start gap-[7.4px]">
+            <div class="flex flex-col items-start justify-start gap-2 md:gap-[7.4px]">
                 <div
-                    class="relative left-4 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-extralight  text-2xl">
+                    class="relative left-1 md:left-4 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-extralight text-lg md:text-2xl">
                     Launch of MG4 EV
                     <br>
                     1st EV to be launched and <br> driven at MX Track 5085ft above sea level
@@ -95,14 +95,15 @@
 
                 <div class="flex flex-col items-start justify-start">
                     <div class="flex flex-row items-end justify-end relative">
-                        <div class="h-[365.6px] w-[863.3px] absolute !m-[0] left-[300.8px] bottom-[-296.8px]">
-                            <img class="absolute bottom-[190px] left-[300.3px] w-[702.9px] h-[200.1px] object-cover z-[1]"
+                        <div
+                            class="h-auto md:h-[365.6px] w-full md:w-[863.3px] absolute !m-[0] left-0 md:left-[300.8px] bottom-0 md:bottom-[-296.8px]">
+                            <img class="absolute bottom-0 md:bottom-[190px] left-0 md:left-[300.3px] w-full md:w-[702.9px] h-auto md:h-[200.1px] object-cover z-[1]"
                                 loading="lazy" alt="" src="eventAsset/image135.jpeg" />
-                            <img class="absolute top-[143.9px] left-[-100px] w-[362.4px] h-[217.1px] object-cover z-[2]"
+                            <img class="absolute top-0 md:top-[143.9px] left-0 md:left-[-260px] w-full md:w-[562.4px] h-auto md:h-[217.1px] object-cover z-[2]"
                                 alt="" src="eventAsset/image136.jpeg" />
-                            <img class="absolute top-[198.6px] left-[626.8px] w-[300.5px] h-[161px] object-cover z-[1]"
+                            <img class="absolute top-0 md:top-[198.6px] right-0 md:left-[700.8px] w-full md:w-[300.5px] h-auto md:h-[161px] object-cover z-[1]"
                                 loading="lazy" alt="" src="eventAsset/image137.jpeg" />
-                            <img class="absolute top-[198.6px] left-[283.1px] w-[315.6px] h-[161.8px] object-cover z-[1]"
+                            <img class="absolute top-0 md:top-[198.6px] left-0 md:left-[343.1px] w-full md:w-[315.6px] h-auto md:h-[161.8px] object-cover z-[1]"
                                 loading="lazy" alt="" src="eventAsset/image138.jpeg" />
                         </div>
                     </div>
@@ -428,27 +429,28 @@
 
 
     {{-- 42 page start from here --}}
-    {{-- <div
-        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
-        <section
-            class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-0.5 box-border relative gap-[42.1px] max-w-full mq480:gap-[21px]">
-
-            <div class="self-stretch flex flex-row items-start justify-end py-0 px-[22px] box-border max-w-full">
-                <div class="w-[794.2px] flex flex-row items-end justify-start gap-[15.7px] max-w-full mq731:flex-wrap">
-                    <img class="mb-[-2.0999999999994543px] h-[343.7px] w-72 relative object-cover z-[1] mq731:flex-1"
-                        loading="lazy" alt="" src="eventAsset/image171.jpeg" />
-                    <div class="flex-1 flex flex-col items-end justify-start gap-[10.3px] min-w-[318px] max-w-full">
-                        <img class="w-[360px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy"
-                            alt="" src="eventAsset/image172.jpeg" />
-                        <div class="self-stretch flex flex-row items-start justify-start max-w-full">
-                            <img class="w-[371.4px] relative max-h-full object-cover max-w-full z-[1]" loading="lazy"
-                                alt="" src="eventAsset/image173.jpeg" />
-                        </div>
-                    </div>
-                </div>
+    <div
+        class=" flex flex-row gap-20 {{ $className ?? '' }} my-24">
+        <div class="flex flex-col gap-32">
+            <div
+                class="relative left-10 top-12 z-[1] px-4 
+                            text-yellow-500 font-extralight tracking-widest text-2xl gap-5">
+                Unveiling MV Augusta in Nepal
             </div>
-        </section>
-    </div> --}}
+            <div class="img">
+                <img src="eventAsset/image172.jpeg" class="h-[450px] w-[350px] relative left-52" alt="">
+            </div>
+        </div>
+        <div class="flex flex-col justify-end">
+            <div class="imgone">
+                <img src="eventAsset/image173.jpeg" class="h-[250px] w-[450px] relative left-60 " alt="">
+
+            </div>
+            <div class="imgtwo">
+                <img src="eventAsset/image171.jpeg" class="h-[250px] w-[450px] relative left-20 " alt="">
+            </div>
+        </div>
+    </div>
 
 
 
