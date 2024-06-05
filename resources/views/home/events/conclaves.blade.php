@@ -21,12 +21,17 @@
 
     {{-- Page 22 --}}
 
-    <div class="w-full overflow-hidden flex flex-col md:flex-row items-start mt-10 justify-start leading-normal tracking-normal {{ $className ?? '' }}">
-        <section class="flex-1 flex flex-col items-start justify-start pt-1 pb-4 pr-1 pl-6 box-border relative gap-12 max-w-full text-left text-lg text-gold font-inter lg:gap-6">
-            <div class="self-stretch flex flex-col md:flex-row items-start justify-start py-0 pr-px pl-5 box-border max-w-full">
+    <div
+        class="w-full overflow-hidden flex flex-col md:flex-row items-start mt-10 justify-start leading-normal tracking-normal {{ $className ?? '' }}">
+        <section
+            class="flex-1 flex flex-col items-start justify-start pt-1 pb-4 pr-1 pl-6 box-border relative gap-12 max-w-full text-left text-lg text-gold font-inter lg:gap-6">
+            <div
+                class="self-stretch flex flex-col md:flex-row items-start justify-start py-0 pr-px pl-5 box-border max-w-full">
                 <div class="flex-1 flex flex-col items-start justify-start gap-4 max-w-full">
-                    <div class="self-stretch flex flex-col md:flex-row items-start justify-between w-full max-w-full gap-5  lg:flex-wrap">
-                        <div class="flex flex-col items-start justify-start pt-6 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                    <div
+                        class="self-stretch flex flex-col md:flex-row items-start justify-between w-full max-w-full gap-5  lg:flex-wrap">
+                        <div
+                            class="flex flex-col items-start justify-start pt-6 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                             <span class="text-decoration-none relative text-inherit z-1">
                                 Nagarik Nayak
                             </span>
@@ -37,8 +42,10 @@
                         <img class="w-full mx-0 sm:mx-24 h-96 relative mr-auto pr-8 sm:pr-2 max-h-full object-cover max-w-full z-1 lg:flex-1"
                             loading="lazy" alt="" src="eventAsset/image100.jpeg" />
                     </div>
-                    <div class="w-full lg:w-full flex flex-col md:flex-row items-start justify-start py-0 sm:px-0.5 box-border max-w-full">
-                        <div class="flex-1 overflow-hidden flex sm:flex-row flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-10 max-w-full lg:gap-5">
+                    <div
+                        class="w-full lg:w-full flex flex-col md:flex-row items-start justify-start py-0 sm:px-0.5 box-border max-w-full">
+                        <div
+                            class="flex-1 overflow-hidden flex sm:flex-row flex-col items-start justify-start py-0 pr-px pl-0 box-border gap-10 max-w-full lg:gap-5">
                             <img class="self-stretch w-full md:w-3/12 relative max-h-full shrink-0 object-cover min-h-[180px] z-1"
                                 loading="lazy" alt="" src="eventAsset/image101.jpeg" />
                             <img class="self-stretch w-full md:w-[36%] relative max-h-full shrink-0 object-cover min-h-[180px] z-1"
@@ -54,12 +61,17 @@
 
     {{-- Page 23 --}}
 
-    <div class="w-full overflow-hidden flex flex-col md:flex-row items-start mt-10 justify-start leading-normal tracking-normal {{ $className ?? '' }}">
-        <section class="flex-1 flex flex-col items-start justify-start pt-1 pb-4 pr-1 pl-6 box-border relative gap-12 max-w-full text-left text-lg text-gold font-inter lg:gap-6">
-            <div class="self-stretch flex flex-col md:flex-row items-start justify-start py-0 pr-px pl-5 box-border max-w-full">
+    <div
+        class="w-full overflow-hidden flex flex-col md:flex-row items-start mt-10 justify-start leading-normal tracking-normal {{ $className ?? '' }}">
+        <section
+            class="flex-1 flex flex-col items-start justify-start pt-1 pb-4 pr-1 pl-6 box-border relative gap-12 max-w-full text-left text-lg text-gold font-inter lg:gap-6">
+            <div
+                class="self-stretch flex flex-col md:flex-row items-start justify-start py-0 pr-px pl-5 box-border max-w-full">
                 <div class="flex-1 flex flex-col w-full items-start justify-start gap-4 max-w-full">
-                    <div class="self-stretch flex flex-col md:flex-row items-center justify-between w-full max-w-full gap-5  lg:flex-wrap">
-                        <div class="flex flex-col items-start justify-start px-0 pb-0  [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                    <div
+                        class="self-stretch flex flex-col md:flex-row items-center justify-between w-full max-w-full gap-5  lg:flex-wrap">
+                        <div
+                            class="flex flex-col items-start justify-start px-0 pb-0  [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                             <span class="text-decoration-none relative text-inherit z-1 bottom-36">
                                 2<sup>nd</sup> International Conference of Dermatology
                             </span>
@@ -67,8 +79,10 @@
                         <img class="h-96 relative pr-8 lg:justify-end  max-h-full object-contain max-w-full z-1 lg:flex"
                             loading="lazy" alt="" src="eventAsset/image105.jpeg" />
                     </div>
-                    <div class="w-full lg:w-full flex flex-col md:flex-row items-start justify-start py-0 px-0.5 box-border max-w-full">
-                        <div class="flex-1 overflow-hidden flex flex-col md:flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-10 max-w-full lg:gap-5">
+                    <div
+                        class="w-full lg:w-full flex flex-col md:flex-row items-start justify-start py-0 px-0.5 box-border max-w-full">
+                        <div
+                            class="flex-1 overflow-hidden flex flex-col md:flex-row items-start justify-start py-0 pr-px pl-0 box-border gap-10 max-w-full lg:gap-5">
                             <img class="self-stretch w-full md:w-[30%] relative max-h-full shrink-0 object-cover min-h-[180px] z-1"
                                 loading="lazy" alt="" src="eventAsset/image103.jpeg" />
                             <img class="self-stretch w-full md:w-[30%] relative max-h-full shrink-0 object-cover min-h-[180px] z-1"
@@ -85,9 +99,9 @@
     {{-- Page 24 --}}
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
-            class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
+            class="flex-1 flex flex-col items-start justify-start pt-1 px-6 md:pb-2 pb-5 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-20 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start top-12 md:top-20 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Republic Development Conclave
                 </span>
@@ -98,13 +112,13 @@
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
                 <div class="h-full lg:h-[409.9px] flex-1 relative max-w-full mb-96">
-                    <img class="md:absolute top-1 mx-8 sm:mx-0 sm:left-[736.9px] w-full lg:w-1/2 h-full object-contain z-1" loading="lazy"
-                        alt="" src="eventAsset/image107.jpeg" />
+                    <img class="md:absolute md:top-1 md:mx-8 sm:mx-0 sm:left-0 md:left-[26.9px] lg:left-[526.9px] xl:left-[736.9px] lg:w-1/2 h-full object-contain z-1"
+                        loading="lazy" alt="" src="eventAsset/image107.jpeg" />
                     <div
                         class="md:absolute top-0 left-0 lg:w-[760.1px] flex flex-col items-start justify-start max-w-full">
                         <div
                             class="w-full lg:w-full flex flex-row items-start justify-start py-0 px-40 box-border max-w-full">
-                            <img class="h-[259px] mr-36 my-40 pb-16 md:pb-0 mx-16 flex-1 relative right-24 max-w-full object-contain md:object-cover scale-[6] sm:scale-[3] md:scale-0 z-1"
+                            <img class="h-[259px] mr-36 my-40 pb-16 md:pb-0 mx-16 flex-1 relative right-24 max-w-full object-contain md:object-cover scale-[6] sm:scale-[3] md:scale-100 z-1"
                                 loading="lazy" alt="" src="eventAsset/image109.jpeg" />
                         </div>
                         <div
@@ -123,7 +137,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-20 left-16 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start lg:top-20 top-10 left-16 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Midea Coolference 2017
                 </span>
@@ -131,8 +145,8 @@
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
                 <div class="h-full lg:h-[409.9px] flex-1 relative max-w-full mb-96">
-                    <img class="sm:absolute sm:top-1 sm:right-0 sm:h-full sm:object-contain object-cover z-1" loading="lazy" alt=""
-                        src="eventAsset/image110.jpeg" />
+                    <img class="sm:absolute sm:top-1 md:right-0 sm:h-full sm:object-contain object-cover z-1"
+                        loading="lazy" alt="" src="eventAsset/image110.jpeg" />
                     <div
                         class="sm:absolute sm:top-0 sm:left-0 w-full lg:w-[760.1px] gap-5 flex flex-row sm:my-48 sm:items-start justify-start max-w-full">
                         {{-- <div class="w-full lg:w-[307.3px] flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-2">
@@ -162,7 +176,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start top-10 lg:top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     NEEK
                 </span>
@@ -206,9 +220,9 @@
     {{-- Page 27 --}}
     <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
-            class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
+            class="flex-1 lg:top-0 top-52 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start lg:top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Thai Airways 50<sup>th</sup> year
                 </span>
@@ -219,7 +233,7 @@
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
                 <div class="h-full lg:h-[350.9px] flex-1 relative max-w-full mb-96 w-full">
-                    <img class="absolute top-1 right-0 h-full object-cover object-center z-1  lg:w-[62%] -mx-5"
+                    <img class="md:absolute relative -top-10 md:top-1 md:right-0 h-full object-cover object-center z-1  lg:w-[62%] -mx-5"
                         loading="lazy" alt="" src="eventAsset/image116.jpeg" />
                     <div
                         class="absolute top-0 left-0 w-full lg:w-[560.1px] flex flex-row my-48 gap-2 items-start justify-start max-w-full -mx-7">
@@ -250,7 +264,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start top-28 left-0 md:left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Butwal Power Company partners with major
                 </span>
@@ -264,10 +278,10 @@
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
                 <div class="h-full lg:h-[450.9px] flex-1 relative max-w-full mb-96 w-full">
-                    <img class="absolute top-1 right-0 h-full object-cover object-center z-1  lg:w-1/2" loading="lazy"
-                        alt="" src="eventAsset/image119.jpeg" />
+                    <img class="md:absolute relative top-20 md:top-1 right-0 h-full object-cover object-center z-1  lg:w-1/2"
+                        loading="lazy" alt="" src="eventAsset/image119.jpeg" />
                     <div
-                        class="absolute top-0 left-0 w-full lg:w-[660.1px] flex flex-row my-48 gap-2 items-start justify-start max-w-full -mx-7">
+                        class="absolute top-36 lg:top-0 left-0 w-full lg:w-[660.1px] flex flex-row my-48 gap-2 items-start justify-start max-w-full -mx-7">
                         {{-- <div class="w-full lg:w-[307.3px] flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-2">
                             <div class="self-stretch flex flex-row items-start justify-end">
                                 <div class="relative z-1"> Development Conclave</div>
@@ -287,36 +301,30 @@
     </div>
 
     {{-- Page 29 --}}
-    <div class="w-full flex flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
+    <div
+        class="w-full flex flex-col md:flex-row items-start justify-start leading-normal tracking-normal {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start top-10 lg:top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Honda Partner's Meet
                 </span>
             </div>
             <div
-                class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
+                class="self-stretch flex flex-col md:flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
                 <div class="h-full lg:h-[450.9px] flex-1 relative max-w-full mb-96 w-full">
-                    <img class="absolute top-1 right-0 h-full object-cover object-center z-1  lg:w-[45%]"
+                    <img class="lg:absolute relative top-1 right-0 h-full object-cover object-center z-1  lg:w-[45%]"
                         loading="lazy" alt="" src="eventAsset/image121.jpeg" />
                     <div
-                        class="absolute top-0 left-0 w-full lg:w-[260.1px] flex flex-row my-96 gap-2 items-start justify-start max-w-full mx-[14.5rem]">
-                        {{-- <div class="w-full lg:w-[307.3px] flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-2">
-                            <div class="self-stretch flex flex-row items-start justify-end">
-                                <div class="relative z-1"> Development Conclave</div>
-                            </div>
-                            <div class="relative inline-block min-w-[124px] z-1">
-                                Nagarik Nayak
-                            </div>
-                        </div> --}}
-                        <div class="self-stretch flex flex-row items-center justify-center max-w-full gap-2">
-                            <img class="w-1/3 lg:w-full relative h-full max-h-full object-cover max-w-full z-1 "
+                        class="lg:absolute relative top-0 left-0 w-full lg:w-[260.1px] flex flex-col md:flex-row lg:my-96 my-10 gap-2 items-start justify-start max-w-full lg:mx-[14.5rem]">
+                        <div
+                            class="self-stretch flex flex-col md:flex-row items-center justify-center max-w-full gap-2">
+                            <img class="w-full md:w-1/3 lg:w-full relative h-full max-h-full object-cover max-w-full z-1 "
                                 loading="lazy" alt="" src="eventAsset/image122.jpeg" />
-                            <img class="w-1/3 lg:w-full relative h-full max-h-full object-cover max-w-full z-1 "
+                            <img class="w-full md:w-1/3 lg:w-full relative h-full max-h-full object-cover max-w-full z-1 "
                                 loading="lazy" alt="" src="eventAsset/image124.jpeg" />
-                            <img class="w-1/3 lg:w-full relative h-full max-h-full object-cover max-w-full z-1 "
+                            <img class="w-full md:w-1/3 lg:w-full relative h-full max-h-full object-cover max-w-full z-1 "
                                 loading="lazy" alt="" src="eventAsset/image123.jpeg" />
                         </div>
                     </div>
@@ -332,17 +340,17 @@
             Nokia Nepal Innovation Day 2022
         </span>
     </div>
-    <div class="flex flex-row gap-2 w-full">
+    <div class="flex flex-col lg:flex-row gap-2 w-full">
 
         <div>
-            <img class="w-full lg:w-full relative h-[390px] max-h-full object-contain max-w-full z-1 scale-150 mx-48 right-12"
+            <img class="w-full relative h-[390px] lg:h-[390px] max-h-full object-contain max-w-full z-1 scale-150 mx-0 lg:mx-48 right-0 lg:right-12"
                 loading="lazy" alt="" src="eventAsset/image125.jpeg" />
         </div>
         <div class="flex flex-col">
-            <img class="col-span-2 w-[67%] mx-60 -my-24" loading="lazy" alt=""
+            <img class="col-span-2 w-full lg:w-[67%] mx-0 lg:mx-60 -my-24" loading="lazy" alt=""
                 src="eventAsset/image127.jpeg" />
         </div>
-        <div class="flex flex-col mx-16 mr-16 -my-64 gap-10">
+        <div class="flex flex-col -mx-24 lg:mx-16 lg:mr-16 -my-64 gap-10">
             <img class="col-span-2 w-full" loading="lazy" alt="" src="eventAsset/image126.jpeg" />
             <img class="col-span-2 w-full" loading="lazy" alt="" src="eventAsset/image128.jpeg" />
         </div>
@@ -350,8 +358,8 @@
 
     {{-- Page 31 --}}
     <div
-        class="flex flex-row items-center justify-start [text-decoration:none] left-16 relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl mt-16">
-        <span class="text-decoration-none relative text-inherit z-1">
+        class="flex flex-row items-center justify-start [text-decoration:none] md:left-16 left-4 relative text-[inherit] md:whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl md:mt-16 lg:top-0 mt-72">
+        <span class="text-decoration-none relative text-inherit z-1 flex items-center">
             Celebrating growth and success of QFX Cinemas
         </span>
     </div>
@@ -361,7 +369,7 @@
             <img class="w-[30%]" loading="lazy" alt="" src="eventAsset/image130.jpeg" />
         </div>
         <div class="flex flex-row items-center justify-center gap-5">
-            <img class="w-[80%] h-[400px] object-cover" loading="lazy" alt=""
+            <img class="lg:w-[80%] h-[400px] object-cover" loading="lazy" alt=""
                 src="eventAsset/image129.jpeg" />
         </div>
     </div>
@@ -372,7 +380,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-lg text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-28 left-10 gap-2 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
+                class="flex flex-col items-start justify-start lg:top-28 top-10 left-10 gap-2 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Launch of ACE EV
                 </span>
@@ -387,13 +395,13 @@
                 class="self-stretch flex flex-row items-start justify-start py-0 pr-5 pl-5 box-border max-w-full text-lg text-gold">
                 <div class="h-full lg:h-[450.9px] flex-1 relative max-w-full mb-96 w-full">
                     <div class="flex flex-col gap-2">
-                        <img class="absolute top-1 right-0 h-full object-cover object-center z-1  lg:w-[55%]"
+                        <img class="lg:absolute top-1 right-0 h-full object-cover object-center z-1  lg:w-[55%]"
                             loading="lazy" alt="" src="eventAsset/image132.jpeg" />
-                        <img class="absolute top-[30rem] right-0 mx-44 h-full object-cover object-center z-1  lg:w-[40%]"
-                            loading="lazy" alt="" src="eventAsset/image134.jpeg" />
+                        {{-- <img class="lg:absolute top-[30rem] right-0 mx-44 h-full object-cover object-center z-1  lg:w-[40%]"
+                            loading="lazy" alt="" src="eventAsset/image134.jpeg" /> --}}
                     </div>
                     <div
-                        class="absolute top-0 left-0 w-full lg:w-[600.1px] flex flex-row my-48 gap-2 items-start justify-start max-w-full -mx-7">
+                        class="lg:absolute top-0 left-0 w-full lg:w-[600.1px] flex flex-row lg:my-48 my-4 gap-2 items-start justify-start max-w-full -mx-7">
                         {{-- <div class="w-full lg:w-[307.3px] flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-2">
                             <div class="self-stretch flex flex-row items-start justify-end">
                                 <div class="relative z-1"> Development Conclave</div>
