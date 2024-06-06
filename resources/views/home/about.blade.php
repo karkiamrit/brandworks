@@ -76,23 +76,23 @@
                     <h2 class="text-4xl lg:text-start text-center">Why</h2>
                     <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="lg:w-[65%] mx-auto lg:mx-0 ">
                 </div>
-                <div class="lg:absolute lg:left-[15%] lg:top-1/3 lg:space-y-12 md:space-y-8 space-y-6 lg:py-5 py-8">
+                <div class="lg:absolute lg:left-[10%] lg:top-[25%] lg:space-y-12 md:space-y-8 space-y-6 lg:py-5 py-8 font-century">
                     <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">21+Years</p>
-                        <p class="lg:text-2xl md:text-2xl !m-0 text-xl text-center lg:text-start text-gray-800 lg:!leading-[1.2rem] lg:pt-3">Collective experience</p>
+                        <p class="lg:text-xl md:text-xl !m-0 text-xl text-center lg:text-start text-gray-800 lg:!leading-[1.2rem] lg:pt-3">Collective experience</p>
                     </div>
                     <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">991+</p>
-                        <p  class="lg:text-2xl md:text-2xl !m-0 text-xl  text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">Projects</p>
+                        <p  class="lg:text-xl md:text-xl !m-0 text-xl  text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">Projects</p>
                     </div>
                     <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">31+</p>
-                        <p  class="lg:text-2xl  md:text-2xl !m-0  text-xl text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">Clients</p>
+                        <p  class="lg:text-xl  md:text-xl !m-0  text-xl text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">Clients</p>
                     </div>
 
                     <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">11+</p>
-                        <p class="lg:text-2xl md:text-2xl !m-0 text-xl text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3 lg:w-1/5">Seasoned
+                        <p class=" !m-0 text-xl text-center text-gray-600 lg:!leading-[1.2rem] lg:pt-3 lg:w-1/5">Seasoned
                             professionals
                             from
                             difference

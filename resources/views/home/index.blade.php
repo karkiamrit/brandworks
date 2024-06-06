@@ -84,9 +84,9 @@
 
 
             <div class="bg-gray-200 flex items-center justify-between  space-y-12  h-screen">
-                <div class=" lg:col-span-1  ">
+                <div class=" lg:col-span-1">
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo"
-                        class="w-full scale-150 flex justify-start relative right-10">
+                        class="w-full scale-[2] object-contain flex justify-start relative right-10">
                 </div>
                 <div class="flex  lg:w-2/3 mx-auto bg-gradient-to-bl  justify-end
                  ">
@@ -104,14 +104,17 @@
                 class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-l from-transparent via-transparent to-current  h-screen w-full">
             </div> --}}
 
-            <div class="flex flex-row md:space-y-0 h-screen  w-full items-center bg-gray-200">
+            <div class="flex flex-row md:space-y-0 h-screen w-full items-center bg-gray-200 relative">
                 <div class="w-7/12">
                     <img src="{{ asset('eventAsset/image12.jpg') }}" alt="Logo"
-                        class="w-full relative right-16 mix-blend-">
+                        class="w-full relative right-16">
                 </div>
-                <div class="text-2xl font-century w-4/12 pr-30">
-                    We are on a mission to help create the brands, products and experiences of tomorrow </div>
+                <div class="text-2xl font-century w-4/12 pr-30 relative z-10">
+                    We are on a mission to help create the brands, products and experiences of tomorrow
+                </div>
+                <div class="absolute top-0 right-0 w-4/12 h-full bg-gradient-to-l from-transparent to-gray-200"></div>
             </div>
+
 
 
 
