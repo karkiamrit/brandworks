@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
@@ -36,7 +37,14 @@ class HomeController extends Controller
             ),
 
         );
-        return view('home.index', compact(['logos']));
+
+        // Read the JSON file
+        $json = Storage::get('data.json');
+
+        // Decode the JSON file to an associative array
+        $dataList = json_decode($json, true);
+
+        return view('home.index', compact(['logos', 'dataList']));
     }
 
     public function about()
