@@ -84,13 +84,9 @@
 
 
             <div class="bg-gray-200 flex items-center justify-between  space-y-12  h-screen">
-              
-            </div>
                 <div class=" lg:col-span-1  ">
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo"
                         class="w-full scale-150 flex justify-start relative right-10">
-                        {{-- <div
-                        class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-l from-transparent via-transparent to-current  h-screen w-full"> --}}
                 </div>
                 <div class="flex  lg:w-2/3 mx-auto bg-gradient-to-bl  justify-end
                  ">
@@ -104,7 +100,9 @@
 
             
 
-
+            {{-- <div
+                class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-l from-transparent via-transparent to-current  h-screen w-full">
+            </div> --}}
 
             <div class="flex flex-row md:space-y-0 h-screen  w-full items-center bg-gray-200">
                 <div class="w-7/12">
