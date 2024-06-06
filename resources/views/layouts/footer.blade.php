@@ -8,13 +8,13 @@
             </div>
 
             <nav class="flex items-center justify-center space-x-6 sm:space-x-16 xl:space-x-20">
-                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Product </a>
+                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Home </a>
 
-                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Features </a>
+                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> About </a>
 
-                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Pricing </a>
+                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Contact </a>
 
-                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Resources </a>
+                <a href="#" title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Events </a>
             </nav>
 
             <ul class="flex items-center justify-end space-x-3">

@@ -1,6 +1,6 @@
 <x-guest-layout>
     <!-- Logo and Center Content -->
-    <div class="mx-12 font-extralight">
+    <div class="mx-12 font-century">
 
         <div class="h-[90vh]  flex  flex-col justify-center ">
             <div class="text-center ">
@@ -107,7 +107,7 @@
                     <img src="{{ asset('eventAsset/image12.jpg') }}" alt="Logo"
                         class="w-full relative right-16 mix-blend-">
                 </div>
-                <div class="text-2xl font-extralight w-4/12 pr-30">
+                <div class="text-2xl font-century w-4/12 pr-30">
                     We are on a mission to help create the brands, products and experiences of tomorrow </div>
             </div>
 
@@ -117,7 +117,7 @@
                 <div class="w-8/12">
                     <img src="{{ asset('eventAsset/image13.png') }}" alt="Logo" class="w-full relative right-16 ">
                 </div>
-                <div class="text-2xl font-extralight w-4/12 pr-30">
+                <div class="text-2xl font-century w-4/12 pr-30">
                     Our focus is on collaborating with visionary leaders and organizations who share our belief that the
                     power of <strong class="bold">brand actions
                     </strong> , design and innovation can have a profound impact shaping brighter future for

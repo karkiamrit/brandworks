@@ -13,7 +13,7 @@
                     class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" /> </a>
         </div>
         <div class="title flex items-center justify-center">
-            <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">CORPORATE EVENTS AND
+            <h1 class=" text-2xl font-light tracking-widest uppercase text-gray-300 opacity-85">CORPORATE EVENTS AND
                 CELEBRATIONS
             </h1>
         </div>
@@ -22,7 +22,7 @@
     
     {{-- Page 18 --}}
 
-    <div class="title-text text-yellow-500 relative mt-20 mb-10 ml-10 text-start h-full font-extralight text-3xl">
+    <div class="title-text text-yellow-500 relative mt-20 mb-10 ml-10 text-start h-full font-century text-2xl">
         Shivam Kriti Samaroha
     </div>
     <div class="w-full overflow-hidden flex flex-col lg:flex-row items-start justify-start leading-normal tracking-normal pb-10 {{ $className ?? '' }}">
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full flex flex-row flex-wrap items-stretch justify-center lg:justify-start py-0 pl-0 lg:pl-1 box-border gap-2 lg:gap-3 max-w-full mt-10 mx-0">
+                <div class="w-full flex flex-row xl:flex-wrap items-stretch justify-center lg:justify-start py-0 pl-0 lg:pl-1 box-border gap-2 lg:gap-3 max-w-full mt-10 mx-0">
                     <img class="w-1/6 lg:w-1/6 max-h-48 lg:max-h-[200px] object-cover" loading="lazy" alt="" src="eventAsset/image77.jpeg">
                     <img class="w-1/6 lg:w-[10%] max-h-48 lg:max-h-[200px] object-cover lg:pt-0" loading="lazy" alt="" src="eventAsset/image78.jpeg">
                     <img class="w-1/6 lg:w-1/6 max-h-48 lg:max-h-[200px] object-cover" loading="lazy" alt="" src="eventAsset/image79.jpeg">
@@ -59,7 +59,7 @@
     <section
         class="bg-black flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[13.3px] box-border relative gap-[19.5px] max-w-full text-left text-[18px] text-gold font-inter">
         <div
-            class="title-text text-yellow-500  relative lg:top-20 left-12 lg:left-16 md:my-28 xl:my-0 lg:mt-20 mb-10 text-start h-full font-extralight  text-3xl">
+            class="title-text text-yellow-500  relative xl:top-20 left-12 lg:left-16 xl:my-28 xl:my-0 xl:mt-20 mb-10 text-start h-full font-century  text-2xl">
             Honda 50 Years Celebration
         </div>
         <div
@@ -90,7 +90,7 @@
 <div class="w-full overflow-hidden flex flex-col sm:flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
     <section class="bg-black flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[35.5px] box-border relative gap-[42.1px] max-w-full text-left text-[20.1px] text-silver font-inter mqp700:gap-[21px]">
         <div
-            class="title-text text-yellow-500  relative xl:top-44 md:top-10  left-5 text-start h-full font-extralight  text-xl">
+            class="title-text text-yellow-500  relative xl:top-44 md:top-10  left-5 text-start h-full font-century  text-2xl">
             BRITISH GURKHA NEPAL OFFICERS & SNCO's </br>
             MESS WINTER BALL
         </div>
@@ -126,8 +126,8 @@
 <div class="w-full overflow-hidden flex flex-row items-center justify-center leading-[normal] tracking-[normal] {{ $className ?? '' }}">
     <header class="bg-black flex flex-col items-start justify-start pt-[122.8px] lg:pt-[122.8px] px-[45px] lg:px-[45px] pb-[22.9px] lg:pb-[22.9px] box-border relative gap-[107.5px] lg:gap-[107.5px] max-w-full text-left text-lg text-gold font-inter md:gap-[54px] md:pt-20 md:px-[22px] md:pb-5 md:box-border">
         <div class="flex flex-col items-start justify-start gap-[26.8px] md:gap-4 my-10 sm:my-0 ">
-            <a class="[text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl md:text-lg">EO Everest Summit</a>
-            <div class="flex flex-col items-start justify-start relative [text-decoration:none] text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-extralight  text-xl md:text-lg">
+            <a class="[text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl md:text-lg">EO Everest Summit</a>
+            <div class="flex flex-col items-start justify-start relative [text-decoration:none] text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl md:text-lg">
                 <div class="relative !m-[0] top-[-19.4px] md:top-0 left-[0px] whitespace-nowrap z-[1]">EO Nepal's signature event </div>
                 <div class="relative whitespace-nowrap z-[2]">exclusively for EO members</div>
             </div>

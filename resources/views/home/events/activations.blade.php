@@ -6,7 +6,7 @@
 <!-- Logo and Center Content -->
 <div class=" bg-black w-full">
 
-    <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
+    <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full overflow-hidden">
         <div class="flex flex-row items-center justify-start">
             <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
                 <x-application-logo
@@ -20,26 +20,26 @@
 
     <!--Activation page first section -->
     <div class="grid grid-rows-2 p-10">
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <img src="eventAsset/image180.jpeg" alt=""
-                class="h-[16rem]relative  w-[26rem] object-cover shadow-lg">
-            <div class="border-gray-500 text-white border-2 md:h-36 flex items-center mx-12">
-                <div class="flex-col md:pr-2 ml-auto">
+                class="h-auto md:h-[16rem] w-full md:w-[26rem] object-cover shadow-lg">
+            <div class="border-gray-500 text-white border-2 h-auto md:h-36 flex items-center mx-2 md:mx-12">
+                <div class="flex-col pr-2 ml-auto">
                     <p class="flex justify-end">Tata Motors</p>
                     <p class="flex justify-end">Nexon EV Range Test Challenge</p>
                     <p class="flex justify-end gap-2"><span>1<sup class="pt-3">st</sup><span> of kind in Nepal</p>
                 </div>
             </div>
             <img src="eventAsset/image179.jpeg" alt=""
-                class="h-[17rem]relative  w-[34rem] object-cover shadow-lg">
+                class="h-auto md:h-[16rem] w-full md:w-[34rem] object-cover shadow-lg">
         </div>
-        <div class="flex flex-row gap-2">
+        <div class="flex flex-col md:flex-row gap-2">
             <img src="eventAsset/image181.jpeg" alt=""
-                class="h-[8rem]relative md:w-[37%] object-cover shadow-lg">
+                class="h-auto md:h-[17rem] w-full md:w-[37%] object-cover shadow-lg">
             <img src="eventAsset/image182.jpeg" alt=""
-                class="h-[8rem]relative  md:w-[25%] object-cover shadow-lg">
+                class="h-auto md:h-[17rem] w-full md:w-[25%] object-cover shadow-lg">
             <img src="eventAsset/image178.jpeg" alt=""
-                class="h-[8rem]relative  md:w-[37%] object-cover shadow-lg">
+                class="h-auto md:h-[17rem] w-full md:w-[37%] object-cover shadow-lg">
         </div>
     </div>
 

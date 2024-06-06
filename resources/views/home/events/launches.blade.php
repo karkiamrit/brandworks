@@ -13,7 +13,7 @@
                     class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" /> </a>
         </div>
         <div class="title flex items-center justify-center">
-            <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">LAUNCHES AND INTRODUCTION
+            <h1 class=" text-2xl font-light tracking-widest uppercase text-gray-300 opacity-85">LAUNCHES AND INTRODUCTION
             </h1>
         </div>
     </div>
@@ -54,7 +54,7 @@
 
         <div class="flex flex-col gap-y-8 sm:gap-y-16 md:gap-y-24 lg:gap-y-32 xl:gap-y-40 items-start">
             <div
-                class="text relative left-1 sm:left-2 md:left-3 lg:left-4 xl:left-5 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-extralight text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+                class="text relative left-1 sm:left-2 md:left-3 lg:left-4 xl:left-5 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-century text-sm sm:text-base md:text-lg lg:text-2xl xl:text-2xl">
                 Launch of ACE EV <br>
                 1st Commercial EV from <br> Tata Motors in Nepal
             </div>
@@ -87,7 +87,7 @@
 
             <div class="flex flex-col items-start justify-start gap-2 md:gap-[7.4px]">
                 <div
-                    class="relative left-1 md:left-4 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-extralight text-lg md:text-2xl">
+                    class="relative left-1 md:left-4 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-century text-lg md:text-2xl">
                     Launch of MG4 EV
                     <br>
                     1st EV to be launched and <br> driven at MX Track 5085ft above sea level
@@ -123,7 +123,7 @@
                 <div
                     class="flex-1 flex flex-col items-end justify-start py-0 pr-px pl-0 box-border gap-[8.8px] max-w-full">
                     <div
-                        class=" whitespace-nowrap z-[1]  title-text text-yellow-500 relative right-[69rem] my-2 mt-16 h-full font-extralight text-2xl">
+                        class=" whitespace-nowrap z-[1]  title-text text-yellow-500 relative right-[69rem] my-2 mt-16 h-full font-century text-2xl">
 
                         Launch of Aprilia SXR160
                     </div>
@@ -158,7 +158,7 @@
         class="w-full px-4 overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ? $className : '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[0.1px] box-border relative gap-[48px] max-w-full mq675:gap-[24px]">
-            <div class="  text-yellow-500  mt-16 relative  h-full font-extralight text-2xl">
+            <div class="  text-yellow-500  mt-16 relative  h-full font-century text-2xl">
                 SJ MOTO Launch
             </div>
 
@@ -193,7 +193,7 @@
         class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ? $className : '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-3 pb-[15.6px] box-border relative gap-[42.1px] max-w-full text-left text-[18px] text-gold font-inter mq479:gap-[21px]">
-            <div class="  text-yellow-500  mt-16 relative left-12 top-20 h-full font-extralight text-2xl">
+            <div class="  text-yellow-500  mt-16 relative left-12 top-20 h-full font-century text-2xl">
                 Bosch Home Appliances <br>
                 in Nepal
             </div>
@@ -246,7 +246,7 @@
                         <div
                             class="self-stretch flex-1 flex flex-col items-start justify-start gap-[35.5px] shrink-0 [debug_commit:bf4bc93] max-w-full mq450:gap-[18px]">
                             <div
-                                class="relative inline-block min-w-[50px] z-[1]  text-yellow-500  h-full font-extralight text-2xl">
+                                class="relative inline-block min-w-[50px] z-[1]  text-yellow-500  h-full font-century text-2xl">
 
                                 XING Party with Sunny Leone in Nepal
                             </div>
@@ -281,7 +281,7 @@
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[49px] box-border relative gap-[47px] max-w-full text-left text-[20.1px] text-silver font-inter mq450:pt-5 mq450:pb-8 mq450:box-border mq675:gap-[23px]">
             <div
                 class="relative min-w-[50px] z-[1] px-4 top-16
-             text-yellow-500   font-extralight text-2xl">
+             text-yellow-500   font-century text-2xl">
 
                 Asian Premier League T20 </div>
 
@@ -315,7 +315,7 @@
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[54px] box-border relative gap-[42.1px] max-w-full text-left text-[18px] text-gold font-inter mq675:gap-[21px] mq450:pt-5 mq450:pb-[35px] mq450:box-border">
 
             <div class="relative  z-[1] px-4 top-24
-            text-yellow-500 font-extralight text-2xl">
+            text-yellow-500 font-century text-2xl">
                 BYD SEAL <br>
                 LAUNCH IN NEPAL</div>
 
@@ -372,7 +372,7 @@
                             <div class="flex flex-col items-start justify-start pt-[26.8px] px-0 pb-0">
                                 <div
                                     class="relative  z-[1] px-4 top-24
-                                text-yellow-500 font-extralight text-2xl">
+                                text-yellow-500 font-century text-2xl">
                                     Tata Motors <br>
                                     Emperor Program</div>
                             </div>
@@ -403,7 +403,7 @@
 
             <div
                 class="relative top-24 z-[1] px-4 
-                                text-yellow-500 font-extralight tracking-widest text-2xl gap-5">
+                                text-yellow-500 font-century tracking-widest text-2xl gap-5">
                 HONDA CB Hornet Launch</div>
             <div class="self-stretch flex flex-row items-start justify-end py-0  box-border max-w-full">
 
@@ -434,7 +434,7 @@
         <div class="flex flex-col gap-32">
             <div
                 class="relative left-10 top-12 z-[1] px-4 
-                            text-yellow-500 font-extralight tracking-widest text-2xl gap-5">
+                            text-yellow-500 font-century tracking-widest text-2xl gap-5">
                 Unveiling MV Augusta in Nepal
             </div>
             <div class="img">
