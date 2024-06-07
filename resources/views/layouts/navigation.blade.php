@@ -13,7 +13,7 @@
         </div>
 
     </div>
-    <div>
+    <div class="flex items-center justify-between lg:w-full">
         <ul class=" space-x-4 lg:block hidden">
             <x-nav-link :active="true"  class="nav-item">
                 <a class=" text-gray-500 hover:text-red-500" href="{{ route('home')}} ">Home</a>
@@ -25,6 +25,14 @@
                 <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('events')}}>Events</a>
             </x-nav-link>
         </ul>
+        @if(auth()->check())
+            <div class="justify-self-end lg:block hidden">
+                <form action="{{ route('logout') }}" method="post">
+                    @csrf
+                    <x-primary-button  type="submit">Logout</x-primary-button>
+                </form>
+            </div>
+        @endif
     </div>
 
     <div class="fixed top-0 h-full p-4 lg:hidden  z-[70]  w-2/3  bg-white shadow-2xl transform transition-transform duration-300 ease-in-out"  @click.outside="open = false" @close.stop="open = false" x-show="open">
@@ -48,7 +56,16 @@
                 <x-nav-link class="nav-item">
                     <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('events')}}>Events</a>
                 </x-nav-link>
+                @if(auth()->check())
+                    <div class="justify-self-end lg:hidden ">
+                        <form action="{{ route('logout') }}" method="post">
+                            @csrf
+                            <x-primary-button  type="submit">Logout</x-primary-button>
+                        </form>
+                    </div>
+                @endif
             </ul>
+
         </div>
     </div>
 </nav>

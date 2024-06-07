@@ -1,6 +1,5 @@
 <x-app-layout>
-
-        <div class="p-20">
+        <div class="lg:p-20">
             <h1 class="text-4xl text-center font-bold">Upload</h1>
 
             <!-- resources/views/upload.blade.php -->
@@ -27,9 +26,9 @@
                 </form>
 
                 <!-- Display download button if file exists -->
-                @if (Storage::exists('uploads/testimonial.pdf'))
+                @if (Storage::exists('public/testimonial.pdf'))
                     <div class="mt-4 text-center">
-                        <a  href="{{ Storage::url('uploads/testimonial.pdf') }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                        <a  href="{{ Storage::url('public/testimonial.pdf') }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                             Download Testimonial PDF
                         </a>
                     </div>
