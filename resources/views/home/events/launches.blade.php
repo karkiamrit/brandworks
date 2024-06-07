@@ -2,22 +2,19 @@
     $sizes = ['w-1/2', 'w-1/3', 'w-2/3', 'w-full'];
     $positions = ['ml-auto', 'mr-auto', 'mx-auto'];
 @endphp
-
+<div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
+    <div class="flex flex-row items-center justify-start">
+        <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
+            <x-application-logo class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" />
+        </a>
+    </div>
+    <div class="title flex items-center justify-center">
+        <h1 class=" text-2xl font-light tracking-widest uppercase text-gray-300 opacity-85">LAUNCHES AND INTRODUCTION
+        </h1>
+    </div>
+</div>
 <!-- Logo and Center Content -->
 <div class=" bg-black w-full overflow-hidden">
-
-    <div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
-        <div class="flex flex-row items-center justify-start">
-            <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
-                <x-application-logo
-                    class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" /> </a>
-        </div>
-        <div class="title flex items-center justify-center">
-            <h1 class=" text-2xl font-light tracking-widest uppercase text-gray-300 opacity-85">LAUNCHES AND INTRODUCTION
-            </h1>
-        </div>
-    </div>
-
     {{--  32 page start form here --}}
 
     {{-- <div
@@ -155,7 +152,8 @@
         class="w-full px-4 lg:ml-0 ml-8  overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ? $className : '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] lg:px-[26px] pb-[0.1px] box-border relative lg:gap-[48px] max-w-full mq675:gap-[24px]">
-            <div class="  text-yellow-500  lg:mt-16 relative  left-6 lg:left-0  lg:top-12  h-full font-century lg:text-2xl text-xl">
+            <div
+                class="  text-yellow-500  lg:mt-16 relative  left-6 lg:left-0  lg:top-12  h-full font-century lg:text-2xl text-xl">
                 SJ MOTO Launch
             </div>
 
@@ -191,7 +189,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-3 pb-[15.6px] box-border relative gap-[42.1px] max-w-full text-left text-[18px] text-gold font-inter mq479:gap-[21px]">
             <div class="  text-yellow-500  mt-16 relative left-12 lg:top-20 h-full font-century lg:text-2xl">
-                Bosch Home Appliances 
+                Bosch Home Appliances
                 in Nepal
             </div>
 
@@ -204,7 +202,8 @@
                     <img class="h-[207.2px] w-[504px] relative object-cover max-w-full z-[1]" loading="lazy"
                         alt="" src="eventAsset/image147.jpeg" />
                 </div>
-                <div class="self-stretch flex lg:flex-row flex-col flex-wrap items-start justify-start gap-[21.1px] max-w-full">
+                <div
+                    class="self-stretch flex lg:flex-row flex-col flex-wrap items-start justify-start gap-[21.1px] max-w-full">
                     <img class="h-[180px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[211px] min-h-[180px] z-[1]"
                         loading="lazy" alt="" src="eventAsset/image148.jpeg" />
                     <div
@@ -276,7 +275,8 @@
         class="w-full px-4 overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
         <section
             class="flex-1 flex flex-col items-start justify-start pt-[3.5px] px-[26px] pb-[49px] box-border relative gap-[47px] max-w-full text-left text-[20.1px] text-silver font-inter mq450:pt-5 mq450:pb-8 mq450:box-border mq675:gap-[23px]">
-            <div class="relative min-w-[50px] z-[1] px-4 top-16 
+            <div
+                class="relative min-w-[50px] z-[1] px-4 top-16 
              text-yellow-500   font-century lg:text-2xl text-xl">
 
                 Asian Premier League T20 </div>
@@ -284,7 +284,8 @@
 
             <div
                 class="self-stretch flex flex-row items-start justify-start py-0 lg:pr-[23px] lg:pl-[21px] box-border max-w-full">
-                <div class="flex-1 flex md:flex-row flex-col items-start justify-start gap-[9.4px] max-w-full mq750:flex-wrap">
+                <div
+                    class="flex-1 flex md:flex-row flex-col items-start justify-start gap-[9.4px] max-w-full mq750:flex-wrap">
                     <div
                         class="flex-1 flex flex-col items-start justify-start pt-[64.3px] px-0 pb-0 box-border min-w-[293px] max-w-full mq450:pt-[42px] mq450:box-border">
                         <div

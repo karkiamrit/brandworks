@@ -124,23 +124,29 @@
 
                 <div class="flex w-full lg:flex-row flex-col lg:space-x-20 space-y-12 lg:space-y-0">
 
+                    @if(isset($dataList['work']))
                     @foreach ($dataList['work'] as $category)
-                        <div class="space-y-3 lg:w-1/4 w-full  h-full lg:px-12 px-4">
-                            <h2 class="text-4xl text-gray-100">{{ $category['title'] }}</h2>
-                            <div class="bg-black opacity-80  space-y-2 p-3">
-                                @foreach ($category['content'] as $item)
-                                    <li class="text-white text-md md:text-2xl lg:text-lg">{{ $item }}</li>
-                                @endforeach
+                        @if(isset($category['title']) && isset($category['content']))
+                            <div class="space-y-3 lg:w-1/4 w-full  h-full lg:px-12 px-4">
+                                <h2 class="text-4xl text-gray-100">{{ $category['title'] }}</h2>
+                                <div class="bg-black opacity-80  space-y-2 p-3">
+                                    @foreach ($category['content'] as $item)
+                                        <li class="text-white text-md md:text-2xl lg:text-lg">{{ $item }}</li>
+                                    @endforeach
+                                </div>
                             </div>
-                        </div>
+                        @endif
                     @endforeach
+                @endif
                 </div>
                 <div
                     class="grid  justify-center items-center lg:py-4 lg:grid-cols-4 w-full lg:mx-12 md:grid-cols-3 grid-cols-1">
 
+                    @if(isset($dataList['eventPlanning']))
                     @foreach($dataList['eventPlanning'] as $plan)
                         <p class="uppercase">{{ $plan }}</p>
                     @endforeach
+                @endif
                 </div>
 
             </div>
