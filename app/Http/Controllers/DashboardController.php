@@ -11,7 +11,7 @@ class DashboardController extends Controller
     public function upload(Request $request): RedirectResponse
     {
         $validator = Validator::make($request->all(), [
-            'file' => 'required|file|mimes:pdf,doc,docx|max:2048', // Example validation rules
+            'file' => 'required|file|mimes:pdf|max:5000', // Example validation rules
         ]);
 
         if ($validator->fails()) {
@@ -21,6 +21,6 @@ class DashboardController extends Controller
         $file = $request->file('file');
         $originalExtension = $file->getClientOriginalExtension();
         $fileName = 'testimonial.' . $originalExtension;
-        $file->storeAs('uploads', $fileName);
+        $file->storeAs('public', $fileName);
         return redirect()->back()->with('success', 'File uploaded successfully.');    }
 }
