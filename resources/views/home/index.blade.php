@@ -1,6 +1,6 @@
 <x-guest-layout>
     <!-- Logo and Center Content -->
-    <div class="px-3 md:px-0">
+    <div class="px-3 md:px-0 overflow-hidden">
 
         <div class="h-[90vh]  flex  flex-col justify-center ">
             <div class="text-center ">
