@@ -114,7 +114,7 @@
             </div>
 
 
-            <div class="md:min-h-[50rem] flex flex-col lg:space-y-6 justify-center lg:pt-16 items-start bg-blend-multiply bg-blue-300 "
+            <div class="md:min-h-[50rem] flex flex-col lg:space-y-6 justify-center lg:pt-16 items-start bg-blend-multiply bg-blue-300 overflow-hidden"
                 style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover;">
 
                 <div class="flex w-full lg:flex-row flex-col lg:space-x-20 space-y-12 lg:space-y-0">
@@ -136,7 +136,7 @@
                     @endif
                 </div>
                 <div
-                    class="grid justify-center items-center lg:py-4 lg:grid-cols-4 w-full lg:mx-12 md:grid-cols-3 grid-cols-1">
+                    class="grid justify-center items-center lg:py-4 lg:grid-cols-4 w-full lg:mx-4 md:grid-cols-3 grid-cols-1">
 
                     @if (isset($dataList['eventPlanning']))
                         @foreach ($dataList['eventPlanning'] as $plan)
