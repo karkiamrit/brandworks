@@ -27,6 +27,14 @@
             <x-nav-link class="nav-item">
                 <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.show')}}>Contact</a>
             </x-nav-link>
+            @if(auth()->check())
+                <x-nav-link class="nav-item">
+                    <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.all')}}>Contact List</a>
+                </x-nav-link>
+                <x-nav-link class="nav-item">
+                    <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('dashboard')}}>Upload File</a>
+                </x-nav-link>
+            @endif
         </ul>
         @if(auth()->check())
             <div class="justify-self-end lg:block hidden">
@@ -38,6 +46,7 @@
         @endif
     </div>
 
+{{--    mobile view --}}
     <div class="fixed top-0 h-full p-4 lg:hidden  z-[70]  w-2/3  bg-white shadow-2xl transform transition-transform duration-300 ease-in-out"  @click.outside="open = false" @close.stop="open = false" x-show="open">
         <div class="flex justify-between items-center">
             <x-application-logo class="block h-1 w-auto fill-current text-gray-800 " />
@@ -62,6 +71,15 @@
                 <x-nav-link class="nav-item">
                     <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.show')}}>Contact</a>
                 </x-nav-link>
+                @if(auth()->check())
+                    <x-nav-link class="nav-item">
+                        <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.all')}}>Contact List</a>
+                    </x-nav-link>
+                    <x-nav-link class="nav-item">
+                        <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('dashboard')}}>Upload File</a>
+                    </x-nav-link>
+                @endif
+
                 @if(auth()->check())
                     <div class="justify-self-end lg:hidden ">
                         <form action="{{ route('logout') }}" method="post">

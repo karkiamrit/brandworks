@@ -32,4 +32,15 @@ class ContactController extends Controller
 
         return redirect()->route('contact.show')->with('success', 'Your message has been sent!');
     }
+
+    public function showAllContact()
+    {
+        $contacts = Contact::all();
+        return view('contact.all-contact', compact('contacts'));
+    }
+
+    public function show(Contact $contact)
+    {
+        return view('contact.show', compact('contact'));
+    }
 }

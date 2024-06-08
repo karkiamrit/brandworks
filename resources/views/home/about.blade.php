@@ -6,6 +6,13 @@
                 <h2 class="text-4xl text-start">Why</h2>
                 <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="w-fit">
             </div>
+            @if (Storage::exists('public/testimonial.pdf'))
+                <div class="mt-4 text-center py-3">
+                    <a  href="{{ Storage::url('public/testimonial.pdf') }}" download class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                        Download Testimonial PDF
+                    </a>
+                </div>
+            @endif
         </div>
 
         <div class="lg:grid lg:grid-cols-8 grid-col hidden relative  bg-[#707070] py-16 ">
@@ -23,15 +30,15 @@
                 </div>
 
                 <div class="flex space-x-6 mx-4">
-                    <img src="{{ asset('eventAsset/image17.png') }}" class="w-[25px] h-[28px] text-center self-center"
+                    <img src="{{ asset('eventAsset/image17.png') }}" class="w-[25px] h-[28px] text-center self-center fill-yellow-400"
                          alt="">
-                    <p class="text-green-500  text-2xl">12 QFX network offices</p>
+                    <p class="text-green-500  text-2xl">10+ Educational institution network</p>
                 </div>
 
                 <div class="flex space-x-6 mx-4">
                     <img src="{{ asset('eventAsset/image17.png') }}" class="w-[25px] h-[28px] text-center self-center"
                          alt="">
-                    <p class="text-yellow-400  text-2xl">12 QFX network offices</p>
+                    <p class="text-yellow-400  text-2xl">16+ associates and media partner network</p>
                 </div>
             </div>
             <div class="w-full self-end col-span-6">
