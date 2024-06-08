@@ -1,6 +1,7 @@
 <?php
 
 return [
+//home page    
     'brand_actions' => 'Brand actions, Events,',
     'activation_fabrication' => 'Activation, Fabrication',
     'avani_aligns' => 'avani aligns the best of the best',
@@ -19,4 +20,17 @@ return [
         'breakthrough_ideas' => 'having had breakthrough ideas,',
         'breaking_records' => 'breaking records'
     ],
+//about page
+    'why_title' => 'Why',
+    'pan_nepal_reach_title' => 'PAN Nepal Reach',
+    'pan_nepal_reach_description' => 'with regional workforce available 24 x 7',
+    'qfx_network_offices' => '12 QFX network offices',
+    'edu_institution_network' => '10+ Educational institution network',
+    'associates_media_network' => '16+ associates and media partner network',
+    'why_section_description' => 'with regional workforce available 24 x 7',
+    'years_of_experience' => '21+',
+    'project_count' => '991+',
+    'client_count' => '31+',
+    'seasoned_professionals' => 'Seasoned professionals from different industries',
+    'worked_with_title' => 'We are proud to have worked with trusted international and home-grown companies.',
 ];
