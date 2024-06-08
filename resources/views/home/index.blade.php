@@ -17,7 +17,7 @@
                 <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full">
             </div>
 
-            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6  mx-6">
+            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6 ">
 
                 @foreach ($logos as $logo)
                     <div class="text-center col-span-1 min-h-max self-center">
@@ -25,7 +25,7 @@
                             <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
                                 class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain">
                         </div>
-                        <p class="lg:text-lg text-sm text-gray-500">{{ trans('texts.branding_communication') }}</p>
+                        <p class="md:text-xl text-sm text-gray-500">Advertising, Branding, Communication</p>
                     </div>
                 @endforeach
             </div>
@@ -51,7 +51,8 @@
                 <div class=" lg:col-span-1  md:w-2/3 md:mx-auto lg:mx-0 lg:w-full ">
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full">
                 </div>
-                <div class="lg:col-span-2  lg:w-2/3 mx-auto bg-gradient-to-bl  relative lg:bottom-20 self-center justify-center ">
+                <div
+                    class="lg:col-span-2  lg:w-2/3 mx-auto bg-gradient-to-bl  relative lg:bottom-20 self-center justify-center ">
                     <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl">
                         {{ trans('texts.motley_group') }}</p>
                 </div>
@@ -150,7 +151,8 @@
                 <div class="bg-black lg:py-20 lg:px-20 md:min-h-[50rem] md:py-16  border-orange-500 border p-3">
                     <p class="lg:text-3xl lg:w-10/12 text-white md:text-2xl">{{ trans('texts.purpose') }}</p>
                     <div class="flex md:flex-row flex-col py-16 lg:py-0 justify-start items-center">
-                        <p class="md:text-2xl lg:!leading-10 text-white lg:w-2/3 md:w-full">{{ trans('texts.diverse_community') }}</p>
+                        <p class="md:text-2xl lg:!leading-10 text-white lg:w-2/3 md:w-full">
+                            {{ trans('texts.diverse_community') }}</p>
                         <div>
                             <img src="{{ asset('home/sea-horse.jpg') }}" alt="">
                         </div>
