@@ -14,7 +14,8 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bg-gray-200 font-light tracking-widest text-gray-500 ">
+
+<body class="{{ Route::currentRouteNamed('events') ? 'bg-black' : 'bg-gray-200' }} font-light tracking-widest text-gray-500 ">
         <!-- Navigation Bar -->
             @include('layouts.navigation')
         <!-- Logo and Center Content -->

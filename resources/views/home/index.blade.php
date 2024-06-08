@@ -17,7 +17,7 @@
                 <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full">
             </div>
 
-                        <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6 ">
+                        <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6  mx-6">
 
                             @foreach ($logos as $logo)
                                 <div class="text-center col-span-1 min-h-max self-center">
@@ -25,22 +25,22 @@
                                         <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
                                              class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain">
                                     </div>
-                                    <p class="md:text-xl text-sm text-gray-500">Advertising, Branding, Communication</p>
+                                    <p class="lg:text-lg text-sm text-gray-500">Advertising, Branding, Communication</p>
                                 </div>
                             @endforeach
                         </div>
 
                         <div
-                            class="py-3 flex items-center text-3xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600">
+                            class="py-3 flex items-center text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600 mx-6">
                             avani aligns the best of the best
                         </div>
 
-                        <div class="md:flex items-center sm:flex-wrap md:flex-nowrap">
+                        <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen mx-4">
                             <div>
                                 <img src="{{ asset('home/logo.png') }}" alt="Logo"
                                      class="mx-auto lg:w-3/4 md:w-5/6  ">
                             </div>
-                            <p class="md:text-2xl lg:text-3xl text-xl text-center md:text-start  leading-10  md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
+                            <p class="md:text-2xl lg:text-2xl text-xl text-center md:text-start  leading-10  md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
                                 started with a vision to support businesses with brand establishment, quality branding,
                                 and creative design services; brandworks, is now a well-established independent firm
                                 specializing in events, fabrications, brand actions and purpose-driven engagements.

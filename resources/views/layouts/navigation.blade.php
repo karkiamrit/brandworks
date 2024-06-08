@@ -15,9 +15,9 @@
     </div>
     <div class="flex items-center justify-between lg:w-full">
         <ul class=" space-x-4 lg:block hidden">
-            <x-nav-link :active="true"  class="nav-item">
+            {{-- <x-nav-link :active="true"  class="nav-item"> --}}
                 <a class=" text-gray-500 hover:text-red-500" href="{{ route('home')}} ">Home</a>
-            </x-nav-link>
+            {{-- </x-nav-link> --}}
             <x-nav-link class="nav-item">
                 <a class="nav-link text-gray-500 hover:text-red-500" href="{{route('about')}}">About</a>
             </x-nav-link>
@@ -61,9 +61,6 @@
                 </x-nav-link>
                 <x-nav-link class="nav-item">
                     <a class="nav-link text-gray-500 hover:text-red-500" href="{{route('about')}}">About</a>
-                </x-nav-link>
-                <x-nav-link class="nav-item">
-                    <a class="nav-link text-gray-500 hover:text-red-500" href="#">Services</a>
                 </x-nav-link>
                 <x-nav-link class="nav-item">
                     <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('events')}}>Events</a>
