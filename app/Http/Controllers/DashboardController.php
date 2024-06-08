@@ -11,7 +11,7 @@ class DashboardController extends Controller
     public function upload(Request $request): RedirectResponse
     {
         $validator = Validator::make($request->all(), [
-            'file' => 'required|file|mimes:pdf|max:5000', // Example validation rules
+            'file' => 'required|file|mimes:pdf', // Example validation rules
         ]);
 
         if ($validator->fails()) {
