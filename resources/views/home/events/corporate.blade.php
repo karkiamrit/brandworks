@@ -3,7 +3,7 @@
     $positions = ['ml-auto', 'mr-auto', 'mx-auto'];
 @endphp
 
-<div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
+<div class="px-10 flex flex-col sticky top-0 z-40 bg-black py-4 w-full">
     <div class="flex flex-row items-center justify-start">
         <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
             <x-application-logo class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" />

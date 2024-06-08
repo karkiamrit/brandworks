@@ -47,7 +47,7 @@
     </div>
 
 {{--    mobile view --}}
-    <div class="fixed top-0 h-full p-4 lg:hidden  z-[70]  w-2/3  bg-white shadow-2xl transform transition-transform duration-300 ease-in-out"  @click.outside="open = false" @close.stop="open = false" x-show="open">
+    <div class="fixed top-0 h-full p-4 lg:hidden  z-50  w-2/3  bg-white shadow-2xl transform transition-transform duration-300 ease-in-out"  @click.outside="open = false" @close.stop="open = false" x-show="open">
         <div class="flex justify-between items-center">
             <x-application-logo class="block h-1 w-auto fill-current text-gray-800 " />
             <div @click.capture="open =  false">
