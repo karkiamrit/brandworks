@@ -31,16 +31,16 @@
             </div>
 
             <div
-                class="py-3 flex items-center text-3xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600">
+                class="py-3 flex items-center text-xl lg:text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600">
                 {{ trans('texts.avani_aligns') }}
             </div>
 
-            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap">
+            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen">
                 <div>
                     <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto lg:w-3/4 md:w-5/6  ">
                 </div>
                 <p
-                    class="md:text-2xl lg:text-3xl text-xl text-center md:text-start  leading-10  md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
+                    class="md:text-2xl lg:text-2xl text-xl text-center md:text-start  leading-10  md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
                     {{ trans('texts.brandworks_vision') }}
 
                 </p>
@@ -51,8 +51,8 @@
                 <div class=" lg:col-span-1  md:w-2/3 md:mx-auto lg:mx-0 lg:w-full ">
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full">
                 </div>
-                <div class="lg:col-span-2  lg:w-2/3 mx-auto bg-gradient-to-bl  self-center justify-center ">
-                    <p class="text-xl lg:text-3xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl">
+                <div class="lg:col-span-2  lg:w-2/3 mx-auto bg-gradient-to-bl  relative lg:bottom-20 self-center justify-center ">
+                    <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl">
                         {{ trans('texts.motley_group') }}</p>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <img src="{{ asset('eventAsset/image13.png') }}" alt="Logo" class="w-full right-16 ">
                 </div>
                 <p
-                    class=" lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-3xl text-xl text-center lg:text-start md:text-2xl">
+                    class=" lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-2xl mx-10 text-xl text-center lg:text-start md:text-2xl">
                     {{ trans('texts.focus') }}</p>
             </div>
 
