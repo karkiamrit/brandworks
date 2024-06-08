@@ -29,7 +29,7 @@
                     <div
                         class="self-stretch flex flex-col md:flex-row items-start justify-between w-full max-w-full gap-5  lg:flex-wrap">
                         <div
-                            class="flex flex-col items-start justify-start pt-6 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                            class="flex flex-col items-start justify-start pt-6 px-0 pb-0 lg:pl-4 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl">
                             <span class="text-decoration-none relative text-inherit z-1">
                                 Nagarik Nayak
                             </span>
@@ -69,7 +69,7 @@
                     <div
                         class="self-stretch flex flex-col md:flex-row items-center justify-between w-full max-w-full gap-5  lg:flex-wrap">
                         <div
-                            class="flex flex-col items-start justify-start px-0 pb-0  [text-decoration:none] relative text-[inherit] ld:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                            class="flex flex-col items-start justify-start px-0 pb-0  [text-decoration:none] relative text-[inherit] ld:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl lg:pl-2">
                             <span class="text-decoration-none relative text-inherit z-1 xl:bottom-36 lg:w-full">
                                 2<sup>nd</sup> International Conference of Dermatology
                             </span>
@@ -99,7 +99,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 md:pb-2 pb-5 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-5 md:top-20 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex flex-col items-start justify-start top-5 md:top-20 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Republic Development Conclave
                 </span>
@@ -135,7 +135,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start lg:top-20 top-10 left-16 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex flex-col items-start justify-start lg:top-20 top-10 left-16 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Midea Coolference 2017
                 </span>
@@ -174,7 +174,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex lg:flex-col flex-wrap gap-2 md:gap-0 items-start justify-start top-4 lg:top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex lg:flex-col flex-wrap gap-2 md:gap-0 items-start justify-start top-4 lg:top-24 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     NEEK
                 </span>
@@ -220,7 +220,7 @@
         <section
             class="flex-1 lg:top-0 top-36 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start -top-2 lg:top-24 my-20 md:my-0 xl:my-0 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex flex-col items-start justify-start -top-2 lg:top-24 my-20 md:my-0 xl:my-0 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl lg:pl-2">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Thai Airways 50<sup>th</sup> year
                 </span>
@@ -262,7 +262,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex lg:flex-col flex-wrap items-start justify-start lg:top-28 left-0 md:left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] lg:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex lg:flex-col flex-wrap items-start justify-start lg:top-28 left-0 md:left-8 px-0 pb-0 [text-decoration:none] relative text-[inherit] lg:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Butwal Power Company partners with major
                 </span>
@@ -304,7 +304,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col items-start justify-start top-10 lg:top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex flex-col items-start justify-start top-10 lg:top-28 left-10 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl lg:pl-2">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Honda Partner's Meet
                 </span>
@@ -333,7 +333,7 @@
 
     {{-- Page 30 --}}
     <div
-        class="flex-wrap lg:flex-col items-start justify-start left-6 lg:left-12 bottom-10 lg:bottom-52 [text-decoration:none] relative text-[inherit] lg:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+        class="flex-wrap lg:flex-col items-start justify-start left-6 lg:left-12 bottom-10 lg:bottom-52 [text-decoration:none] relative text-[inherit] lg:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl lg:pl-2">
         <span class="text-decoration-none relative text-inherit z-1">
             Nokia Nepal Innovation Day 2022
         </span>
@@ -356,7 +356,7 @@
 
     {{-- Page 31 --}}
     <div
-        class="flex flex-row items-center justify-start [text-decoration:none] md:left-16 left-4 relative text-[inherit] md:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl md:mt-16 lg:top-0 mt-72">
+        class="flex flex-row items-center justify-start [text-decoration:none] md:left-10 left-4 relative text-[inherit] md:whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl lg:pl-2 md:mt-16 lg:top-0 mt-72">
         <span class="text-decoration-none relative text-inherit z-1 flex items-center">
             Celebrating growth and success of QFX Cinemas
         </span>
@@ -378,7 +378,7 @@
         <section
             class="flex-1 flex flex-col items-start justify-start pt-1 px-6 pb-2 box-border relative gap-12 max-w-full text-left text-2xl text-silver font-inter lg:gap-6">
             <div
-                class="flex flex-col lg:left-10 items-start justify-start lg:top-28 top-5 gap-2 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  text-2xl">
+                class="flex flex-col lg:left-6 items-start justify-start lg:top-28 top-5 gap-2 px-0 pb-0 [text-decoration:none] relative text-[inherit] whitespace-nowrap z-[1] title-text text-yellow-500 font-century  lg:text-2xl text-xl lg:pl-2">
                 <span class="text-decoration-none relative text-inherit z-1">
                     Launch of ACE EV
                 </span>

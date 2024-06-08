@@ -47,17 +47,17 @@
 </div> --}}
 
     <div
-        class="w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 overflow-hidden flex flex-col md:flex-row lg:items-start items-center lg:justify-around justify-center leading-[normal] tracking-[normal] {{ $className = $className ?? '' }} my-4 sm:my-8 md:my-12 lg:my-16 xl:my-20">
+        class="w-full  overflow-hidden flex flex-col md:flex-row lg:items-start items-center lg:justify-around justify-center leading-[normal] tracking-[normal] {{ $className = $className ?? '' }} my-4 sm:my-8 md:my-12 lg:my-16 xl:my-20">
 
         <div class="flex flex-col gap-y-8 sm:gap-y-16 md:gap-y-24 lg:gap-y-32 xl:gap-y-40 items-start ">
             <div
-                class="text relative left-1 lg:left-4 top-0 lg:top-20 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-century text-xl lg:text-2xl">
+                class="text relative left-1 top-0 lg:top-20 whitespace-nowrap z-[1]  title-text text-yellow-500  text-start h-full font-century text-xl lg:text-2xl">
                 Launch of ACE EV <br>
                 1st Commercial EV from <br> Tata Motors in Nepal
             </div>
             <div class="img">
                 <img src="eventAsset/image133.jpeg"
-                    class="h-[12rem] lg:h-[18rem] w-[320px]  lg:w-[34rem] relative left-2 lg:left-8 top-0 lg:top-12"
+                    class="h-[12rem] lg:h-[18rem] w-[320px]  lg:w-[34rem] relative left-2 lg:left-4 top-0 lg:top-12"
                     alt="">
             </div>
         </div>
