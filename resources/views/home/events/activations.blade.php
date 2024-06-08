@@ -10,7 +10,7 @@
                 class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" /> </a>
     </div>
     <div class="title flex items-center justify-center">
-        <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">ACTIVATIONS
+        <h1 class="text-xl h-9 lg:h-auto  lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">ACTIVATIONS
         </h1>
     </div>
 </div>

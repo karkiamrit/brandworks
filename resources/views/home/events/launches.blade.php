@@ -9,7 +9,7 @@
         </a>
     </div>
     <div class="title flex items-center justify-center">
-        <h1 class=" text-2xl font-light tracking-widest uppercase text-gray-300 opacity-85">LAUNCHES AND INTRODUCTION
+        <h1 class="text-xl lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">LAUNCHES AND INTRODUCTION
         </h1>
     </div>
 </div>
