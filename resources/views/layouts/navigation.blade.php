@@ -24,6 +24,9 @@
             <x-nav-link class="nav-item">
                 <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('events')}}>Events</a>
             </x-nav-link>
+            <x-nav-link class="nav-item">
+                <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.show')}}>Contact</a>
+            </x-nav-link>
         </ul>
         @if(auth()->check())
             <div class="justify-self-end lg:block hidden">
@@ -55,6 +58,9 @@
                 </x-nav-link>
                 <x-nav-link class="nav-item">
                     <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('events')}}>Events</a>
+                </x-nav-link>
+                <x-nav-link class="nav-item">
+                    <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.show')}}>Contact</a>
                 </x-nav-link>
                 @if(auth()->check())
                     <div class="justify-self-end lg:hidden ">
