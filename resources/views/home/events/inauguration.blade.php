@@ -10,7 +10,7 @@
         </a>
     </div>
     <div class="title flex items-center justify-center">
-        <h1 class=" text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">Inauguration and
+        <h1 class=" text-xl lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">Inauguration and
             Celebrations
         </h1>
     </div>
@@ -22,7 +22,7 @@
     <div class="px-4 sm:px-10 image-title-section flex flex-col sm:flex-row gap-6 sm:gap-20 mt-6 overflow-hidden">
 
         <div
-            class="title-text text-yellow-500 pl-2 sm:pl-4 mt-2 w-full sm:w-80 text-start justify-start font-century text-3xl">
+            class="title-text text-yellow-500 pl-2 sm:pl-4 mt-2 w-full sm:w-80 text-start justify-start font-century lg:text-2xl text-xl">
             Butwal Power Company
             <div class="mt-3">
                 Inauguration of Nyadi Hydropower Project
@@ -55,7 +55,7 @@
         <div class="image-section grid grid-cols-1 md:grid-cols-4 grid-rows-3 gap-2 text-center items-start">
             <div class="col-span-2 md:col-span-2 row-span-1 items-center">
                 <div
-                    class="title-text text-yellow-500 p-4 md:p-10 pl-2 md:pl-8 mt-2 text-start justify-start font-century text-lg md:text-3xl">
+                    class="title-text text-yellow-500  md:pl-4 mt-2 text-start justify-start font-century lg:text-2xl text-xl">
                     Inauguration of Tata Motors
                     exclusive car showroom with
                     the 2 new product launches
@@ -90,7 +90,7 @@
             class="image-section grid grid-cols-1 sm:grid-cols-3 grid-rows-2 gap-2 text-center md:items-start items-end -mt-48 md:mt-0">
             <div class="col-span-1 row-span-1 items-center relative lg:top-10">
                 <div
-                    class="title-text text-yellow-500 pr-4 sm:pr-20 text-start h-full font-century text-2xl sm:text-3xl">
+                    class="title-text text-yellow-500 pr-4 sm:pr-20 text-start h-full font-century lg:text-2xl text-xl">
                     Inauguration Sarbottam Cement New Clinker Plant
                 </div>
             </div>
@@ -112,7 +112,7 @@
         <div class="w-full relative h-[540px] sm:h-[540px] overflow-hidden text-left text-[18px] text-gold font-inter">
             <div class="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]">
                 <div
-                    class="title-text text-yellow-500 relative left-4 sm:left-16 top-16 sm:top-32 text-start h-full font-century text-xl sm:text-3xl">
+                    class="title-text text-yellow-500 relative left-4 sm:left-16 top-16 sm:top-32 text-start h-full font-century lg:text-2xl text-xl">
                     Islington College <br>
                     Graduation Ceremony
                 </div>

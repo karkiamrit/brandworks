@@ -1,0 +1,79 @@
+{
+    "work": [
+        {
+            "title": "Brands",
+            "content": [
+                "Advertising Solutions",
+                "Brand Strategy",
+                "Brand Architecture",
+                "Brand Audit",
+                "Brand Identity System",
+                "Brand Assets & Guidelines",
+                "Brand Launch & Activation",
+                "Brand Localization",
+                "Campaign Strategy and Design",
+                "Campaign Content Creation",
+                "Digital Media Marketing",
+                "Film & Animation",
+                "Motion Design",
+                "Social Media Marketing & Toolkits",
+                "Sonic Identity",
+                "TOV & Messaging"
+            ]
+        },
+        {
+            "title": "Products",
+            "content": [
+                "User Research",
+                "Packaging",
+                "User Testing and Sampling",
+                "Website Design",
+                "Application Design",
+                "Digital Copy & Content Frameworks",
+                "Product & Service Films",
+                "Product Prototypes & Demos",
+                "User Interface (UI) Design",
+                "User Experience (UX) Strategy"
+            ]
+        },
+        {
+            "title": "Experience",
+            "content": [
+                "Event Spaces",
+                "Event Management",
+                "Conference",
+                "Event Logistics",
+                "Launch Events",
+                "Trade Show Experiences",
+                "Workspaces",
+                "Retail Spaces",
+                "Interactive Spaces",
+                "Prototyping",
+                "Proof of Concept",
+                "AR/ VR/ MR",
+                "Data Visualization"
+            ]
+        }
+    ],
+    "eventPlanning" :   [
+    "PRINT & GRAPHIC DESIGN",
+    "DECOR DESIGN & FABRICATION",
+    "LIGHTING DESIGN & PRODUCTION",
+    "FLORAL DESIGN & INSTALLATION",
+    "SOUND DESIGN",
+    "BUDGET DEVELOPMENT",
+    "VENDOR CONTRACT NEGOTIATION",
+    "SPONSORSHIP MANAGEMENT",
+    "TALENT PROCUREMENT",
+    "CRITICAL PATH DEVELOPMENT",
+    "PRODUCTION MANAGEMENT",
+    "MULTIMEDIA PRODUCTION MANAGEMENT",
+    "HOSPITALITY & TRAVEL",
+    "TABLE DESIGN & EXECUTION",
+    "EVENT LOGISTICS",
+    "EVENT STAFFING",
+    "MEDIA RELATIONS",
+    "INVITATION & RSVP MANAGEMENT",
+    "VIDEO PROTOCOL & CONCIERGE ACTIVATION"
+]
+}

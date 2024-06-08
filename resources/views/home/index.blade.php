@@ -17,18 +17,18 @@
                 <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full">
             </div>
 
-            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6 ">
+                        <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6  mx-6">
 
-                @foreach ($logos as $logo)
-                    <div class="text-center col-span-1 min-h-max self-center">
-                        <div class="">
-                            <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
-                                 class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain">
+                            @foreach ($logos as $logo)
+                                <div class="text-center col-span-1 min-h-max self-center">
+                                    <div class="">
+                                        <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
+                                             class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain">
+                                    </div>
+                                    <p class="lg:text-lg text-sm text-gray-500">{{ trans('texts.branding_communication') }}</p>
+                                </div>
+                            @endforeach
                         </div>
-                        <p class="md:text-xl text-sm text-gray-500">{{ trans('texts.branding_communication') }}</p>
-                    </div>
-                @endforeach
-            </div>
 
             <div
                 class="py-3 flex items-center text-3xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600">
@@ -98,23 +98,23 @@
             </div>
 
 
-            <div class="md:h-[50rem] gap-12 lg:gap-0 flex flex-col justify-around py-5 lg:py-0"
-                 style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover">
-                <p class="text-center  lg:text-3xl lg:w-1/2 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
-                    We have a wide range of skill set starting from building strategies for brand to creating air
-                    operations and flight management system.
-                </p>
-                <p class="text-center lg:text-3xl lg:w-2/3 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
-                    Some of our allied partners bring in versatility of photography and videography.
-                </p>
-            </div>
+                        <div class="md:h-[50rem] gap-12 lg:gap-0 flex flex-col justify-around py-5 lg:py-0"
+                             style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover">
+                            <p class="text-center  lg:text-3xl lg:w-1/2 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
+                                We have a wide range of skill set starting from building strategies for brand to creating air
+                                operations and flight management system.
+                            </p>
+                            <p class="text-center lg:text-3xl lg:w-2/3 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
+                                Some of our allied partners bring in versatility of photography and videography.
+                            </p>
+                        </div>
 
 
-            <div
-                class="md:min-h-[50rem] flex flex-col lg:space-y-6 justify-center lg:pt-16 items-start bg-blend-multiply bg-blue-300 "
-                style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover;">
+                        <div
+                            class="md:min-h-[50rem] flex flex-col lg:space-y-6 justify-center lg:pt-16 items-start bg-blend-multiply bg-blue-300 "
+                            style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover;">
 
-                <div class="flex w-full lg:flex-row flex-col lg:space-x-20 space-y-12 lg:space-y-0">
+                            <div class="flex w-full lg:flex-row flex-col lg:space-x-20 space-y-12 lg:space-y-0">
 
                     @if (isset($dataList['work']))
                     @foreach ($dataList['work'] as $category)
@@ -139,22 +139,24 @@
                         <p class="uppercase">{{ $plan }}</p>
                     @endforeach
                 @endif
-                </div>
-
             </div>
 
-            <div class="p-3 bg-black">
-                <div class="bg-black lg:py-20 lg:px-20 md:min-h-[50rem] md:py-16  border-orange-500 border p-3">
-                    <p class="lg:text-3xl lg:w-10/12 text-white md:text-2xl">Our purpose is to harness the power of the brands to drive positive change. But that doesn’t just
-                        happen through our work and with the brands we partner with — it starts with who we are,
-                        what we think, how we do business, and how we treat each other and those around us.</p>
-                    <div class="flex md:flex-row flex-col py-16 lg:py-0 justify-start items-center">
-                        <p class="md:text-2xl lg:!leading-10 text-white lg:w-2/3 md:w-full">We aim to create a diverse, equitable, and inclusive community to work in. We seek
-                            to create a company and community that does business ethically. We aspire to be as
-                            environmentally conscious as possible in an industry that can be wasteful. We strive to
-                            serve our communities and give our time and resources.</p>
-                        <div>
-                            <img src="{{asset('home/sea-horse.jpg')}}" alt="">
+        </div>
+
+        <div class="p-3 bg-black">
+            <div class="bg-black lg:py-20 lg:px-20 md:min-h-[50rem] md:py-16  border-orange-500 border p-3">
+                <p class="lg:text-3xl lg:w-10/12 text-white md:text-2xl">Our purpose is to harness the power of the
+                    brands to drive positive change. But that doesn’t just
+                    happen through our work and with the brands we partner with — it starts with who we are,
+                    what we think, how we do business, and how we treat each other and those around us.</p>
+                <div class="flex md:flex-row flex-col py-16 lg:py-0 justify-start items-center">
+                    <p class="md:text-2xl lg:!leading-10 text-white lg:w-2/3 md:w-full">We aim to create a diverse,
+                        equitable, and inclusive community to work in. We seek
+                        to create a company and community that does business ethically. We aspire to be as
+                        environmentally conscious as possible in an industry that can be wasteful. We strive to
+                        serve our communities and give our time and resources.</p>
+                    <div>
+                        <img src="{{asset('home/sea-horse.jpg')}}" alt="">
                         </div>
                     </div>
 
