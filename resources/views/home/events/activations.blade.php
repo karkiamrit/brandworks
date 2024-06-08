@@ -3,7 +3,7 @@
     $positions = ['ml-auto', 'mr-auto', 'mx-auto'];
 @endphp
 
-<div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full overflow-hidden">
+<div class="px-10 flex flex-col sticky top-6 z-40 bg-black py-4 w-full overflow-hidden">
     <div class="flex flex-row items-center justify-start">
         <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
             <x-application-logo
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div
-                class="border-gray-500 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:-ml-5 md:mr-20 md:h-24 lg:mt-7">
+                class="border-gray-500 text-white border-2 relative left-4 -ml-5 mr-20 h-24 flex items-center md:-ml-5 md:mr-20 md:h-24 lg:mt-7">
                 <div class="flex-col pl-2">
                     <p>Shivam Cement</p>
                     <p>Product Activation</p>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div
-                class="border-gray-500 mt-10 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:mt-[70px] md:-ml-5 md:mr-20 md:h-24">
+                class="border-gray-500 mt-10 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:mt-[70px] md:-ml-5 md:mr-20 md:h-24 relative left-4">
                 <div class="flex-col pl-2">
                     <p>Tata NRG</p>
                     <p>Mall Activation</p>
@@ -179,22 +179,22 @@
         </div>
         <div class="flex flex-col mt-10 md:mt-0">
             <div
-                class="border-gray-500 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:-ml-5 md:mr-20 md:h-24">
+                class="border-gray-500 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:-ml-5 md:mr-20 md:h-24 relative left-4">
                 <div class="flex-col pl-2">
                     <p>TataH5</p>
                     <p>Activation</p>
                 </div>
             </div>
             <div
-                class="border-gray-500 mt-10 text-white border-2 ml-20 h-24 flex items-center md:mt-64 xl:mt-32 md:ml-20 md:h-24">
+                class="border-gray-500 mt-10 text-white border-2 ml-20 h-24 flex items-center md:mt-64 xl:mt-32 md:ml-20 md:h-24 ">
                 <div class="flex-col ml-auto pr-2 md:pr-2">
                     <p class="flex justify-end">Honda Grazia</p>
                     <p>SuperMarket Activation</p>
                 </div>
             </div>
             <div
-                class="border-gray-500 mt-10 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:mt-[95px] md:-ml-5 md:mr-20 md:h-24">
-                <div class="flex-col pl-2">
+                class="border-gray-500 mt-10 text-white border-2 -ml-5 mr-20 h-24 flex items-center md:mt-[95px] md:-ml-5 md:mr-20 md:h-24 relative left-4">
+                <div class="flex-col pl-2 ">
                     <p>Tata Motors Commercial Vehicle</p>
                     <p>Exchange Group</p>
                 </div>

@@ -3,7 +3,8 @@
         @include('home.events.inauguration')
         @include('home.events.corporate')
         @include('home.events.conclaves')
-        @include('home.events.activations')
+        @include('home.events.peagents')
         @include('home.events.launches')
+        @include('home.events.activations')
     </div>
 </x-guest-layout>

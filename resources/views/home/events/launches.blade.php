@@ -2,7 +2,7 @@
     $sizes = ['w-1/2', 'w-1/3', 'w-2/3', 'w-full'];
     $positions = ['ml-auto', 'mr-auto', 'mx-auto'];
 @endphp
-<div class="px-10 flex flex-col sticky top-0 z-50 bg-black py-4 w-full">
+<div class="px-10 flex flex-col sticky top-6 z-40 bg-black py-4 w-full">
     <div class="flex flex-row items-center justify-start">
         <a class="text-2xl font-bold flex justify-start grayscale opacity-45" href={{ route('home') }}>
             <x-application-logo class="block h-9 w-auto fill-current text-gray-600 text-start mt-2 filter grayscale" />
@@ -16,35 +16,6 @@
 <!-- Logo and Center Content -->
 <div class=" bg-black w-full overflow-hidden">
     {{--  32 page start form here --}}
-
-    {{-- <div
-        class="w-full overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] {{ $className ?? '' }}">
-        <header
-            class="h-[540px] flex-1 flex flex-col items-start justify-start pt-[3.5px] pb-[14.5px] pr-[13px] pl-[26px] box-border relative gap-[76.1px] max-w-full text-left text-lg text-gold font-inter mq480:gap-[38px]">
-
-            <div
-                class="self-stretch flex-1 flex flex-row items-start justify-start py-0 pr-px pl-[19px] box-border max-w-full">
-
-                <div <div
-                    class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[3px] box-border max-w-full">
-                    <img class="h-[216.1px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
-                        loading="lazy" alt="" src="eventAsset/image133.jpeg" />
-                </div>
-            </div>
-            <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start pt-[4.6px] px-0 pb-0 box-border max-w-full">
-                <div class="self-stretch flex-1 flex flex-col items-start justify-start gap-[6.1px] max-w-full">
-                    <img class="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover z-[1]"
-                        loading="lazy" alt="" src="eventAsset/image132.jpeg" />
-                    <div class="w-[422px] flex flex-row items-start justify-start py-0 px-[39px] box-border max-w-full">
-                        <img class="h-[147.4px] flex-1 relative max-w-full overflow-hidden object-cover z-[1]"
-                            loading="lazy" alt="" src="eventAsset/image134.jpeg" />
-                    </div>
-                </div>
-            </div>
-    </div>
-    </header>
-</div> --}}
 
     <div
         class="w-full  overflow-hidden flex flex-col md:flex-row lg:items-start items-center lg:justify-around justify-center leading-[normal] tracking-[normal] {{ $className = $className ?? '' }} my-4 sm:my-8 md:my-12 lg:my-16 xl:my-20">
@@ -64,7 +35,7 @@
         <div class="flex flex-col mt-4 sm:mt-8 lg:mt-16 xl:mt-20 md:mt-0">
             <div class="img">
                 <img src="eventAsset/image132.jpeg"
-                    class="h-[12rem] lg:h-[18rem] w-[320px]  lg:w-[40rem] relative left-2 lg:left-8"
+                    class="h-[12rem] lg:h-[20rem] w-[320px]  lg:w-[36rem] relative left-2 lg:left-8"
                     alt="">
             </div>
             <div class="img">
