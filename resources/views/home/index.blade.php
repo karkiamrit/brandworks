@@ -165,5 +165,7 @@
 
 
     </div>
+    @include('home.services.services')
+
 
 </x-guest-layout>

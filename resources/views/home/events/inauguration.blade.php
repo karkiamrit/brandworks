@@ -18,7 +18,6 @@
 
 <!-- Logo and Center Content -->
 <div class=" bg-black w-full overflow-hidden">
-    {{--  image section start from here --}}
     <div class="px-4 sm:px-10 image-title-section flex flex-col sm:flex-row gap-6 sm:gap-20 mt-6 overflow-hidden">
 
         <div

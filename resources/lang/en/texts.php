@@ -33,4 +33,267 @@ return [
     'client_count' => '31+',
     'seasoned_professionals' => 'Seasoned professionals from different industries',
     'worked_with_title' => 'We are proud to have worked with trusted international and home-grown companies.',
+
+ //events 
+ 'inaugurations' => [
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+],   
+'corporate' => [
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+],   
+'conclaves' => [
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+],  
+'pageants' => [
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+],
+'launches' => [
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+],   
+'activations' => [
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Butwal Power Company',
+        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+],    
+//services
+'services' => [
+    [
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thumbs-up"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>',
+        'title' => 'Social Media Marketing',
+        'description' => 'Prototype ideas online, without depending on your local environment.'
+    ],
+    [
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>',
+        'title' => 'Search Engine Optimization',
+        'description' => 'Deliver high-quality, engaging blogs, articles, and video tutorials to your audience.'
+    ],
+    [
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-check"><path d="m8 11 2 2 4-4"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>',
+        'title' => 'Search Engine Marketing',
+        'description' => 'Showcase your company’s projects, publications, and resources.'
+    ],
+    [
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chrome"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" x2="12" y1="8" y2="8"/><line x1="3.95" x2="8.54" y1="6.06" y2="14"/><line x1="10.88" x2="15.46" y1="21.94" y2="14"/></svg>',
+        'title' => 'Web Development',
+        'description' => 'Showcase your company’s projects, publications, and resources.'
+    ],
+    [
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>',
+        'title' => 'Search Engine Optimization',
+        'description' => 'Deliver high-quality, engaging blogs, articles, and video tutorials to your audience.'
+    ],
+    [
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thumbs-up"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>',
+        'title' => 'Social Media Marketing',
+        'description' => 'Prototype ideas online, without depending on your local environment.'
+    ]
+]
 ];
