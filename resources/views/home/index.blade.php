@@ -35,7 +35,7 @@
                 {{ trans('texts.avani_aligns') }}
             </div>
 
-            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen">
+            {{-- <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen">
                 <div>
                     <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto lg:w-3/4 md:w-5/6  ">
                 </div>
@@ -44,7 +44,26 @@
                     {{ trans('texts.brandworks_vision') }}
 
                 </p>
+            </div> --}}
+            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen relative bg-fixed bg-center bg-cover" style="background-image: url('{{ asset('eventAsset/image201.png') }}');">
+                <div>
+                    <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto lg:w-3/4 md:w-5/6">
+                </div>
+                <p class="md:text-2xl lg:text-2xl text-xl text-center md:text-start leading-10 md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
+                    {{ trans('texts.brandworks_vision') }}
+                </p>
             </div>
+            
+            <script>
+                window.addEventListener('scroll', function() {
+                    const parallax = document.querySelector('.h-screen');
+                    let scrollPosition = window.pageYOffset;
+            
+                    parallax.style.transform = 'translateY(' + scrollPosition * parallax.dataset.speed + 'px)';
+                });
+            </script>
+
+
 
 
             <div class="bg-gray-200 grid lg:grid-cols-3 items-center justify-center  space-y-12 md:space-y-0 py-20 ">
