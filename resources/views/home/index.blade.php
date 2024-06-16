@@ -2,6 +2,9 @@
     <!-- Logo and Center Content -->
     <div class="px-3 md:px-0 overflow-hidden">
 
+        {{-- @include('components.carousel') --}}
+
+
         <div class="h-[90vh]  flex  flex-col justify-center ">
             <div class="text-center ">
                 <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto">
@@ -12,20 +15,22 @@
             </p>
         </div>
 
+
         <div class="space-y-12 mb-40 ">
             <div class="text-center lg:w-1/3 md:mx-auto md:w-2/3 ">
                 <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full">
             </div>
 
-            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6 ">
+            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6 mx-auto lg:mx-12 ">
 
                 @foreach ($logos as $logo)
-                    <div class="text-center col-span-1 min-h-max self-center">
-                        <div class="">
-                            <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
-                                class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain">
+                    <div class="text-center items-center justify-center col-span-1 min-h-max self-center">
+                        <div
+                            class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain grayscale transition duration-300 ease-in-out transform hover:grayscale-0 hover:scale-110 delay-150">
+                            <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}" class="">
+
+                            <p class=" text-xl">Advertising, Branding, Communication</p>
                         </div>
-                        <p class="md:text-xl text-sm text-gray-500">Advertising, Branding, Communication</p>
                     </div>
                 @endforeach
             </div>
