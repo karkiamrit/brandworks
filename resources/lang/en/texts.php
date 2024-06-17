@@ -263,6 +263,23 @@ return [
         ],
     ],
 ],    
+
+// hero logo 
+'herologo' => [
+    [
+        
+        'images' => [
+            ['url' => 'home/logo.png', 'alt' => 'Image 1'],
+            ['url' => 'home/logo.png', 'alt' => 'Image 2'],
+            ['url' => 'home/logo.png', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    
+],    
+
+
 //services
 'services' => [
     [
