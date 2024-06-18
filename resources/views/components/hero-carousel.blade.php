@@ -1,6 +1,6 @@
 <div id="controls-carousel" class="min-w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative overflow-hidden rounded-lg h-96 w-96">
+    <div class="relative overflow-hidden rounded-lg h-screen mb-44 w-screen">
         @foreach ($images as $index => $image)
             <div class="carousel-slide {{ $index === 0 ? '' : 'hidden' }} duration-700 ease-in-out" data-carousel-item="{{ $index === 0 ? 'active' : '' }}">
                 <img src="{{ $image['url'] }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="{{ $image['alt'] }}">

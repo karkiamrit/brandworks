@@ -69,15 +69,15 @@
 
 
 
-<div class=" bg-gray-950 p-10 h-screen">
-    <div class="text-center text-xl lg:text-5xl font-black text-gray-500 pb-16 ">
+<div class=" bg-[#1f1f1f] p-10 h-screen">
+    <div class="text-center text-xl lg:text-5xl font-black text-white pb-16 ">
         {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
         Our Services
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 p-10 ">
         
         <?php foreach (trans('texts.services') as $service): ?>
-            <div class="block rounded-xl border border-white p-10 hover:bg-indigo-700">
+            <div class="block rounded-xl p-10 shadow-md border-2 border-[#171717] shadow-black  hover:bg-indigo-700">
                 <span class="inline-block rounded-lg p-3">
                     <?= $service['icon'] ?>
                 </span>

@@ -1,23 +1,24 @@
 <x-guest-layout>
     <!-- Logo and Center Content -->
-    <div class="px-3 md:px-0 overflow-hidden">
+    <div class="px-3 md:px-0 overflow-hidden ">
 
-        <div class="h-[90vh]  flex  flex-col justify-center ">
+        <div class="h-[100vh]  flex  flex-col justify-center ">
             <div class="text-center  flex justify-center items-center">
                 {{-- <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto"> --}}
                 @foreach (trans('texts.herologo') as $event)
-                    <div class=" flex justify-center items-center  ">
+                    <div class="">
                         @include('components.hero-carousel', [
                             'images' => $event['images'],
                         ])
                     </div>
                 @endforeach
             </div>
-            <p class="text-center md:text-2xl text-xl flex flex-col relative bottom-12">
+            {{-- <p class="text-center md:text-2xl text-xl flex flex-col relative bottom-12">
                 <span>{{ trans('texts.brand_actions') }}</span>
                 <span>{{ trans('texts.activation_fabrication') }} </span>
-            </p>
+            </p> --}}
         </div>
+
 
 
 
@@ -32,7 +33,7 @@
 
                 @foreach ($logos as $logo)
                     <div class="text-center col-span-1 min-h-max self-center">
-                        <div class="">
+                        <div class=" items-center justify-center flex">
                             <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
                                 class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain grayscale hover:grayscale-0">
                         </div>
@@ -262,35 +263,30 @@
                 </div>
 
 
-                <div class=" flex justify-center items-center space-x-4">
-
-                    @include('components.group-company-carousel', [
-                        'carousels' => [
-                            [
-                                'images' => [
-                                    ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-                                    ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-                                    ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-                                    ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-                                    ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+                <div class="flex justify-center items-center space-x-4">
+                    @foreach (trans('texts.brandlogo') as $event)
+                        <div>
+                            @include('components.group-company-carousel', [
+                                'carousels' => [
+                                    'images' => $event['images'],
                                 ],
-                            ],
-                            [
-                                'images' => [
-                                    ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-                                    ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-                                    ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-                                    ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-                                    ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
-                                ],
-                            ],
-                            // Add more carousels as needed
-                        ],
-                    ])
+                            ])
+                        </div>
+                    @endforeach
                 </div>
+                
             </div>
 
+            {{-- <div class="div">
+                @foreach (trans('texts.brandlogo') as $event)
+                    <div class="">
+                        @include('components.swiper-carousel', [
+                            'images' => $event['images'],
+                        ])
+                    </div>
+                @endforeach
 
+            </div> --}}
 
         </div>
 
