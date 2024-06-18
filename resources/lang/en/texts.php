@@ -27,30 +27,44 @@ return [
     [
         'images' => [
             // ['url' => 'eventAsset/image6.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
-
+            ['url' => 'eventAsset/image20.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image21.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image22.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image23.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image24.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image25.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image20.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image27.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image28.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image29.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image30.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image31.png', 'alt' => 'Image 2'],
         ],
     ],
     
 ], 
 
-
+//partner logo
+'partnerlogo'=> [
+    [
+        'images' => [
+            // ['url' => 'eventAsset/image6.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image6.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image8.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image9.png', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image10.png', 'alt' => 'Image 2'],
+            
+        ],
+    ],
+],
 
 // hero logo 
 'herologo' => [
     [
         
         'images' => [
-            ['url' => 'home/hero.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'home/hero.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'home/hero.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'home/hero.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'home/hero.png', 'alt' => 'Image 1'],
         ],
     ],
     
@@ -301,7 +315,34 @@ return [
         ],
     ],
 ],    
-  
+
+//blogs
+'blogs' => [
+    [
+        'title' => 'Noteworthy technology acquisitions 2021',
+        'excerpt' => 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-1.jpg',
+        'id' => 1,
+        'src' => '#'
+    ],
+    [
+        'title' => 'Noteworthy technology acquisitions 2021',
+        'excerpt' => 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-1.jpg',
+        'id' => 1,
+        'src' => '#'
+
+    ],
+    [
+        'title' => 'Top 10 programming languages in 2021',
+        'excerpt' => 'Here are the top 10 programming languages in 2021, based on popularity and job demand.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-2.jpg',
+        'id' => 2,
+        'src' => '#'
+
+    ],
+    // Add more blog posts as needed
+],
 
 
 //services
