@@ -1,46 +1,52 @@
 <x-guest-layout>
     <!-- Logo and Center Content -->
-    <div class="px-3 md:px-0 overflow-hidden">
+    <div class="px-3 md:px-0 overflow-hidden ">
 
-        {{-- @include('components.carousel') --}}
-
-
-        <div class="h-[90vh]  flex  flex-col justify-center ">
-            <div class="text-center ">
-                <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto">
+        <div class="h-[100vh]  flex  flex-col justify-center ">
+            <div class="text-center  flex justify-center items-center">
+                {{-- <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto"> --}}
+                @foreach (trans('texts.herologo') as $event)
+                    <div class="">
+                        @include('components.hero-carousel', [
+                            'images' => $event['images'],
+                        ])
+                    </div>
+                @endforeach
             </div>
-            <p class="text-center md:text-2xl text-xl flex flex-col">
+            {{-- <p class="text-center md:text-2xl text-xl flex flex-col relative bottom-12">
                 <span>{{ trans('texts.brand_actions') }}</span>
                 <span>{{ trans('texts.activation_fabrication') }} </span>
-            </p>
+            </p> --}}
         </div>
 
 
-        <div class="space-y-12 mb-40 ">
-            <div class="text-center lg:w-1/3 md:mx-auto md:w-2/3 ">
-                <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full">
+
+
+
+            <div class="">
+            <div class="text-center text-xl lg:text-5xl  ">
+                {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
+                Our Group Of Companies
             </div>
 
-            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6 mx-auto lg:mx-12 ">
+            <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6  my-20 ">
 
                 @foreach ($logos as $logo)
-                    <div class="text-center items-center justify-center col-span-1 min-h-max self-center">
-                        <div
-                            class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain grayscale transition duration-300 ease-in-out transform hover:grayscale-0 hover:scale-110 delay-150">
-                            <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}" class="">
-
-                            <p class=" text-xl">Advertising, Branding, Communication</p>
+                    <div class="text-center col-span-1 min-h-max self-center">
+                        <div class=" items-center justify-center flex">
+                            <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
+                                class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain grayscale hover:grayscale-0">
                         </div>
                     </div>
                 @endforeach
             </div>
 
             <div
-                class="py-3 flex items-center text-xl lg:text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600">
+                class="py-3 flex items-center text-xl lg:text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600 mb-20">
                 {{ trans('texts.avani_aligns') }}
             </div>
-
-            {{-- <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen">
+            {{-- 
+            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen">
                 <div>
                     <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto lg:w-3/4 md:w-5/6  ">
                 </div>
@@ -50,40 +56,41 @@
 
                 </p>
             </div> --}}
-            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen relative bg-fixed bg-center bg-cover" style="background-image: url('{{ asset('eventAsset/image201.png') }}');">
+            
+            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen relative bg-fixed bg-center bg-cover opacity-90"
+                style="background-image: url('{{ asset('eventAsset/image201.png') }}');">
                 <div>
                     <img src="{{ asset('home/logo.png') }}" alt="Logo" class="mx-auto lg:w-3/4 md:w-5/6">
                 </div>
-                <p class="md:text-2xl lg:text-2xl text-xl text-center md:text-start leading-10 md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
+                <p
+                    class="md:text-2xl lg:text-2xl text-xl text-center text-gray-300 md:text-start leading-10 md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
                     {{ trans('texts.brandworks_vision') }}
                 </p>
             </div>
-            
+
             <script>
                 window.addEventListener('scroll', function() {
                     const parallax = document.querySelector('.h-screen');
                     let scrollPosition = window.pageYOffset;
-            
+
                     parallax.style.transform = 'translateY(' + scrollPosition * parallax.dataset.speed + 'px)';
                 });
             </script>
 
-
-
-
-            <div class="bg-gray-200 grid lg:grid-cols-3 items-center justify-center  space-y-12 md:space-y-0 py-20 ">
+            <div
+                class="bg-gradient-to-r from-gray-400  to-white grid lg:grid-cols-3 items-center justify-center  space-y-12 md:space-y-0 h-screen ">
                 <div class=" lg:col-span-1  md:w-2/3 md:mx-auto lg:mx-0 lg:w-full ">
-                    <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full">
+                    <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full ">
                 </div>
                 <div
-                    class="lg:col-span-2  lg:w-2/3 mx-auto bg-gradient-to-bl  relative lg:bottom-20 self-center justify-center ">
-                    <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl">
+                    class="lg:col-span-2  lg:w-2/3 mx-auto   relative lg:bottom-20 self-center justify-center  bg-none">
+                    <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl ">
                         {{ trans('texts.motley_group') }}</p>
                 </div>
             </div>
 
 
-            <div class=" lg:flex lg:justify-between lg:pe-12 lg:items-center space-y-12 md:space-y-0 h-[60%]  ">
+            {{-- <div class=" lg:flex lg:justify-between lg:pe-12 lg:items-center space-y-12 md:space-y-0 h-[60%]  ">
                 <div class="bg-gray-300 md:w-2/3 md:mx-auto lg:mx-0  lg:w-1/2">
                     <img src="{{ asset('eventAsset/image12.jpg') }}" alt="Logo" class="w-full">
                 </div>
@@ -92,22 +99,22 @@
                     {{ trans('texts.mission') }}
                 </p>
                 <div class="absolute top-0 right-0 w-4/12 h-full bg-gradient-to-l from-transparent to-gray-200"></div>
-            </div>
+            </div> --}}
 
 
 
-            <div class="flex lg:flex-row  flex-col md:space-y-0 h-screen  w-full items-center my-40">
+            {{-- <div class="flex lg:flex-row  flex-col md:space-y-0 h-screen  w-full items-center my-40">
                 <div class="lg:w-[58%] w-full md:w-[70%] mx-auto">
                     <img src="{{ asset('eventAsset/image13.png') }}" alt="Logo" class="w-full right-16 ">
                 </div>
                 <p
                     class=" lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-2xl mx-10 text-xl text-center lg:text-start md:text-2xl">
                     {{ trans('texts.focus') }}</p>
-            </div>
+            </div> --}}
 
 
 
-            <div class="bg-black px-5">
+            {{-- <div class="bg-black px-5">
                 <div>
                     <img src="{{ asset('home/gray-brandwork-logo.png') }}" class="grayscale w-[100px]" alt="">
                 </div>
@@ -124,10 +131,10 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
 
-            <div class="md:h-[50rem] gap-12 lg:gap-0 flex flex-col justify-around py-5 lg:py-0"
+            {{-- <div class="md:h-[50rem] gap-12 lg:gap-0 flex flex-col justify-around py-5 lg:py-0"
                 style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover">
                 <p class="text-center  lg:text-3xl lg:w-1/2 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
                     {{ trans('texts.skill_set') }}
@@ -185,11 +192,102 @@
                 </div>
             </div>
 
+        </div> --}}
+
+
+            {{-- why brandwork section  --}}
+            <div
+                class="bg-gradient-to-r from-gray-400  to-white mx-auto items-left space-y-4  justify-start flex flex-col h-80 pl-24 ">
+                <div class="w-fit">
+                    <h2 class="text-4xl text-start">{{ trans('texts.why_title') }}</h2>
+                    <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="w-fit">
+                </div>
+                @if (Storage::exists('public/testimonial.pdf'))
+                    <div class="mt-4  py-3">
+                        <a href="{{ Storage::url('public/testimonial.pdf') }}" download
+                            class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                            Download Testimonial PDF
+                        </a>
+                    </div>
+                @endif
+            </div>
+
+            {{-- section about one --}}
+            <div
+                class="bg-gradient-to-r from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col hidden relative  bg-[#707070] pr-24 pb-10 ">
+                <div
+                    class="lg:absolute lg:top-[10%] lg:right-0 lg:w-fit lg:text-center lg:left-13 lg:px-12 lg:leading-[50px]">
+                    <div>
+                        <h1 class="text-5xl !leading-[120px] text-gray-600">{{ trans('texts.pan_nepal_reach_title') }}
+                        </h1>
+                        <p class="text-3xl text-gray-600">{{ trans('texts.pan_nepal_reach_description') }}</p>
+                    </div>
+                </div>
+                <div class=" w-full space-y-12 self-end ms-24 col-span-2 ">
+                    <div class="flex space-x-6 mx-4">
+                        <img src="{{ asset('eventAsset/image17.png') }}"
+                            class="w-[25px] h-[28px] text-center self-center" alt="">
+                        <p class="text-red-700  text-2xl">{{ trans('texts.qfx_network_offices') }}</p>
+                    </div>
+
+                    <div class="flex space-x-6 mx-4">
+                        <img src="{{ asset('eventAsset/image17.png') }}"
+                            class="w-[25px] h-[28px] text-center self-center fill-yellow-400" alt="">
+                        <p class="text-green-500  text-2xl">{{ trans('texts.edu_institution_network') }}</p>
+                    </div>
+
+                    <div class="flex space-x-6 mx-4">
+                        <img src="{{ asset('eventAsset/image17.png') }}"
+                            class="w-[25px] h-[28px] text-center self-center" alt="">
+                        <p class="text-yellow-400  text-2xl">{{ trans('texts.associates_media_network') }}</p>
+                    </div>
+                </div>
+                <div class="w-full self-end col-span-6">
+                    <img src="{{ asset('eventAsset/nepal-map.png') }}" alt="Logo" class="w-full">
+                </div>
+            </div>
+
+
+            @include('home.services.services')
+
+
+            {{-- section two  --}}
+
+            <div class="bg-gradient-to-r from-gray-400  to-white">
+
+
+                <div class="text-center text-xl lg:text-5xl font-black  py-16 ">
+                    {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
+                    Our Trusted Clients
+                </div>
+
+
+                <div class="flex justify-center items-center space-x-4">
+                    @foreach (trans('texts.brandlogo') as $event)
+                        <div>
+                            @include('components.group-company-carousel', [
+                                'carousels' => [
+                                    'images' => $event['images'],
+                                ],
+                            ])
+                        </div>
+                    @endforeach
+                </div>
+                
+            </div>
+
+            {{-- <div class="div">
+                @foreach (trans('texts.brandlogo') as $event)
+                    <div class="">
+                        @include('components.swiper-carousel', [
+                            'images' => $event['images'],
+                        ])
+                    </div>
+                @endforeach
+
+            </div> --}}
+
         </div>
-
-
-    </div>
-    @include('home.services.services')
 
 
 </x-guest-layout>

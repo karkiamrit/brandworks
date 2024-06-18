@@ -20,6 +20,44 @@ return [
         'breakthrough_ideas' => 'having had breakthrough ideas,',
         'breaking_records' => 'breaking records'
     ],
+
+
+// brand logo 
+'brandlogo' => [
+    [
+        'images' => [
+            // ['url' => 'eventAsset/image6.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image7.jpeg', 'alt' => 'Image 2'],
+
+        ],
+    ],
+    
+], 
+
+
+
+// hero logo 
+'herologo' => [
+    [
+        
+        'images' => [
+            ['url' => 'home/hero.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'home/hero.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'home/hero.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'home/hero.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    
+],  
+
+
+
 //about page
     'why_title' => 'Why',
     'pan_nepal_reach_title' => 'PAN Nepal Reach',
@@ -263,6 +301,9 @@ return [
         ],
     ],
 ],    
+  
+
+
 //services
 'services' => [
     [
