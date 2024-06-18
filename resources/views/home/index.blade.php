@@ -18,33 +18,29 @@
                 <span>{{ trans('texts.activation_fabrication') }} </span>
             </p> --}}
         </div>
+        <div
+            class="py-3 flex items-center text-xl lg:text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600 mb-20">
+            {{ trans('texts.avani_aligns') }}
+        </div>
 
-
-
-
-
-            <div class="">
+        <div class="">
             <div class="text-center text-xl lg:text-5xl  ">
                 {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
                 Our Group Of Companies
             </div>
 
             <div class="grid lg:grid-cols-6 grid-cols-1 md:gap-4 align-middle min-h-max gap-6  my-20 ">
-
                 @foreach ($logos as $logo)
                     <div class="text-center col-span-1 min-h-max self-center">
                         <div class=" items-center justify-center flex">
                             <img src="{{ asset($logo['image']) }}" alt="{{ $logo['name'] }}"
                                 class="mx-auto w-1/2 lg:h-full lg:w-full mix-blend-multiply object-contain grayscale hover:grayscale-0">
                         </div>
+                        <p class="md:text-xl text-sm text-gray-500">Advertising, Branding, Communication</p>
                     </div>
                 @endforeach
             </div>
 
-            <div
-                class="py-3 flex items-center text-xl lg:text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600 mb-20">
-                {{ trans('texts.avani_aligns') }}
-            </div>
             {{-- 
             <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen">
                 <div>
@@ -56,7 +52,7 @@
 
                 </p>
             </div> --}}
-            
+
             <div class="md:flex items-center sm:flex-wrap md:flex-nowrap h-screen relative bg-fixed bg-center bg-cover opacity-90"
                 style="background-image: url('{{ asset('eventAsset/image201.png') }}');">
                 <div>
@@ -83,7 +79,7 @@
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full ">
                 </div>
                 <div
-                    class="lg:col-span-2  lg:w-2/3 mx-auto   relative lg:bottom-20 self-center justify-center  bg-none">
+                    class="lg:col-span-2  lg:w-2/3 mx-auto   relative self-center justify-center  bg-none">
                     <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl ">
                         {{ trans('texts.motley_group') }}</p>
                 </div>
@@ -273,7 +269,7 @@
                         </div>
                     @endforeach
                 </div>
-                
+
             </div>
 
             {{-- <div class="div">
