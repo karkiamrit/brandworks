@@ -87,7 +87,236 @@ return [
     'worked_with_title' => 'We are proud to have worked with trusted international and home-grown companies.',
 
  //events 
- 'inaugurations' => [
+//  'inaugurations' => [
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+// ],   
+// 'corporate' => [
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+// ],   
+// 'conclaves' => [
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+// ],  
+// 'pageants' => [
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+// ],
+// 'launches' => [
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+// ],   
+// 'activations' => [
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+//     [
+//         'company' => 'Butwal Power Company',
+//         'project' => 'Inauguration of Nyadi Hydropower Project',
+//         'description' => 'Butwal power is a Great Company',
+//         'images' => [
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
+//             ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
+//             ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
+//             ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+//         ],
+//     ],
+// ],    
+
+'inaugurations' => [
     [
         'company' => 'Butwal Power Company',
         'project' => 'Inauguration of Nyadi Hydropower Project',
@@ -101,220 +330,374 @@ return [
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Tata Motors',
+        'project' => 'Inauguration of Tata Motors exclusive car showroom with the 2 new product launches',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image62.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image63.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image64.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image65.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image66.jpeg', 'alt' => 'Image 5'],
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Sarbottam Cement',
+        'project' => 'Inauguration Sarbottam Cement New Clinker Plant',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image67.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image68.jpeg', 'alt' => 'Image 2'],
+            
         ],
     ],
 ],   
 'corporate' => [
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Bosch Home Appliances ',
+        'project' => 'Inauguration Bosch Home Appliances Showroom in Nepal',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image69.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image70.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image71.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image72.jpeg', 'alt' => 'Image 4'],
+
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Islington College',
+        'project' => 'Islington College Graduation Ceremony',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image73.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image74.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image75.jpeg', 'alt' => 'Image 3'],
+           
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Shivam Cement',
+        'project' => 'Shivam Kriti Samaroha',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image76.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image77.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image78.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image79.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image80.jpeg', 'alt' => 'Image 5'],
+	    ['url' => 'eventAsset/image81.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image82.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image83.jpeg', 'alt' => 'Image 5'],
         ],
     ],
 ],   
 'conclaves' => [
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Honda Company',
+        'project' => 'Honda 50 Years Celebration',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image84.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image85.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image86.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image87.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image88.jpeg', 'alt' => 'Image 5'],
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'BRITISH GURKHA NEPAL OFFICERS & SNCOs MESS WINTER BALL',
+        'project' => 'BRITISH GURKHA NEPAL OFFICERS & SNCOs’ MESS WINTER BALL',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image89.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image90.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image91.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image92.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image93.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image94.jpeg', 'alt' => 'Image 5'],
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'EO Everest Summit',
+        'project' => 'EO Nepals signature event exclusively for EO members',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image95.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image96.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image97.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image98.jpeg', 'alt' => 'Image 4'],
+
         ],
     ],
 ],  
 'pageants' => [
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Nagarik Nayak',
+        'project' => 'Nepal Republic Media',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image99.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image100.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image101.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image102.jpeg', 'alt' => 'Image 4'],
+
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => '2nd International Conference of Dermatology',
+        'project' => '2nd International Conference of Dermatology',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image103.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image104.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image105.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image106.jpeg', 'alt' => 'Image 4'],
+
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Republica Development Conclave Nagarik Nayak',
+        'project' => 'Republica Development Conclave Nagarik Nayak',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image107.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image108.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image109.jpeg', 'alt' => 'Image 3'],
+        
         ],
     ],
 ],
 'launches' => [
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Midea Coolference 2017',
+        'project' => 'Midea Coolference 2017',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image110.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image111.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image112.jpeg', 'alt' => 'Image 3'],
+          
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'NEEK 25th Year Celebration',
+        'project' => 'NEEK 25th Year Celebration',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image113.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image114.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image115.jpeg', 'alt' => 'Image 3'],
+         
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Thai Airways 50th year of operation in Nepal',
+        'project' => 'Thai Airways 50th year of operation in Nepal',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image116.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image117.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image118.jpeg', 'alt' => 'Image 1'],
+       
         ],
     ],
 ],   
 'activations' => [
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Butwal Power Company partners with major Chinese companies for the development of Hydropower projects in Nepal',
+        'project' => 'Butwal Power Company partners with major Chinese companies for the development of Hydropower projects in Nepal',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image119.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image120.jpeg', 'alt' => 'Image 2'],
+           
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Honda Partners Meet',
+        'project' => 'Honda Partners Meet',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image121.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image122.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image123.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image124.jpeg', 'alt' => 'Image 4'],
+
         ],
     ],
     [
-        'company' => 'Butwal Power Company',
-        'project' => 'Inauguration of Nyadi Hydropower Project',
+        'company' => 'Nokia Nepal Innovation Day 2022',
+        'project' => 'Nokia Nepal Innovation Day 2022',
         'description' => 'Butwal power is a Great Company',
         'images' => [
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 1'],
-            ['url' => 'eventAsset/image58.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/image60.jpeg', 'alt' => 'Image 4'],
-            ['url' => 'eventAsset/image59.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image125.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image126.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image127.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image128.jpeg', 'alt' => 'Image 4'],
+
         ],
     ],
-],    
+    [
+        'company' => 'Celebrating growth and success of QFX Cinemas',
+        'project' => 'Celebrating growth and success of QFX Cinemas',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image129.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image130.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image131.jpeg', 'alt' => 'Image 3'],
+            
+        ],
+    ],   
+    [
+        'company' => 'Launch of ACE EV 1st Commercial EV from Tata Motors in Nepal',
+        'project' => 'Launch of ACE EV 1st Commercial EV from Tata Motors in Nepal',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image132.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image133.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image134.jpeg', 'alt' => 'Image 3'],
+          
+        ]
+    ],
+    [
+        'company' => 'Launch of MG4 EV 1st EV to be launched and driven at MX Track 5085ft above sea level',
+        'project' => 'Launch of MG4 EV 1st EV to be launched and driven at MX Track 5085ft above sea level',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image135.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image136.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image137.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image138.jpeg', 'alt' => 'Image 4'],
+
+        ],
+    ],
+    [
+        'company' => 'Launch of Aprilia SXR160',
+        'project' => 'Launch of Aprilia SXR160',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image139.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image140.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image141.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image142.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image143.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'SJ MOTO Launch',
+        'project' => 'SJ MOTO Launch',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image144.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image145.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image146.jpeg', 'alt' => 'Image 3'],
+          
+        ],
+    ],
+    [
+        'company' => 'Bosch Home Appliances in Nepal',
+        'project' => 'Bosch Home Appliances in Nepal',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image147.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image148.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image149.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image150.jpeg', 'alt' => 'Image 4'],
+
+        ],
+    ],
+    [
+        'company' => 'XING Party with Sunny Leone in Nepal',
+        'project' => 'XING Party with Sunny Leone in Nepal',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image151.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image152.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image153.jpeg', 'alt' => 'Image 3'],
+       
+        ],
+    ],
+    [
+        'company' => 'Asian Premier League T20',
+        'project' => 'Asian Premier League T20',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image154.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image155.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image156.jpeg', 'alt' => 'Image 3'],
+         
+        ],
+    ],
+    [
+        'company' => 'BYD SEAL LAUNCH IN NEPAL',
+        'project' => 'BYD SEAL LAUNCH IN NEPAL',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image157.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image158.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image159.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image160.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image161.jpeg', 'alt' => 'Image 5'],
+            ['url' => 'eventAsset/image162.jpeg', 'alt' => 'Image 5'],
+        ],
+    ],
+    [
+        'company' => 'Tata Motors Emperor Program',
+        'project' => 'Tata Motors Emperor Program',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image163.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image164.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image165.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image166.jpeg', 'alt' => 'Image 4'],
+
+        ],
+    ],
+    [
+        'company' => 'HONDA CB Hornet Launch',
+        'project' => 'HONDA CB Hornet Launch',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image167.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image168.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image169.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image170.jpeg', 'alt' => 'Image 4'],
+
+        ],
+    ],
+    [
+        'company' => 'Unveiling MV Augusta in Nepal',
+        'project' => 'Unveiling MV Augusta in Nepal',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image171.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image172.jpeg', 'alt' => 'Image 2'],
+            ['url' => 'eventAsset/image173.jpeg', 'alt' => 'Image 3'],
+         
+        ],
+    ],
+    [
+        'company' => 'Miss Universe Nepal',
+        'project' => 'Miss Universe Nepal',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image174.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image175.jpeg', 'alt' => 'Image 2'],
+     
+        ],
+    ],
+    [
+        'company' => 'The Hidden Treasure Miss Nepal',
+        'project' => 'The Hidden Treasure Miss Nepal',
+        'description' => 'Butwal power is a Great Company',
+        'images' => [
+            ['url' => 'eventAsset/image176.jpeg', 'alt' => 'Image 1'],
+            ['url' => 'eventAsset/image177.jpeg', 'alt' => 'Image 2'],
+            
+        ],
+    ],
+],       
 
 //blogs
 'blogs' => [

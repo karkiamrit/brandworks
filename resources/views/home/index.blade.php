@@ -213,10 +213,10 @@
             <div
                 class="lg:absolute lg:top-[10%] lg:right-0 lg:w-fit lg:text-center lg:left-13 lg:px-12 lg:leading-[50px] -my-24 md:my-0">
                 <div class="pl-20 md:pl-0 pb-10 lg:pb-0">
-                    <h1 class="text-xl lg:text-5xl lg:!leading-[120px] text-center text-gray-600">
+                    <h1 class="text-xl lg:text-5xl lg:!leading-[120px] text-center text-gray-500">
                         {{ trans('texts.pan_nepal_reach_title') }}
                     </h1>
-                    <p class=" text-lg lg:text-3xl text-gray-600 text-center">
+                    <p class=" text-lg lg:text-3xl text-gray-500 text-center">
                         {{ trans('texts.pan_nepal_reach_description') }}</p>
                 </div>
             </div>
