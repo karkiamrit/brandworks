@@ -10,11 +10,11 @@
             <nav class="flex items-center justify-center space-x-6 sm:space-x-16 xl:space-x-20">
                 <a title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white" href={{route('home')}}> Home </a>
 
-                <a href={{route('about')}} title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> About </a>
-
                 <a href={{route('contact.show')}} title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Contact </a>
 
                 <a href={{route('events')}} title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Events </a>
+
+                <a href={{route('blogs')}} title="" class="text-base font-medium text-gray-100 transition-all duration-200 hover:-translate-y-1 hover:text-white"> Blogs </a>
             </nav>
 
             <ul class="flex items-center justify-end space-x-3">

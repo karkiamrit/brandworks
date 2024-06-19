@@ -329,7 +329,7 @@ return [
         'title' => 'Noteworthy technology acquisitions 2021',
         'excerpt' => 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
         'image_url' => 'https://flowbite.com/docs/images/blog/image-1.jpg',
-        'id' => 1,
+        'id' => 2,
         'src' => '#'
 
     ],
@@ -337,7 +337,39 @@ return [
         'title' => 'Top 10 programming languages in 2021',
         'excerpt' => 'Here are the top 10 programming languages in 2021, based on popularity and job demand.',
         'image_url' => 'https://flowbite.com/docs/images/blog/image-2.jpg',
-        'id' => 2,
+        'id' => 3,
+        'src' => '#'
+
+    ],
+    [
+        'title' => 'Top 10 programming languages in 2021',
+        'excerpt' => 'Here are the top 10 programming languages in 2021, based on popularity and job demand.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-2.jpg',
+        'id' => 4,
+        'src' => '#'
+
+    ],
+    [
+        'title' => 'Top 10 programming languages in 2021',
+        'excerpt' => 'Here are the top 10 programming languages in 2021, based on popularity and job demand.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-2.jpg',
+        'id' => 5,
+        'src' => '#'
+
+    ],
+    [
+        'title' => 'Top 10 programming languages in 2021',
+        'excerpt' => 'Here are the top 10 programming languages in 2021, based on popularity and job demand.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-2.jpg',
+        'id' => 6,
+        'src' => '#'
+
+    ],
+    [
+        'title' => 'Top 10 programming languages in 2021',
+        'excerpt' => 'Here are the top 10 programming languages in 2021, based on popularity and job demand.',
+        'image_url' => 'https://flowbite.com/docs/images/blog/image-2.jpg',
+        'id' => 7,
         'src' => '#'
 
     ],

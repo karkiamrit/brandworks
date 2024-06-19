@@ -204,14 +204,6 @@
                 <h2 class="text-4xl text-start">{{ trans('texts.why_title') }}</h2>
                 <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="w-fit">
             </div>
-            {{-- @if (Storage::exists('public/testimonial.pdf'))
-                    <div class="mt-4  py-3">
-                        <a href="{{ Storage::url('public/testimonial.pdf') }}" download
-                            class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                            Download Testimonial PDF
-                        </a>
-                    </div>
-                @endif --}}
         </div>
 
         {{-- section about --}}
@@ -282,35 +274,6 @@
             </div>
 
         </div>
-
-        <div class="bg-gradient-to-r from-gray-400  to-white py-6">
-
-
-            <div class="text-center text-xl lg:text-5xl font-black  py-4 text-gray-700 mb-10">
-                {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
-                Blogs
-            </div>
-            <div class="flex lg:flex-row flex-col">
-                @foreach (trans('texts.blogs') as $post)
-                    @include('components.blog-card', ['post' => $post])
-                @endforeach
-            </div>
-
-
-
-
-        </div>
-
-        {{-- <div class="div">
-                @foreach (trans('texts.brandlogo') as $event)
-                    <div class="">
-                        @include('components.swiper-carousel', [
-                            'images' => $event['images'],
-                        ])
-                    </div>
-                @endforeach
-
-            </div> --}}
 
     </div>
 
