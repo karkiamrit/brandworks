@@ -64,7 +64,7 @@ return [
     [
         
         'images' => [
-            ['url' => 'home/hero.png', 'alt' => 'Image 1'],
+            ['url' => 'home/hero.jpg', 'alt' => 'Image 1'],
         ],
     ],
     
