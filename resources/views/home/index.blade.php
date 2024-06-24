@@ -92,127 +92,68 @@
             </div>
 
 
-            {{-- <div class=" lg:flex lg:justify-between lg:pe-12 lg:items-center space-y-12 md:space-y-0 h-[60%]  ">
-                <div class="bg-gray-300 md:w-2/3 md:mx-auto lg:mx-0  lg:w-1/2">
-                    <img src="{{ asset('eventAsset/image12.jpg') }}" alt="Logo" class="w-full">
-                </div>
-                <p
-                    class=" lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-3xl text-xl text-center lg:text-start md:text-2xl">
-                    {{ trans('texts.mission') }}
-                </p>
-                <div class="absolute top-0 right-0 w-4/12 h-full bg-gradient-to-l from-transparent to-gray-200"></div>
-            </div> --}}
-
-
-
-            {{-- <div class="flex lg:flex-row  flex-col md:space-y-0 h-screen  w-full items-center my-40">
-                <div class="lg:w-[58%] w-full md:w-[70%] mx-auto">
-                    <img src="{{ asset('eventAsset/image13.png') }}" alt="Logo" class="w-full right-16 ">
-                </div>
-                <p
-                    class=" lg:w-[650px]  lg:left-[46%] lg:!leading-[3rem] lg:text-2xl mx-10 text-xl text-center lg:text-start md:text-2xl">
-                    {{ trans('texts.focus') }}</p>
-            </div> --}}
-
-
-
-            {{-- <div class="bg-black px-5">
-                <div>
-                    <img src="{{ asset('home/gray-brandwork-logo.png') }}" class="grayscale w-[100px]" alt="">
-                </div>
-                <div class="flex flex-col lg:flex-row items-center justify-between lg:pr-[5rem]">
-                    <div>
-                        <img src="{{ asset('home/path-picture.png') }}" alt="" class="w-full lg:w-fit">
-                    </div>
-                    <div>
-                        <ul
-                            class="lg:text-2xl lg:space-y-16 lg:text-end  text-center space-y-4 text-md  md:text-xl pb-8 lg:pb-0 text-gray-100">
-                            @foreach (trans('texts.footer_list') as $footerItem)
-                                <li>{{ $footerItem }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                </div>
-            </div> --}}
-
-
-            {{-- <div class="md:h-[50rem] gap-12 lg:gap-0 flex flex-col justify-around py-5 lg:py-0"
-                style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover">
-                <p class="text-center  lg:text-3xl lg:w-1/2 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
-                    {{ trans('texts.skill_set') }}
-                </p>
-                <p class="text-center lg:text-3xl lg:w-2/3 lg:mx-auto text-gray-100 lg:!leading-[3rem] md:text-2xl">
-                    {{ trans('texts.allied_partners') }}
-                </p>
-            </div>
-
-
-            <div class="md:min-h-[50rem] flex flex-col lg:space-y-6 justify-center lg:pt-16 items-start bg-blend-multiply bg-blue-300 overflow-hidden"
-                style="background-image: url({{ asset('home/chess-mat.png') }}); background-repeat: no-repeat; background-size: cover;">
-
-                <div class="flex w-full lg:flex-row flex-col lg:space-x-20 space-y-12 lg:space-y-0">
-
-                    @if (isset($dataList['work']))
-                        @foreach ($dataList['work'] as $category)
-                            @if (isset($category['title']) && isset($category['content']))
-                                <div class="space-y-3 lg:w-1/4 w-full  h-full lg:px-12 px-4">
-                                    <h2 class="text-4xl text-gray-100">{{ $category['title'] }}</h2>
-                                    <div class="bg-black opacity-80  space-y-2 p-3">
-                                        @foreach ($category['content'] as $item)
-                                            <li class="text-white text-md md:text-2xl lg:text-lg">{{ $item }}
-                                            </li>
-                                        @endforeach
-                                    </div>
-                                </div>
-                            @endif
-                        @endforeach
-                    @endif
-                </div>
-                <div
-                    class="grid justify-center items-center lg:py-4 lg:grid-cols-4 w-full lg:mx-4 md:grid-cols-3 grid-cols-1">
-
-                    @if (isset($dataList['eventPlanning']))
-                        @foreach ($dataList['eventPlanning'] as $plan)
-                            <p class="uppercase">{{ $plan }}</p>
-                        @endforeach
-                    @endif
-                </div>
-
-            </div>
-
-            <div class="p-3 bg-black">
-                <div class="bg-black lg:py-20 lg:px-20 md:min-h-[50rem] md:py-16  border-orange-500 border p-3">
-                    <p class="lg:text-3xl lg:w-10/12 text-white md:text-2xl">{{ trans('texts.purpose') }}</p>
-                    <div class="flex md:flex-row flex-col py-16 lg:py-0 justify-start items-center">
-                        <p class="md:text-2xl lg:!leading-10 text-white lg:w-2/3 md:w-full">
-                            {{ trans('texts.diverse_community') }}</p>
-                        <div>
-                            <img src="{{ asset('home/sea-horse.jpg') }}" alt="">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div> --}}
 
         </div>
+
         {{-- why brandwork section  --}}
         <div
-            class="bg-gradient-to-r from-gray-400  to-white mx-auto lg:items-left items-left space-y-4  justify-start flex flex-col h-72 lg:pl-24 ">
+            class="bg-gradient-to-r from-gray-400  to-white mx-auto lg:items-left items-center space-y-4  justify-start flex flex-col h-72 lg:pl-24 ">
             <div class="w-fit pl-4 lg:pl-0">
                 <h2 class="text-4xl text-start">{{ trans('texts.why_title') }}</h2>
                 <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="w-fit">
             </div>
         </div>
 
+        <div class="lg:grid  lg:grid-cols-8 bg-gradient-to-r from-gray-400 to-white">
+            <div class="lg:col-span-2 py-16 px-4  lg:relative">
+                <div class="">
+                    <h2 class="text-4xl lg:text-start text-center">{{ trans('texts.why_title') }}</h2>
+                    <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="lg:w-[65%] mx-auto lg:mx-0 ">
+                </div>
+                <div
+                    class="lg:absolute lg:left-[10%] lg:top-[25%] lg:space-y-12 md:space-y-8 space-y-6 lg:py-5 py-8 font-century">
+                    <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
+                        <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">
+                            {{ trans('texts.years_of_experience') }}</p>
+                        <p
+                            class="lg:text-xl md:text-xl !m-0 text-xl text-center lg:text-start text-gray-800 lg:!leading-[1.2rem] lg:pt-3">
+                            Collective experience</p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
+                        <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">
+                            {{ trans('texts.project_count') }}</p>
+                        <p
+                            class="lg:text-xl md:text-xl !m-0 text-xl  text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">
+                            Projects</p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3">
+                        <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">
+                            {{ trans('texts.client_count') }}</p>
+                        <p
+                            class="lg:text-xl  md:text-xl !m-0  text-xl text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">
+                            Clients</p>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3 lg:pl-10">
+                        <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">11+</p>
+                        <p class=" !m-0 text-xl text-left text-gray-600 lg:!leading-[1.2rem] lg:pt-3 lg:w-1/5 ">
+                            {{ trans('texts.seasoned_professionals') }}</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-span-6">
+                <img src="{{ asset('eventAsset/image18.png') }}" alt="Logo" class="w-full">
+            </div>
+        </div>
+
         {{-- section about --}}
 
         <div
-            class="bg-gradient-to-r from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col relative  bg-[#707070] pr-24 pb-24 ">
+            class="bg-gradient-to-r from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col relative  bg-[#707070] pr-24 lg:pb-24 py-8 lg:pt-10 ">
             <div
-                class="lg:absolute lg:top-[10%] lg:right-0 lg:w-fit lg:text-center lg:left-13 lg:px-12 lg:leading-[50px] -my-24 md:my-0">
-                <div class="pl-20 md:pl-0 pb-10 lg:pb-0">
+                class="lg:absolute lg:top-[10%] lg:right-0 lg:w-fit lg:text-center lg:left-13 lg:px-12 lg:leading-[50px] md:my-0">
+                <div class="pl-20 md:pl-0 lg:pb-0">
                     <h1 class="text-xl lg:text-5xl lg:!leading-[120px] text-center text-gray-500">
                         {{ trans('texts.pan_nepal_reach_title') }}
                     </h1>
