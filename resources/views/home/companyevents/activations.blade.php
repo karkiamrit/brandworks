@@ -17,6 +17,9 @@
 
 <div class="bg-black w-full overflow-hidden mt-10 mb-10">
     <div class="flex flex-col justify-between mx-16 gap-6 lg:gap-10">
+        @php
+            $index = 0;
+        @endphp
         @foreach (trans('texts.activations') as $event)
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col items-center justify-center sm:w-[30%] w-[50%]">
@@ -35,6 +38,12 @@
                     'images' => $event['images'],
                 ])
             </div>
+            @if ($index % 2 == 1)
+                @include('components.inquire')
+            @endif
+            @php
+                $index++;
+            @endphp
         @endforeach
     </div>
 

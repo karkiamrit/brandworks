@@ -30,7 +30,11 @@ class ContactController extends Controller
         // Store the contact form data
         Contact::create($request->all());
 
-        return redirect()->route('contact.show')->with('success', 'Your message has been sent!');
+        // Set a session variable to indicate the form was submitted
+        session(['form_submitted' => true]);
+
+        // Redirect back with a success message
+        return redirect()->route('contact.show')->with('success', 'Your message has been sent successfully!');
     }
 
     public function showAllContact()

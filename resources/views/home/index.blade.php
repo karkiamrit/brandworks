@@ -148,9 +148,15 @@
         </div>
 
         {{-- section about --}}
-
+        <div class="flex items-center bg-transparent py-4 bg-gradient-to-r from-gray-400  to-white text-5xl pt-10"> 
+            <hr class="flex-grow border-t border-gray-500/50 "> 
+            <span class="px-3 text-blue-500 font-bold"> 
+                  {{trans('texts.nationwide_presence')}}
+              </span> 
+            <hr class="flex-grow border-t border-gray-400"> 
+        </div> 
         <div
-            class="bg-gradient-to-r from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col relative  bg-[#707070] pr-24 lg:pb-24 py-8 lg:pt-10 ">
+            class="bg-gradient-to-r from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col relative  bg-[#707070] pr-24 lg:pb-24 lg:pt-16 ">
             <div
                 class="lg:absolute lg:top-[10%] lg:right-0 lg:w-fit lg:text-center lg:left-13 lg:px-12 lg:leading-[50px] md:my-0">
                 <div class="pl-20 md:pl-0 lg:pb-0">
@@ -161,6 +167,7 @@
                         {{ trans('texts.pan_nepal_reach_description') }}</p>
                 </div>
             </div>
+           
             <div class=" w-full space-y-12 self-end ms-24 col-span-2 pt-24 md:pt-0">
                 <div class="flex space-x-6 mx-4">
                     <img src="{{ asset('eventAsset/image17.png') }}" class="w-[25px] h-[28px] text-center self-center"

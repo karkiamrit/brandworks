@@ -74,6 +74,7 @@ return [
 
 //about page
     'why_title' => 'Why',
+    'nationwide_presence' => 'Nationwide Presence',
     'pan_nepal_reach_title' => 'PAN Nepal Reach',
     'pan_nepal_reach_description' => 'with regional workforce available 24 x 7',
     'qfx_network_offices' => '12 QFX network offices',
@@ -183,8 +184,8 @@ return [
         'images' => [
             ['url' => 'eventAsset/image99.jpeg', 'alt' => 'Image 1'],
             ['url' => 'eventAsset/image100.jpeg', 'alt' => 'Image 2'],
-            ['url' => 'eventAsset/101.jpeg', 'alt' => 'Image 3'],
-            ['url' => 'eventAsset/102.jpeg', 'alt' => 'Image 4'],
+            ['url' => 'eventAsset/image101.jpeg', 'alt' => 'Image 3'],
+            ['url' => 'eventAsset/image102.jpeg', 'alt' => 'Image 4'],
         ],
     ],
     [

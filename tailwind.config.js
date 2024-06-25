@@ -16,6 +16,7 @@ export default {
                 century: ['Century Gotham', ...defaultTheme.fontFamily.sans],
 
             },
+            
         },
     },
 
