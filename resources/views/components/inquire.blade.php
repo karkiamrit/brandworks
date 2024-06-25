@@ -1,6 +1,6 @@
 <div class="bg-black border border-gray-800">
     <div class="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+        <h2 class="text-3xl text-center lg:text-start font-extrabold text-black dark:text-white sm:text-4xl">
             <span class="block">
                 Do you want to host
             </span>

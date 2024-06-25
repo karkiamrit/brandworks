@@ -60,7 +60,7 @@
                     <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('events')}}>Events</a>
                 </x-nav-link>
                 <x-nav-link class="nav-item">
-                    <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('contact.show')}}>Contact</a>
+                    <a class="nav-link text-gray-500 hover:text-red-500"  href={{route('blogs')}}>Blogs</a>
                 </x-nav-link>
                 @if(auth()->check())
                     <x-nav-link class="nav-item">

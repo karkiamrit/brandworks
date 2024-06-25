@@ -10,7 +10,8 @@
         </a>
     </div>
     <div class="title flex items-center justify-center w-full">
-        <h1 class=" text-xl lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">INAUGURATIONS AND CELEBRATIONS
+        <h1 class=" text-xl lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">INAUGURATIONS AND
+            CELEBRATIONS
         </h1>
     </div>
 </div>
@@ -20,11 +21,36 @@
         @php
             $index = 0;
         @endphp
-        @foreach (trans('texts.inaugurations') as $event)
+        {{-- @foreach (trans('texts.inaugurations') as $event)
             <div class="flex flex-row justify-between">
                 <div class="flex flex-col items-center justify-center sm:w-[30%] w-[50%]">
                     <div
                         class="title-text text-yellow-500 mt-2 w-full sm:w-80 text-start justify-start font-century sm:text-2xl text-xs">
+                        {{ $event['company'] }}
+                        <div class="mt-3 mb-3">
+                            {{ $event['project'] }}
+                        </div>
+                        <p class="text-xs sm:text-xl">
+                            {{ $event['description'] }}
+                        </p>
+                    </div>
+                </div>
+                @include('components.carousel', [
+                    'images' => $event['images'],
+                ])
+            </div>
+            @if ($index % 2 == 1)
+                @include('components.inquire')
+            @endif
+            @php
+                $index++;
+            @endphp
+        @endforeach --}}
+        @foreach (trans('texts.inaugurations') as $event)
+            <div class="flex flex-col sm:flex-row justify-between">
+                <div class="flex flex-col items-center justify-center w-full sm:w-[30%]">
+                    <div
+                        class="title-text text-yellow-500 mt-2 w-full text-start justify-start font-century text-xs sm:text-2xl">
                         {{ $event['company'] }}
                         <div class="mt-3 mb-3">
                             {{ $event['project'] }}

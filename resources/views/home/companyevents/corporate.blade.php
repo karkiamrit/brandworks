@@ -22,10 +22,10 @@
             $index = 0;
         @endphp
         @foreach (trans('texts.corporate') as $event)
-            <div class="flex flex-row justify-between">
-                <div class="flex flex-col items-center justify-center sm:w-[30%] w-[50%]">
+            <div class="flex flex-col sm:flex-row justify-between">
+                <div class="flex flex-col items-center justify-center w-full sm:w-[30%]">
                     <div
-                        class="title-text text-yellow-500 mt-2 w-full sm:w-80 text-start justify-start font-century sm:text-2xl text-xs">
+                        class="title-text text-yellow-500 mt-2 w-full text-start justify-start font-century text-xs sm:text-2xl">
                         {{ $event['company'] }}
                         <div class="mt-3 mb-3">
                             {{ $event['project'] }}

@@ -57,7 +57,7 @@
                 </p>
             </div> --}}
 
-            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap relative bg-fixed bg-center bg-cover opacity-90 h-[70vh] lg:h-[60vh]"
+            <div class="md:flex items-center sm:flex-wrap md:flex-nowrap relative bg-fixed bg-center bg-cover opacity-90 pb-10 lg:pb-0 lg:h-[60vh]"
                 style="background-image: url('{{ asset('eventAsset/image201.png') }}');">
                 <div class="flex lg:flex-row lg:items-center flex-col ">
                     <div>
@@ -65,7 +65,7 @@
                             class="mx-auto lg:w-3/4 md:w-5/6 lg:mt-0 mt-5">
                     </div>
                     <p
-                        class="md:text-2xl lg:text-2xl text-lg text-center text-gray-300 md:text-start  md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
+                        class="md:pl-0 md:text-2xl lg:text-2xl text-lg text-center text-gray-300 lg:text-start  md:w-[75%] md:border-l px-6 md:border-b-0 border-t md:border-t-0 border-gray-500">
                         {{ trans('texts.brandworks_vision') }}
                     </p>
                 </div>
@@ -97,7 +97,7 @@
 
         {{-- why brandwork section  --}}
         <div
-            class="bg-gradient-to-r from-gray-400  to-white mx-auto lg:items-left items-center space-y-4  justify-start flex flex-col h-72 lg:pl-24 ">
+            class="hidden bg-gradient-to-r from-gray-400  to-white mx-auto lg:items-left items-center space-y-4  lg:justify-start lg:flex lg:flex-col h-96 lg:pl-24 ">
             <div class="w-fit pl-4 lg:pl-0">
                 <h2 class="text-4xl text-start">{{ trans('texts.why_title') }}</h2>
                 <img src="{{ asset('eventAsset/image19.png') }}" alt="Logo" class="w-fit">
@@ -148,7 +148,7 @@
         </div>
 
         {{-- section about --}}
-        <div class="flex items-center bg-transparent py-4 bg-gradient-to-r from-gray-400  to-white text-5xl pt-10"> 
+        <div class="hidden lg:flex items-center bg-transparent py-4 bg-gradient-to-r from-gray-400  to-white text-5xl pt-10"> 
             <hr class="flex-grow border-t border-gray-500/50 "> 
             <span class="px-3 text-blue-500 font-bold"> 
                   {{trans('texts.nationwide_presence')}}
@@ -156,11 +156,11 @@
             <hr class="flex-grow border-t border-gray-400"> 
         </div> 
         <div
-            class="bg-gradient-to-r from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col relative  bg-[#707070] pr-24 lg:pb-24 lg:pt-16 ">
+            class="bg-gradient-to-r pb-10  from-gray-400  to-white lg:grid lg:grid-cols-8 grid-col relative  bg-[#707070] pr-24 lg:pb-24 lg:pt-16 ">
             <div
                 class="lg:absolute lg:top-[10%] lg:right-0 lg:w-fit lg:text-center lg:left-13 lg:px-12 lg:leading-[50px] md:my-0">
                 <div class="pl-20 md:pl-0 lg:pb-0">
-                    <h1 class="text-xl lg:text-5xl lg:!leading-[120px] text-center text-gray-500">
+                    <h1 class="text-xl lg:text-5xl pt-10 lg:pt-0 lg:!leading-[120px] text-center text-gray-500">
                         {{ trans('texts.pan_nepal_reach_title') }}
                     </h1>
                     <p class=" text-lg lg:text-3xl text-gray-500 text-center">
