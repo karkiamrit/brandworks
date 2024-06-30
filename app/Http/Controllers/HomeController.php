@@ -47,13 +47,13 @@ class HomeController extends Controller
         return view('home.index', compact(['logos', 'dataList']));
     }
 
-    public function about()
-    {
-        return view('home.about');
-    }
-
     public function events()
     {
         return view('home.events');
+    }
+
+    public function blogs()
+    {
+        return view('home.blogs');
     }
 }

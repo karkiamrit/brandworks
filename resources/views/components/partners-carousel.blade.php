@@ -13,12 +13,12 @@
         <i id="left"
             class="fa-solid fa-angle-left z-50 absolute top-1/2 transform -translate-y-1/2 left-0 cursor-pointer text-xl bg-white rounded-full shadow-lg p-2 -mx-4"></i>
         <ul
-            class="carousel1 grid grid-flow-col gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide w-full">
+            class="carousel grid grid-flow-col gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide w-full">
             @foreach ($carousels['images'] as $index => $image)
-                <li class="card snap-start bg-transparent rounded-lg  p-4 flex flex-col items-center">
-                    <div class="img w-36 h-36 flex items-center justify-center">
+                <li class="card snap-start rounded-lg  p-4 flex flex-col items-center">
+                    <div class="img w-48 h-60 flex items-center justify-center">
                         <img src="{{ $image['url'] }}"
-                            class="mx-auto  items-center aspect-video border-none mix-blend-multiply object-contain "
+                            class="mx-auto items-center mix-blend-multiply object-contain "
                             alt="{{ $image['alt'] }}">
                     </div>
                 </li>
@@ -33,9 +33,9 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const wrapper = document.querySelector(".max-w-7xl");
-        const carousel1 = document.querySelector(".carousel1");
+        const carousel = document.querySelector(".carousel");
         const arrowBtns = document.querySelectorAll(".max-w-7xl i");
-        const carouselChildrens = [...carousel1.children];
+        const carouselChildrens = [...carousel.children];
 
         let isDragging = false,
             isAutoPlay = true,
@@ -44,67 +44,67 @@
 
         const updateCardPerView = () => {
             // Update the number of cards per view based on the window width
-            cardPerView = window.innerWidth < 600 ? 1 : window.innerWidth < 900 ? 2 : 3;
+            cardPerView = window.innerWidth < 1024 ? 3 : 7;
         };
 
         // Recalculate cardPerView on window resize
         window.addEventListener('resize', updateCardPerView);
 
         const initCarousel = () => {
-            // Insert copies of the last few cards to beginning of carousel1 for infinite scrolling
+            // Insert copies of the last few cards to beginning of carousel for infinite scrolling
             carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-                carousel1.insertAdjacentHTML("afterbegin", card.outerHTML);
+                carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
             });
 
-            // Insert copies of the first few cards to end of carousel1 for infinite scrolling
+            // Insert copies of the first few cards to end of carousel for infinite scrolling
             carouselChildrens.slice(0, cardPerView).forEach(card => {
-                carousel1.insertAdjacentHTML("beforeend", card.outerHTML);
+                carousel.insertAdjacentHTML("beforeend", card.outerHTML);
             });
 
-            // Scroll the carousel1 at appropriate position to hide first few duplicate cards on Firefox
-            carousel1.classList.add("no-transition");
-            carousel1.scrollLeft = carousel1.offsetWidth;
-            carousel1.classList.remove("no-transition");
+            // Scroll the carousel at appropriate position to hide first few duplicate cards on Firefox
+            carousel.classList.add("no-transition");
+            carousel.scrollLeft = carousel.offsetWidth;
+            carousel.classList.remove("no-transition");
 
-            // Add event listeners for the arrow buttons to scroll the carousel1 left and right
+            // Add event listeners for the arrow buttons to scroll the carousel left and right
             arrowBtns.forEach(btn => {
                 btn.addEventListener("click", () => {
                     console.log('hey')
-                    const scrollAmount = carousel1.offsetWidth / cardPerView;
-                    carousel1.scrollLeft += btn.id == "left" ? -scrollAmount : scrollAmount;
+                    const scrollAmount = carousel.offsetWidth / cardPerView;
+                    carousel.scrollLeft += btn.id == "left" ? -scrollAmount : scrollAmount;
                 });
             });
         };
 
         updateCardPerView(); // Initial calculation
-        initCarousel(); // Initialize the carousel1
+        initCarousel(); // Initialize the carousel
 
         const dragStart = (e) => {
             isDragging = true;
-            carousel1.classList.add("dragging");
+            carousel.classList.add("dragging");
             startX = e.pageX;
-            startScrollLeft = carousel1.scrollLeft;
+            startScrollLeft = carousel.scrollLeft;
         }
 
         const dragging = (e) => {
             if (!isDragging) return;
-            carousel1.scrollLeft = startScrollLeft - (e.pageX - startX);
+            carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
         }
 
         const dragStop = () => {
             isDragging = false;
-            carousel1.classList.remove("dragging");
+            carousel.classList.remove("dragging");
         }
 
         const infiniteScroll = () => {
-            if (carousel1.scrollLeft === 0) {
-                carousel1.classList.add("no-transition");
-                carousel1.scrollLeft = carousel1.scrollWidth - (2 * carousel1.offsetWidth);
-                carousel1.classList.remove("no-transition");
-            } else if (Math.ceil(carousel1.scrollLeft) === carousel1.scrollWidth - carousel1.offsetWidth) {
-                carousel1.classList.add("no-transition");
-                carousel1.scrollLeft = carousel1.offsetWidth;
-                carousel1.classList.remove("no-transition");
+            if (carousel.scrollLeft === 0) {
+                carousel.classList.add("no-transition");
+                carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+                carousel.classList.remove("no-transition");
+            } else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+                carousel.classList.add("no-transition");
+                carousel.scrollLeft = carousel.offsetWidth;
+                carousel.classList.remove("no-transition");
             }
             clearTimeout(timeoutId);
             if (!wrapper.matches(":hover")) autoPlay();
@@ -113,17 +113,17 @@
         const autoPlay = () => {
             if (!isAutoPlay) return;
             timeoutId = setTimeout(() => {
-                const scrollWidth = carousel1.scrollWidth;
-                const offsetWidth = carousel1.offsetWidth;
+                const scrollWidth = carousel.scrollWidth;
+                const offsetWidth = carousel.offsetWidth;
                 const cardWidth = carouselChildrens[0].offsetWidth * cardPerView;
 
-                // Check if the carousel1 is close to the end
-                if (Math.ceil(carousel1.scrollLeft) >= scrollWidth - offsetWidth - cardWidth) {
+                // Check if the carousel is close to the end
+                if (Math.ceil(carousel.scrollLeft) >= scrollWidth - offsetWidth - cardWidth) {
                     // If close to the end, scroll back to the beginning
-                    carousel1.scrollLeft = 0;
+                    carousel.scrollLeft = 0;
                 } else {
                     // Otherwise, continue scrolling
-                    carousel1.scrollLeft += cardWidth;
+                    carousel.scrollLeft += cardWidth;
                 }
             }, 2500);
         }
@@ -131,10 +131,10 @@
 
 
 
-        carousel1.addEventListener("mousedown", dragStart);
-        carousel1.addEventListener("mousemove", dragging);
+        carousel.addEventListener("mousedown", dragStart);
+        carousel.addEventListener("mousemove", dragging);
         document.addEventListener("mouseup", dragStop);
-        carousel1.addEventListener("scroll", infiniteScroll);
+        carousel.addEventListener("scroll", infiniteScroll);
         wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
         wrapper.addEventListener("mouseleave", autoPlay);
 

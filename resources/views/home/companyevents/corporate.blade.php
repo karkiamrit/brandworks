@@ -10,18 +10,22 @@
         </a>
     </div>
     <div class="title flex items-center justify-center w-full">
-        <h1 class=" text-xl lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">CORPORATE EVENTS AND CELEBRATIONS
+        <h1 class=" text-xl lg:text-3xl font-light tracking-widest uppercase text-gray-300 opacity-85">CORPORATE EVENTS
+            AND CELEBRATIONS
         </h1>
     </div>
 </div>
 
 <div class="bg-black w-full overflow-hidden mt-10">
     <div class="flex flex-col justify-between mx-16 gap-6 lg:gap-10">
-        @foreach (trans('texts.inaugurations') as $event)
-            <div class="flex flex-row justify-between">
-                <div class="flex flex-col items-center justify-center sm:w-[30%] w-[50%]">
+        @php
+            $index = 0;
+        @endphp
+        @foreach (trans('texts.corporate') as $event)
+            <div class="flex flex-col sm:flex-row justify-between">
+                <div class="flex flex-col items-center justify-center w-full sm:w-[30%]">
                     <div
-                        class="title-text text-yellow-500 mt-2 w-full sm:w-80 text-start justify-start font-century sm:text-2xl text-xs">
+                        class="title-text text-yellow-500 mt-2 w-full text-start justify-start font-century text-xs sm:text-2xl">
                         {{ $event['company'] }}
                         <div class="mt-3 mb-3">
                             {{ $event['project'] }}
@@ -35,6 +39,12 @@
                     'images' => $event['images'],
                 ])
             </div>
+            @if ($index % 2 == 1)
+                @include('components.inquire')
+            @endif
+            @php
+                $index++;
+            @endphp
         @endforeach
     </div>
 

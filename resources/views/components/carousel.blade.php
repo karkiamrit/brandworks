@@ -1,4 +1,4 @@
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
+<div id="controls-carousel" class="relative mt-10 lg:mt-0 mb-10 lg:mb-0 lg:ml-auto lg:w-6/12 " data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-[90vh]">
         @foreach ($images as $index => $image)
