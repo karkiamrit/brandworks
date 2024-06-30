@@ -21,10 +21,12 @@
 
 
 
+
         {{-- <div
             class=" flex items-center text-xl lg:text-2xl text-gray-400  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600 mb-20">
             {{ trans('texts.avani_aligns') }}
         </div> --}}
+
 
 
         <div class="">
@@ -32,6 +34,7 @@
                 class=" flex items-center text-xl lg:text-5xl font-black text-gray-700  before:flex-1 before:border-t before:border-gray-500 before:me-6 after:flex-1 after:border-t after:border-gray-500 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-600 dark:after:border-neutral-600 lg:mt-0 mt-10">
                 Our Group Of Companies
             </div>
+
 
             <div class="flex justify-center items-center space-x-4 -my-12 lg:-my-0">
                 @foreach (trans('texts.partnerlogo') as $event)
@@ -41,6 +44,7 @@
                                 'images' => $event['images'],
                             ],
                         ])
+
                     </div>
                 @endforeach
             </div>
@@ -87,6 +91,7 @@
                 </div>
                 <div class="lg:col-span-2  lg:w-2/3 mx-auto   relative self-center justify-center  bg-none">
                     <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl pb-10">
+
                         {{ trans('texts.motley_group') }}</p>
                 </div>
             </div>
@@ -206,6 +211,7 @@
             <div class="text-center text-xl lg:text-5xl font-black  py-4 text-gray-700 ">
                 {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
                 Our Trusted Clients
+
             </div>
 
 
