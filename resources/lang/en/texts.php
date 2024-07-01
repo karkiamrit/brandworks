@@ -65,6 +65,8 @@ return [
         
         'images' => [
             ['url' => 'home/hero.jpg', 'alt' => 'Image 1'],
+            ['url' => 'home/one.jpg', 'alt' => 'Image 1'],
+            ['url' => 'home/two.jpg', 'alt' => 'Image 1'],
         ],
     ],
     
@@ -74,7 +76,7 @@ return [
 
 //about page
     'why_title' => 'Why',
-    'nationwide_presence' => 'Nationwide Presence',
+    'nationwide_presence' => 'PAN Nepal Reach',
     'pan_nepal_reach_title' => 'PAN Nepal Reach',
     'pan_nepal_reach_description' => 'with regional workforce available 24 x 7',
     'qfx_network_offices' => '12 QFX network offices',

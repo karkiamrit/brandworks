@@ -5,7 +5,7 @@
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 sm:p-6 lg:p-10">
         <?php foreach (trans('texts.services') as $service): ?>
-            <div class="block rounded-xl p-4 sm:p-6 lg:p-10 shadow-md border-2 border-[#171717] shadow-black hover:bg-indigo-700">
+            <div class="block rounded-xl p-4 sm:p-6 lg:p-10 shadow-md border-2 border-[#171717] shadow-black hover:bg-blue-800">
                 <span class="inline-block rounded-lg p-3">
                     <?= $service['icon'] ?>
                 </span>
