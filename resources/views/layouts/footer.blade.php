@@ -85,10 +85,9 @@
 
             <nav class="flex-col items-start justify-start w-1/4  gap-4 hidden md:flex">
                 <div class="h1 text-3xl font-semibold text-white items-start">Contact</div>
-                <a title=""
-                    class="flex gap-4 items-center text-base font-medium text-gray-500 transition-all duration-200 hover:-translate-y-1 hover:text-white"
-                    href={{ route('home') }}>
-                    <svg class="w-6 h-6 text-gray-800 dark:text-gray-500" aria-hidden="true"
+                <div title=""
+                    class="flex gap-4 items-center text-base font-medium text-gray-500 transition-all duration-200 hover:-translate-y-1 hover:text-white">
+                    <svg class="w-6 h-6 text-gray-500" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                         viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
@@ -96,17 +95,17 @@
                     </svg>
 
 
-                    info@brandworks.com </a>
+                    info@brandworks.com </div>
 
-                <a href={{ route('contact.show') }} title=""
+                <div 
                     class="text-base flex gap-4 font-medium text-gray-500 transition-all duration-200 hover:-translate-y-1 hover:text-white">
                     <img src={{ 'home/icons8-website-50.png' }} alt="about"
                         class="object-cover rounded-full  bg-gray-500 h-6 w-6">
-                    brandworks.com </a>
+                    brandworks.com </div>
 
-                <a href={{ route('events') }} title=""
+                <div 
                     class="text-base flex gap-4 font-medium text-gray-500 transition-all duration-200 hover:-translate-y-1 hover:text-white">
-                    <svg class="w-6 h-6 text-gray-800 dark:text-gray-500" aria-hidden="true"
+                    <svg class="w-6 h-6 text-gray-500" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="28" fill="currentColor"
                         viewBox="0 0 24 24">
                         <path fill-rule="evenodd"
@@ -115,11 +114,11 @@
                     </svg>
 
 
-                    Balkumari Lalitpur, Nepal </a>
+                    Balkumari Lalitpur, Nepal </div>
 
-                <a href={{ route('blogs') }} title=""
+                <div 
                     class="text-base flex gap-4 font-medium text-gray-500 transition-all duration-200 hover:-translate-y-1 hover:text-white">
-                    <svg class="w-6 h-6 text-gray-800 dark:text-gray-500" aria-hidden="true"
+                    <svg class="w-6 h-6 text-gray-500" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 24 24">
                         <path fill-rule="evenodd"
@@ -127,7 +126,7 @@
                             clip-rule="evenodd" />
                     </svg>
 
-                    9866134804 </a>
+                    9866134804 </div>
             </nav>
 
 
