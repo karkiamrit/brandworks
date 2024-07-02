@@ -1,96 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accordion Example</title>
-
-</head>
-
-<body>
-    <div id="accordion-color" data-accordion="collapse"
-        data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
-        <h2 id="accordion-color-heading-1">
-            <button type="button"
-                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
-                data-accordion-target="#accordion-color-body-1" aria-expanded="true"
-                aria-controls="accordion-color-body-1">
-                <span>What is Flowbite?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
-            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                    components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                        href="/docs/getting-started/introduction/"
-                        class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                    websites even faster with components on top of Tailwind CSS.</p>
+<section class="py-12 bg-gray-50 sm:py-16 lg:py-20 bg-cover bg-no-repeat bg-center backdrop-blur-xl" style="background-image: url('{{ asset('eventAsset/image182.jpeg') }}');">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center text-xl lg:text-5xl font-black  my-10 text-gray-700 ">
+                {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
+                Frequently Asked Questions
             </div>
-        </div>
-        <h2 id="accordion-color-heading-2">
-            <button type="button"
-                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
-                data-accordion-target="#accordion-color-body-2" aria-expanded="false"
-                aria-controls="accordion-color-body-2">
-                <span>Is there a Figma file available?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
-            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the
-                    Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/"
-                        class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the
-                    utility classes from Tailwind CSS and components from Flowbite.</p>
-            </div>
-        </div>
-        <h2 id="accordion-color-heading-3">
-            <button type="button"
-                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
-                data-accordion-target="#accordion-color-body-3" aria-expanded="false"
-                aria-controls="accordion-color-body-3">
-                <span>What are the differences between Flowbite and Tailwind UI?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 5 5 1 1 5" />
-                </svg>
-            </button>
-        </h2>
-        <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
-            <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from
-                    Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another
-                    difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers
-                    sections of pages.</p>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite,
-                    Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best
-                    of two worlds.</p>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
-                    <li><a href="https://flowbite.com/pro/"
-                            class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-                    <li><a href="https://tailwindui.com/" rel="nofollow"
-                            class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                </ul>
+            <div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
+                
+                <!-- FAQ Content in Two Columns -->
+                <div class="lg:col-span-6">
+                    <div class="flow-root">
+                        <div x-data="{ active: null }" class="-my-4 divide-y divide-gray-900 ">
+                            <?php $id = 1; ?>
+                            <?php foreach (array_slice(trans('texts.faq'), 0, ceil(count(trans('texts.faq')) / 2)) as $item): ?>
+                            <div
+                                x-data="{
+                                    id: <?php echo $id; ?>,
+                                    get expanded() {
+                                        return this.active === this.id
+                                    },
+                                    set expanded(value) {
+                                        this.active = value ? this.id : null
+                                    },
+                                }"
+                                role="region"
+                                class="py-6"
+                            >
+                                <h3>
+                                    <button @click="expanded = !expanded" :aria-expanded="expanded.toString()" class="flex items-center justify-between w-full space-x-6 text-base font-bold text-left text-gray-900">
+                                        <span class="flex-1"><?= $item['question']; ?></span>
+                                        <span x-show="expanded" aria-hidden="true">
+                                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </span>
+                                        <span x-show="!expanded" aria-hidden="true">
+                                            <svg class="w-5 h-5 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+
+                                <div x-show="expanded" x-collapse>
+                                    <div class="py-4 text-base font-medium text-gray-900"><?= $item['answer']; ?></div>
+                                </div>
+                            </div>
+                            <?php $id++; ?>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-6">
+                    <div class="flow-root">
+                        <div x-data="{ active: null }" class="-my-4 divide-y divide-gray-900">
+                            <?php foreach (array_slice(trans('texts.faq'), ceil(count(trans('texts.faq')) / 2)) as $item): ?>
+                            <div
+                                x-data="{
+                                    id: <?php echo $id; ?>,
+                                    get expanded() {
+                                        return this.active === this.id
+                                    },
+                                    set expanded(value) {
+                                        this.active = value ? this.id : null
+                                    },
+                                }"
+                                role="region"
+                                class="py-6"
+                            >
+                                <h3>
+                                    <button @click="expanded = !expanded" :aria-expanded="expanded.toString()" class="flex items-center justify-between w-full space-x-6 text-base font-bold text-left text-gray-900">
+                                        <span class="flex-1"><?= $item['question']; ?></span>
+                                        <span x-show="expanded" aria-hidden="true">
+                                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </span>
+                                        <span x-show="!expanded" aria-hidden="true">
+                                            <svg class="w-5 h-5 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+
+                                <div x-show="expanded" x-collapse>
+                                    <div class="py-4 text-base font-medium text-gray-900"><?= $item['answer']; ?></div>
+                                </div>
+                            </div>
+                            <?php $id++; ?>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- Include the JavaScript at the bottom of the body -->
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
-</body>
-
-</html>
+</section>

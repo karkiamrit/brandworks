@@ -243,12 +243,7 @@
 
         </div>
 
-        <div class="bg-gradient-to-r from-gray-400  to-white py-6 lg:px-24">
-            <div class="text-center text-xl lg:text-5xl font-black  my-10 text-gray-700 ">
-                {{-- <img src="{{ asset('home/avani-logo.png') }}" alt="Logo" class="mx-auto w-full"> --}}
-                Frequently Asked Questions
-            </div>
-
+        <div class="bg-gradient-to-r from-gray-400  to-white py-6">
             @include('home.faq')
 
         </div>
