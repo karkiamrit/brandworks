@@ -92,22 +92,22 @@
 
 
 
-            <script>
+            {{-- <script>
                 window.addEventListener('scroll', function() {
                     const parallax = document.querySelector('.h-screen');
                     let scrollPosition = window.pageYOffset;
 
                     parallax.style.transform = 'translateY(' + scrollPosition * parallax.dataset.speed + 'px)';
                 });
-            </script>
+            </script> --}}
 
             <div
-                class="bg-gradient-to-r from-gray-400  to-white grid lg:grid-cols-3 items-center justify-center  space-y-12 md:space-y-0 lg:h-[60vh] lg:px-24 py-10 lg:py-0">
+                class="bg-gradient-to-r from-gray-400  to-white grid lg:grid-cols-3 items-center justify-center  space-y-12 md:space-y-0 border-b-red-400 lg:px-24 py-10 lg:py-0">
                 <div class=" lg:col-span-1  md:w-2/3 md:mx-auto lg:mx-0 lg:w-full ">
                     <img src="{{ asset('eventAsset/image11.png') }}" alt="Logo" class="w-full ">
                 </div>
                 <div class="lg:col-span-2  lg:w-2/3 mx-auto   relative self-center justify-center  bg-none">
-                    <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl pb-10">
+                    <p class="text-xl lg:text-2xl  lg:!leading-[3.2rem] text-center lg:text-start md:text-2xl pb-10 lg:pb-0">
 
                         {{ trans('texts.motley_group') }}</p>
                 </div>
@@ -126,7 +126,7 @@
             </div>
         </div>
 
-        <div class="lg:grid  lg:grid-cols-8 bg-gradient-to-r from-gray-400 to-white lg:px-24 lg:gap-12">
+        <div class="lg:grid  lg:grid-cols-8 bg-gradient-to-r from-gray-400 to-white lg:px-24">
             <div class="lg:col-span-2 lg:py-16 px-4  lg:relative">
                 <div class="">
                     <h2 class="text-4xl lg:text-start text-center">{{ trans('texts.why_title') }}</h2>
@@ -134,32 +134,32 @@
                 </div>
                 <div
                     class="lg:absolute lg:left-[10%] lg:top-[25%] lg:space-y-12 md:space-y-8 space-y-6 lg:py-5 py-8 font-century">
-                    <div class="flex flex-col lg:flex-row items-center justify-start  space-x-3">
+                    <div class="flex flex-col lg:flex-row items-center justify-start space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">
                             {{ trans('texts.years_of_experience') }}</p>
                         <p
-                            class="lg:text-xl md:text-xl !m-0 text-xl text-center lg:text-start text-gray-800 lg:!leading-[1.2rem] lg:pt-3 lg:pl-11">
+                            class="lg:text-xl md:text-xl !m-0 text-xl text-center lg:text-start text-gray-800 lg:!leading-[1.2rem] lg:pt-3">
                             Collective experience</p>
                     </div>
-                    <div class="flex flex-col lg:flex-row items-center justify-start  space-x-3 ">
+                    <div class="flex flex-col lg:flex-row items-center justify-start space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">
                             {{ trans('texts.project_count') }}</p>
                         <p
-                            class="lg:text-xl md:text-xl !m-0 text-xl  text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3 lg:pl-2">
+                            class="lg:text-xl md:text-xl !m-0 text-xl  text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">
                             Projects</p>
                     </div>
-                    <div class="flex flex-col lg:flex-row items-center justify-start  space-x-3 ">
+                    <div class="flex flex-col lg:flex-row items-center justify-start space-x-3">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">
                             {{ trans('texts.client_count') }}</p>
                         <p
-                            class="lg:text-xl  md:text-xl !m-0  text-xl text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3 lg:pl-11">
+                            class="lg:text-xl  md:text-xl !m-0  text-xl text-center text-gray-800 lg:!leading-[1.2rem] lg:pt-3">
                             Clients</p>
                     </div>
 
                     <div
-                        class="hidden lg:flex flex-col lg:flex-row items-center justify-start  space-x-3">
+                        class="hidden lg:flex flex-col lg:flex-row items-center justify-start lg:justify-end space-x-3 lg:pl-10">
                         <p class="lg:text-6xl text-4xl font-bold text-blue-600 md:text-5xl">11+</p>
-                        <p class=" !m-0 text-xl text-left text-gray-600 lg:!leading-[1.5rem] lg:pt-3 lg:w-full lg:pl-11 ">
+                        <p class=" !m-0 text-xl text-left text-gray-600 lg:!leading-[1.2rem] lg:pt-3 lg:w-1/5 ">
                             {{ trans('texts.seasoned_professionals') }}</p>
                     </div>
 
